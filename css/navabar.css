@@ -14,22 +14,32 @@
   left: -100%;
   overflow: hidden; }
 
+nav {
+  border-bottom: 1px solid #9a9a9a; }
+
 @media screen and (min-width: 300px) and (max-width: 500px) {
-  ul {
+  nav ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
     align-items: center;
     height: 100px; }
-    ul li h3 {
-      font-family: 'Raleway', sans-serif;
-      cursor: pointer; }
-    ul .logo li img {
-      height: 70px;
-      margin-left: 30px; }
-    ul .menu-btn label img {
-      margin-right: 10px; }
-    ul #opener:checked ~ .section-nav {
+    nav ul li {
+      margin: 25px;
+      text-align: end; }
+      nav ul li h3 {
+        font-family: 'Raleway', sans-serif;
+        cursor: pointer; }
+    nav ul .logo li img {
+      height: 90px;
+      margin-left: 20px;
+      margin-top: 5px; }
+    nav ul .menu-btn label img {
+      margin-right: 10px;
+      height: 90px; }
+    nav ul .section-nav {
+      transition: all ease .3s; }
+    nav ul #opener:checked ~ .section-nav {
       position: absolute;
       left: 0;
       top: 0px;
@@ -37,11 +47,17 @@
       display: flex;
       flex-direction: column;
       align-items: flex-end;
-      background-color: #fff; }
-    ul .close-menu label {
+      background-color: #f1f1f1;
+      z-index: 150; }
+    nav ul .section-nav-inner {
+      background-color: #d8d8d8;
+      width: 60%; }
+    nav ul .close-menu label {
       display: flex;
-      align-items: center; }
-      ul .close-menu label img {
+      align-items: center;
+      justify-content: flex-end;
+      margin: 5px 10px; }
+      nav ul .close-menu label img {
         height: 60px; } }
 
 /*# sourceMappingURL=navabar.css.map */
