@@ -37,8 +37,6 @@ nav {
     nav ul .menu-btn label img {
       margin-right: 10px;
       height: 90px; }
-    nav ul .section-nav {
-      transition: all ease .3s; }
     nav ul #opener:checked ~ .section-nav {
       position: absolute;
       left: 0;
@@ -48,7 +46,8 @@ nav {
       flex-direction: column;
       align-items: flex-end;
       background-color: #f1f1f1;
-      z-index: 150; }
+      z-index: 150;
+      transition: all ease .3s; }
     nav ul .section-nav-inner {
       background-color: #d8d8d8;
       width: 60%; }

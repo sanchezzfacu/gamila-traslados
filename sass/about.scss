@@ -1,0 +1,24 @@
+
+@media screen and (min-width: 300px) and (max-width:500px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1 {
+            font-size: 800;
+            font-size: 2em;
+            text-align: center;
+            margin: 10px;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin: 10px;
+        }
+        .about-text {
+            width: 100%;
+            p {
+                margin: 15px 10px;
+            }
+        }
+    }
+}

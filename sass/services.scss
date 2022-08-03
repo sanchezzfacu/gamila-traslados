@@ -1,0 +1,14 @@
+.services-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 150px;
+    h2 {
+        margin: 10px;
+    }
+    .services-slider .service {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}

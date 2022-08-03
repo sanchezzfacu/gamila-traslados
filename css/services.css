@@ -1,0 +1,13 @@
+.services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 150px; }
+  .services-container h2 {
+    margin: 10px; }
+  .services-container .services-slider .service {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+
+/*# sourceMappingURL=services.css.map */
