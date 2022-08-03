@@ -26,13 +26,13 @@
           position: absolute;
           padding: 10px;
           z-index: 100;
-          background: linear-gradient(#22b022, #166016);
+          background: linear-gradient(#22b022d0, #166016bd);
           color: #fff;
           border: 1px solid #37b229;
           border-radius: 5px;
-          bottom: 20px;
-          left: 50px;
-          right: 50px;
+          bottom: 10px;
+          left: 50%;
+          transform: translate(-50%, -50%);
           font-size: 15px;
           font-weight: 600;
           letter-spacing: 2px; }
