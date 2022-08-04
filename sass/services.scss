@@ -12,6 +12,13 @@
             border-radius: 10px;
             margin: 10px;
             height: 300px;
+            .service-text {
+                width: 80%;
+                margin: 0 auto;
+                h2 {
+                    font-size: 1.2em;
+                }
+            }
             .service-img {
                 display: flex;
                 justify-content: center;
