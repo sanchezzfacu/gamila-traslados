@@ -4,7 +4,7 @@ var slider = tns({
     'speed' : 400,
     'nav': true,
     'navPosition': 'bottom',
-    'items': 1.20,
+    'items': 1.5,
     gutter: 20,
     // 'autoplay': true,
     'controlsPosition': 'bottom',
