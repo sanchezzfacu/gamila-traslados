@@ -7,11 +7,17 @@
         margin: 0 10px 20px;
     }
     .services-slider {
+        display: flex;
+        justify-content: center;
+        // .tns-slide-active {
+
+        // }
         .service {
             box-sizing: border-box;
             border: 1px solid black;
             border-radius: 10px;
             height: 300px;
+            margin: 10px;
             hr {
                 margin: 10px 30px;
             }

@@ -8,7 +8,7 @@
     width: 80%;
 
     .contact-info {
-        margin: 30px 0px;
+        margin: 10px 0px;
         h2 {
             font-size: 1.5em;
             margin: 15px 0;
@@ -24,7 +24,8 @@
         }
         .email-container {
             h4 {
-                margin: 10px 0;
+                margin: 15px 0 5px;
+                font-size: 1em;
             }
         }
     }
@@ -55,17 +56,22 @@
                 margin-left: 10px;
                 background-color: #fff;
                 width: fit-content;
-                height: fit-content;
                 border-radius: 10px;
                 padding-bottom: 6px;
                 font-size: 0.85em;
+                padding-left: 5px;
+                padding-right: 5px;
             }
             input {
-                height: 35px;
+                height: 40px;
                 padding-left: 10px;
                 outline: none;
                 border-radius: 3px;
                 border: 1px solid black;
+            }
+            textarea {
+                padding-left: 10px;
+                padding-top: 10px;
             }
         }
     }

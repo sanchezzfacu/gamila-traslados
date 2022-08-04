@@ -5,27 +5,31 @@
   height: 250px; }
   .services-container h2 {
     margin: 0 10px 20px; }
-  .services-container .services-slider .service {
-    box-sizing: border-box;
-    border: 1px solid black;
-    border-radius: 10px;
-    height: 300px; }
-    .services-container .services-slider .service hr {
-      margin: 10px 30px; }
-    .services-container .services-slider .service .service-text {
-      width: 80%;
-      margin: 0 auto; }
-      .services-container .services-slider .service .service-text h3 {
-        font-size: 1em;
-        margin-top: 15px; }
-    .services-container .services-slider .service .service-img {
-      display: flex;
-      justify-content: center;
-      padding: 10px; }
-      .services-container .services-slider .service .service-img .img-container {
-        border: 1px solid black;
-        border-radius: 50%;
+  .services-container .services-slider {
+    display: flex;
+    justify-content: center; }
+    .services-container .services-slider .service {
+      box-sizing: border-box;
+      border: 1px solid black;
+      border-radius: 10px;
+      height: 300px;
+      margin: 10px; }
+      .services-container .services-slider .service hr {
+        margin: 10px 30px; }
+      .services-container .services-slider .service .service-text {
+        width: 80%;
+        margin: 0 auto; }
+        .services-container .services-slider .service .service-text h3 {
+          font-size: 1em;
+          margin-top: 15px; }
+      .services-container .services-slider .service .service-img {
+        display: flex;
+        justify-content: center;
         padding: 10px; }
+        .services-container .services-slider .service .service-img .img-container {
+          border: 1px solid black;
+          border-radius: 50%;
+          padding: 10px; }
   .services-container .tns-nav {
     display: flex;
     gap: 15px;
