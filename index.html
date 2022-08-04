@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/services.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <link rel="stylesheet" href="./css/contact.css">
     <title>Gamila Traslados</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="./tiny-slider.js" type="module"></script>
@@ -34,16 +35,32 @@
                         </label>
                     </div>
                     <li>
-                        <h3>Inicio</h3>
+                        <a href="">
+                            <label for="opener">
+                                <h3>Inicio</h3>
+                            </label>
+                        </a>
                     </li>
                     <li>
-                        <h3>Servicios</h3>
+                        <label for="opener">
+                            <a href="#services">
+                                <h3>Servicios</h3>
+                            </a>
+                        </label>
                     </li>
                     <li>
-                        <h3>Sobre nosotros</h3>
+                        <label for="opener">
+                            <a href="#about">
+                                <h3>Sobre nosotros</h3>
+                            </a>
+                        </label>
                     </li>
                     <li>
-                        <h3>Contacto</h3>
+                        <label for="opener">
+                            <a href="#contact">
+                                <h3>Contacto</h3>
+                            </a>
+                        </label>
                     </li>   
                 </div>
             </div>
@@ -69,7 +86,7 @@
         </ul>
     </section>
 
-    <section class="about-container">
+    <section id="about" class="about-container">
         <h1>Gamila Traslados</h1>
         <h2>Quiénes somos</h2>
         <div class="about-text">
@@ -81,7 +98,7 @@
 
     <hr style="margin:20px">
 
-    <section class="services-container">
+    <section id="services" class="services-container">
         <h2>Sobre nuestros servicios</h2>
         <div class="services-slider">
             <div class="service">
@@ -90,8 +107,11 @@
                         <img src="./img/transporte-icono.png" alt="" height="80px">
                     </div>
                 </div>
+
+                <hr>
+
                 <div class="service-text">
-                    <h2>Servicio de traslados de un punto a otro</h2>
+                    <h3>Servicio de traslados de un punto a otro</h3>
                 </div>
             </div>
     
@@ -101,8 +121,11 @@
                         <img src="./img/transporte-icono.png" alt="" height="80px">
                     </div>
                 </div>
+
+                <hr>
+
                 <div class="service-text">
-                    <h2>Servicio de traslados a personas con diferentes capacidades</h2>
+                    <h3>Servicio de traslados a personas con diferentes capacidades</h3>
                 </div>
             </div>
             <div class="service">
@@ -111,11 +134,59 @@
                         <img src="./img/transporte-icono.png" alt="" height="80px">
                     </div>
                 </div>
+
+                <hr>
+                
                 <div class="service-text">
-                    <h2>Servicio de salidas turísticas</h2>
+                    <h3>Servicio de salidas turísticas</h3>
                 </div>
             </div>
         </div>
+    </section>
+    <section id="contact" class="contact-container">
+        <div class="contact-info">
+            <h2>Contacto</h2>
+            <h5>BARTOLOMÉ MITRE 5265, CASEROS</h5>
+
+            <p>Por <mark>consultas</mark> y <mark>contratación</mark> Horario de atencion de 8 a 20hs</p>
+
+            <div class="phone-numbers-container">
+                <h4>Tel.: (011) 1548-5424</h4>
+                <h4>Cel.: (011)15-1234-5678</h4>
+                <h4>Cel.: (011)15-5421-8888</h4>
+                <h4>Cel.: (011)15-8555-9842</h4>
+            </div>
+
+            <div class="email-container">
+                <h4>Email</h4>
+                <a href="mailto:asdasdasd@gmail.com"><strong>gamilatransportes@gmail.com</strong></a>
+            </div>
+
+        </div>
+        
+        <form style="margin-bottom: 400px;">
+            <label>
+                <h5>Su nombre (requerido)</h5>
+                <input type="text">
+            </label>
+            <label>
+                <h5>Su email (requerido)</h5>
+                <input type="text">
+            </label>
+            <label>
+                <h5>Teléfono (requerido)</h5>
+                <input type="text">
+            </label>
+            <label>
+                <h5>Asunto</h5>
+                <input type="text">
+            </label>
+            <label>
+                <h5>Su mensaje</h5>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </label>
+            <button>Enviar</button>
+        </form>
     </section>
 </body>
 </html>

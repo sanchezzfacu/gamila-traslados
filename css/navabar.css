@@ -27,11 +27,14 @@ nav {
     nav ul li {
       margin: 25px;
       text-align: end; }
+      nav ul li a {
+        color: black;
+        text-decoration: none; }
       nav ul li h3 {
         font-family: 'Raleway', sans-serif;
         cursor: pointer; }
     nav ul .logo li img {
-      height: 90px;
+      height: 80px;
       margin-left: 20px;
       margin-top: 5px; }
     nav ul .menu-btn label img {

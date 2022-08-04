@@ -33,6 +33,10 @@ nav {
         li {
             margin: 25px;
             text-align: end;
+            a {
+                color: black;
+                text-decoration: none;
+            }
             h3 {
                 font-family: 'Raleway', sans-serif;
                 cursor: pointer;
@@ -40,7 +44,7 @@ nav {
         }
         .logo {
             li img {
-                height: 90px;
+                height: 80px;
                 margin-left: 20px;
                 margin-top: 5px;
             }
