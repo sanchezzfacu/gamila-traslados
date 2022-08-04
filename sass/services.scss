@@ -1,6 +1,6 @@
 .services-container {
     width: 100%;
-    margin-bottom: 150px;
+    margin-bottom: 400px;
     text-align: center;
     height: 250px;
     h2 {
@@ -9,6 +9,9 @@
     .services-slider {
         .service {
             border: 1px solid black;
+            border-radius: 10px;
+            margin: 10px;
+            height: 300px;
             .service-img {
                 display: flex;
                 justify-content: center;
@@ -21,9 +24,25 @@
             }
         }
     }
-    .tns-controls button {
-        margin: 15px;
-        height: 20px;
-        width: 20px;
+    .tns-nav {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        margin: 15px 0px;
+        button {
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+        }
     }
+    .tns-controls{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        button {
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+        }
+    } 
 }

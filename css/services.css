@@ -1,12 +1,15 @@
 .services-container {
   width: 100%;
-  margin-bottom: 150px;
+  margin-bottom: 400px;
   text-align: center;
   height: 250px; }
   .services-container h2 {
     margin: 10px; }
   .services-container .services-slider .service {
-    border: 1px solid black; }
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    height: 300px; }
     .services-container .services-slider .service .service-img {
       display: flex;
       justify-content: center;
@@ -15,9 +18,22 @@
         border: 1px solid black;
         border-radius: 50%;
         padding: 10px; }
-  .services-container .tns-controls button {
-    margin: 15px;
-    height: 20px;
-    width: 20px; }
+  .services-container .tns-nav {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 15px 0px; }
+    .services-container .tns-nav button {
+      height: 15px;
+      width: 15px;
+      border-radius: 50%; }
+  .services-container .tns-controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center; }
+    .services-container .tns-controls button {
+      height: 20px;
+      width: 20px;
+      border-radius: 50%; }
 
 /*# sourceMappingURL=services.css.map */
