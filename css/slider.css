@@ -1,6 +1,7 @@
 .slider {
   width: 100%;
-  margin: auto; }
+  margin: auto;
+  overflow: hidden; }
   .slider ul {
     display: flex;
     padding: 0;
