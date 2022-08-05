@@ -2,18 +2,23 @@
   .about-container {
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    width: 100%;
+    background-color: #3d96b9c8;
+    color: #fff;
+    margin-top: -5px; }
     .about-container h1 {
       font-size: 800;
       font-size: 2em;
       text-align: center;
-      margin: 10px; }
+      margin: 20px 10px; }
     .about-container h2 {
       font-size: 1.5em;
       margin: 10px; }
     .about-container .about-text {
-      width: 100%; }
+      width: 100%;
+      margin-bottom: 15px; }
       .about-container .about-text p {
-        margin: 15px 10px; } }
+        margin: 20px 15px; } }
 
 /*# sourceMappingURL=about.css.map */

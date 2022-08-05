@@ -5,34 +5,42 @@
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    width: 80%;
-
+    width: 100%;
+    
     .contact-info {
-        margin: 10px 0px;
-        h2 {
-            font-size: 1.5em;
-            margin: 15px 0;
-        }      
-        h5 {
+        width: 100%;
+        .contact-info-inner {
+            padding: 20px 20px 25px;
             margin: 10px 0;
-        }  
-        p {
-            margin: 30px 0;
-        }
-        .phone-numbers-container h4 {
-            margin: 5px 0;
-        }
-        .email-container {
-            h4 {
-                margin: 15px 0 5px;
-                font-size: 1em;
+            background: $blue;
+            color: #fff;
+            h2 {
+                font-size: 1.5em;
+                margin: 15px 0;
+            }      
+            h5 {
+                margin: 10px 0;
+            }  
+            p {
+                margin: 30px 0;
+            }
+            .phone-numbers-container h4 {
+                margin: 5px 0;
+            }
+            .email-container {
+                h4 {
+                    margin: 15px 0 5px;
+                    font-size: 1em;
+                }
+                a {
+                    color: #fff;
+                }
             }
         }
     }
     form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        margin: 10px auto;
+        width: 85%;
         button {
             width: 150px;
             background: linear-gradient($blue, #275f75c8);
@@ -52,28 +60,27 @@
             margin: 5px 0px;
             h5 {
                 position: relative;
-                top: 15px;
+                top: 10px;
                 margin-left: 10px;
                 background-color: #fff;
                 width: fit-content;
                 border-radius: 10px;
-                padding-bottom: 6px;
                 font-size: 0.85em;
                 padding-left: 5px;
                 padding-right: 5px;
+                border: 1px solid $blue;
             }
             input {
                 height: 40px;
                 padding-left: 10px;
                 outline: none;
                 border-radius: 3px;
-                border: 2px solid black;
+                border: 2px solid $blue;
             }
             textarea {
                 padding-left: 10px;
                 padding-top: 10px;
-                border: 2px solid black;
-
+                border: 2px solid $blue;
             }
         }
     }

@@ -3,25 +3,31 @@
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  width: 80%; }
+  width: 100%; }
   .contact-container .contact-info {
-    margin: 10px 0px; }
-    .contact-container .contact-info h2 {
-      font-size: 1.5em;
-      margin: 15px 0; }
-    .contact-container .contact-info h5 {
-      margin: 10px 0; }
-    .contact-container .contact-info p {
-      margin: 30px 0; }
-    .contact-container .contact-info .phone-numbers-container h4 {
-      margin: 5px 0; }
-    .contact-container .contact-info .email-container h4 {
-      margin: 15px 0 5px;
-      font-size: 1em; }
+    width: 100%; }
+    .contact-container .contact-info .contact-info-inner {
+      padding: 20px 20px 25px;
+      margin: 10px 0;
+      background: #3d96b9c8;
+      color: #fff; }
+      .contact-container .contact-info .contact-info-inner h2 {
+        font-size: 1.5em;
+        margin: 15px 0; }
+      .contact-container .contact-info .contact-info-inner h5 {
+        margin: 10px 0; }
+      .contact-container .contact-info .contact-info-inner p {
+        margin: 30px 0; }
+      .contact-container .contact-info .contact-info-inner .phone-numbers-container h4 {
+        margin: 5px 0; }
+      .contact-container .contact-info .contact-info-inner .email-container h4 {
+        margin: 15px 0 5px;
+        font-size: 1em; }
+      .contact-container .contact-info .contact-info-inner .email-container a {
+        color: #fff; }
   .contact-container form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; }
+    margin: 10px auto;
+    width: 85%; }
     .contact-container form button {
       width: 150px;
       background: linear-gradient(#3d96b9c8, #275f75c8);
@@ -39,24 +45,24 @@
       margin: 5px 0px; }
       .contact-container form label h5 {
         position: relative;
-        top: 15px;
+        top: 10px;
         margin-left: 10px;
         background-color: #fff;
         width: fit-content;
         border-radius: 10px;
-        padding-bottom: 6px;
         font-size: 0.85em;
         padding-left: 5px;
-        padding-right: 5px; }
+        padding-right: 5px;
+        border: 1px solid #3d96b9c8; }
       .contact-container form label input {
         height: 40px;
         padding-left: 10px;
         outline: none;
         border-radius: 3px;
-        border: 2px solid black; }
+        border: 2px solid #3d96b9c8; }
       .contact-container form label textarea {
         padding-left: 10px;
         padding-top: 10px;
-        border: 2px solid black; }
+        border: 2px solid #3d96b9c8; }
 
 /*# sourceMappingURL=contact.css.map */

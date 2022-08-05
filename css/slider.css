@@ -1,12 +1,12 @@
 .slider {
   width: 100%;
-  margin: auto;
-  overflow: hidden; }
+  margin: auto; }
   .slider ul {
     display: flex;
     padding: 0;
     width: 200%;
-    animation: cambio 6s infinite alternate; }
+    animation: cambio 6s infinite alternate;
+    overflow: hidden; }
     .slider ul li {
       list-style: none;
       width: 100%; }
@@ -17,7 +17,7 @@
           position: absolute;
           top: 10px;
           background-color: #3d96b9c8;
-          padding: 10px;
+          padding: 5px 10px;
           border-radius: 15px;
           z-index: 100;
           color: #fff; }
@@ -36,7 +36,6 @@
           font-weight: 600;
           letter-spacing: 2px; }
         .slider ul li .info-img img {
-          margin-top: -40px;
           z-index: 50;
           width: 100%;
           background-size: cover;
