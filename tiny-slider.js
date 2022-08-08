@@ -10,4 +10,15 @@ var slider = tns({
     'autoplayTimeout' : 3000,
     'autoplayHoverPause': true,
     autoplayButtonOutput: false,
+    responsive: {
+        660: {
+            'items': 1.5
+        },
+        900: {
+            'items': 2.25
+        },
+        1102: {
+            'items': 3,
+        }
+    },
 })

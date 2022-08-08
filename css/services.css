@@ -1,55 +1,132 @@
-.services-container {
-  width: 100%;
-  margin-bottom: 200px;
-  margin-top: 50px;
-  height: 250px; }
-  .services-container h2 {
-    margin: 0 10px 30px;
-    color: #6d6d6d; }
-  .services-container .services-slider {
-    display: flex;
-    justify-content: center; }
-    .services-container .services-slider .service {
-      box-sizing: border-box;
-      border: 1px solid black;
-      border-radius: 10px;
-      height: 300px;
-      margin: 10px;
-      background: #3d96b9c8;
-      color: #fff; }
-      .services-container .services-slider .service hr {
-        margin: 10px 30px;
-        background: #fff; }
-      .services-container .services-slider .service .service-text {
-        width: 70%;
-        margin: 0 auto; }
-        .services-container .services-slider .service .service-text h3 {
-          font-size: 1em;
-          margin-top: 15px; }
-      .services-container .services-slider .service .service-img {
-        display: flex;
-        justify-content: center;
-        padding: 10px; }
-        .services-container .services-slider .service .service-img .img-container {
-          border-radius: 50%;
-          padding: 10px;
-          background: #fff; }
-  .services-container .tns-controls {
-    display: flex;
-    gap: 10px;
-    justify-content: center; }
-    .services-container .tns-controls button {
-      height: 40px;
-      width: 40px;
-      border-radius: 50%;
-      border: none;
-      color: #fff;
-      background-color: #3d96b9c8;
-      font-size: 20px;
-      font-weight: 800; }
-  .services-container .tns-slide-active {
-    display: flex;
-    justify-content: center;
-    width: 100%; }
+hr {
+  margin: 10px 30px;
+  border: 0;
+  border-top: 1px solid  #fff;
+  height: 1px; }
+
+.tns-controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center; }
+  .tns-controls button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #3d96b9c8;
+    transition: all ease 0.3s; }
+  .tns-controls button:hover {
+    background-color: #1f556bc8; }
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .services-container {
+    width: 100%;
+    padding: 60px 0; }
+    .services-container h2 {
+      margin: 0 10px 30px;
+      color: #6d6d6d; }
+    .services-container .services-slider {
+      display: flex;
+      justify-content: center; }
+      .services-container .services-slider .service {
+        box-sizing: border-box;
+        box-shadow: 0px 0px 10px #0000007c;
+        border-radius: 10px;
+        height: 320px;
+        margin: 10px;
+        background: #3d96b9c8;
+        color: #fff;
+        text-shadow: 0px 0px 2px #00000056; }
+        .services-container .services-slider .service .service-text {
+          width: 80%;
+          margin: 0 auto; }
+          .services-container .services-slider .service .service-text h3 {
+            text-align: center;
+            font-size: 1.3em;
+            margin: 15px 0px; }
+          .services-container .services-slider .service .service-text h4 {
+            font-size: 1em; }
+        .services-container .services-slider .service .service-img {
+          display: flex;
+          justify-content: center;
+          padding: 10px; }
+          .services-container .services-slider .service .service-img .img-container {
+            border-radius: 50%;
+            padding: 10px;
+            background: #fff; } }
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  .services-container {
+    width: 100%;
+    padding: 80px 0; }
+    .services-container h2 {
+      margin: 0 10px 30px;
+      color: #6d6d6d; }
+    .services-container .services-slider {
+      display: flex;
+      justify-content: center; }
+      .services-container .services-slider .service {
+        box-sizing: border-box;
+        box-shadow: 0px 0px 10px #0000007c;
+        text-shadow: 0px 0px 2px #00000056;
+        border-radius: 10px;
+        height: 300px;
+        margin: 10px;
+        background: #3d96b9c8;
+        color: #fff; }
+        .services-container .services-slider .service .service-text {
+          width: 70%;
+          margin: 0 auto; }
+          .services-container .services-slider .service .service-text h3 {
+            font-size: 1.4em;
+            margin: 15px 0px; }
+          .services-container .services-slider .service .service-text h4 {
+            font-size: 1em; }
+        .services-container .services-slider .service .service-img {
+          display: flex;
+          justify-content: center;
+          padding: 10px; }
+          .services-container .services-slider .service .service-img .img-container {
+            border-radius: 50%;
+            padding: 10px;
+            background: #fff; } }
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+  .services-container {
+    width: 100%;
+    padding: 80px 0; }
+    .services-container h2 {
+      margin: 0 20px 30px;
+      color: #6d6d6d;
+      font-size: 2.2em; }
+    .services-container .services-slider {
+      display: flex;
+      justify-content: center; }
+      .services-container .services-slider .service {
+        box-sizing: border-box;
+        box-shadow: 0px 0px 10px #0000007c;
+        text-shadow: 0px 0px 2px #00000056;
+        border-radius: 10px;
+        height: 350px;
+        margin: 10px;
+        background: #3d96b9c8;
+        color: #fff; }
+        .services-container .services-slider .service .service-text {
+          width: 70%;
+          margin: 0 auto; }
+          .services-container .services-slider .service .service-text h3 {
+            font-size: 1.5em;
+            margin: 15px 0px; }
+          .services-container .services-slider .service .service-text h4 {
+            font-size: 1em; }
+        .services-container .services-slider .service .service-img {
+          display: flex;
+          justify-content: center;
+          padding: 10px; }
+          .services-container .services-slider .service .service-img .img-container {
+            border-radius: 50%;
+            padding: 10px;
+            background: #fff; } }
 
 /*# sourceMappingURL=services.css.map */

@@ -1,68 +1,218 @@
 .contact-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 auto;
-  width: 100%; }
-  .contact-container .contact-info {
+  text-shadow: 0px 0px 2px #00000056; }
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
     width: 100%; }
-    .contact-container .contact-info .contact-info-inner {
-      padding: 20px 20px 25px;
-      margin: 10px 0;
-      background: #3d96b9c8;
-      color: #fff; }
-      .contact-container .contact-info .contact-info-inner h2 {
-        font-size: 1.5em;
-        margin: 15px 0; }
-      .contact-container .contact-info .contact-info-inner h5 {
-        margin: 10px 0; }
-      .contact-container .contact-info .contact-info-inner p {
-        margin: 30px 0; }
-      .contact-container .contact-info .contact-info-inner .phone-numbers-container h4 {
-        margin: 5px 0; }
-      .contact-container .contact-info .contact-info-inner .email-container h4 {
-        margin: 15px 0 5px;
-        font-size: 1em; }
-      .contact-container .contact-info .contact-info-inner .email-container a {
+    .contact-container .contact-info {
+      width: 100%; }
+      .contact-container .contact-info .contact-info-inner {
+        padding: 20px 20px 25px;
+        margin: 10px 0;
+        background: #3d96b9c8;
         color: #fff; }
-  .contact-container form {
-    margin: 10px auto;
-    width: 85%; }
-    .contact-container form button {
-      width: 150px;
-      background: linear-gradient(#3d96b9c8, #275f75c8);
-      border: 1px solid rgba(89, 89, 89, 0.711);
-      color: #fff;
-      font-size: 1.2em;
-      font-weight: 800;
-      padding: 5px 10px;
-      border-radius: 10px; }
-    .contact-container form button:hover {
-      background: #3d96b9c8; }
-    .contact-container form label {
-      display: flex;
-      flex-direction: column;
-      margin: 5px 0px; }
-      .contact-container form label h5 {
-        position: relative;
-        top: 10px;
-        margin-left: 10px;
-        background-color: #fff;
-        width: fit-content;
-        border-radius: 10px;
-        font-size: 0.85em;
-        padding-left: 5px;
-        padding-right: 5px;
-        border: 1px solid #3d96b9c8; }
-      .contact-container form label input {
-        height: 40px;
-        padding-left: 10px;
-        outline: none;
-        border-radius: 3px;
-        border: 2px solid #3d96b9c8; }
-      .contact-container form label textarea {
-        padding-left: 10px;
-        padding-top: 10px;
-        border: 2px solid #3d96b9c8; }
+        .contact-container .contact-info .contact-info-inner h2 {
+          font-size: 2em;
+          margin: 15px 0; }
+        .contact-container .contact-info .contact-info-inner p {
+          margin: 30px 0;
+          font-size: 1.2em;
+          font-weight: 600; }
+        .contact-container .contact-info .contact-info-inner .phone-numbers-container h4 {
+          margin: 10px 0;
+          font-size: 1.2em; }
+        .contact-container .contact-info .contact-info-inner .email-container {
+          margin-top: -20px; }
+          .contact-container .contact-info .contact-info-inner .email-container p {
+            display: inline-block;
+            font-size: 1.2em; }
+          .contact-container .contact-info .contact-info-inner .email-container a {
+            font-size: 1.2em;
+            color: #fff; }
+    .contact-container form {
+      margin: 10px auto;
+      width: 85%; }
+      .contact-container form button {
+        width: 150px;
+        background: linear-gradient(#3d96b9c8, #275f75c8);
+        border: 1px solid rgba(89, 89, 89, 0.711);
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: 800;
+        padding: 5px 10px;
+        border-radius: 10px; }
+      .contact-container form button:hover {
+        background: #3d96b9c8; }
+      .contact-container form label {
+        display: flex;
+        flex-direction: column;
+        margin: 5px 0px; }
+        .contact-container form label h5 {
+          position: relative;
+          top: 10px;
+          margin-left: 10px;
+          background-color: #fff;
+          width: fit-content;
+          border-radius: 10px;
+          font-size: 0.85em;
+          padding-left: 5px;
+          padding-right: 5px;
+          border: 1px solid #3d96b9c8; }
+        .contact-container form label input {
+          height: 40px;
+          padding-left: 10px;
+          outline: none;
+          border-radius: 3px;
+          border: 2px solid #3d96b9c8; }
+        .contact-container form label textarea {
+          padding-left: 10px;
+          padding-top: 10px;
+          border: 2px solid #3d96b9c8; } }
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%; }
+    .contact-container .contact-info {
+      width: 100%; }
+      .contact-container .contact-info .contact-info-inner {
+        padding: 20px 20px 25px;
+        margin: 10px 0;
+        background: #3d96b9c8;
+        color: #fff; }
+        .contact-container .contact-info .contact-info-inner h2 {
+          font-size: 1.9em;
+          margin: 15px 0; }
+        .contact-container .contact-info .contact-info-inner p {
+          margin: 30px 0;
+          font-size: 1.2em;
+          font-weight: 600; }
+        .contact-container .contact-info .contact-info-inner .phone-numbers-container h4 {
+          margin: 15px 0; }
+        .contact-container .contact-info .contact-info-inner .email-container p {
+          display: inline-block;
+          margin: 5px 0 15px;
+          font-size: 1em; }
+        .contact-container .contact-info .contact-info-inner .email-container a {
+          color: #fff; }
+    .contact-container form {
+      margin: 10px auto;
+      width: 85%; }
+      .contact-container form button {
+        width: 150px;
+        background: linear-gradient(#3d96b9c8, #275f75c8);
+        border: 1px solid rgba(89, 89, 89, 0.711);
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: 800;
+        padding: 5px 10px;
+        border-radius: 10px; }
+      .contact-container form button:hover {
+        background: #3d96b9c8; }
+      .contact-container form label {
+        display: flex;
+        flex-direction: column;
+        margin: 5px 0px; }
+        .contact-container form label h5 {
+          position: relative;
+          top: 10px;
+          margin-left: 10px;
+          background-color: #fff;
+          width: fit-content;
+          border-radius: 10px;
+          font-size: 0.85em;
+          padding-left: 5px;
+          padding-right: 5px;
+          border: 1px solid #3d96b9c8; }
+        .contact-container form label input {
+          height: 40px;
+          padding-left: 10px;
+          outline: none;
+          border-radius: 3px;
+          border: 2px solid #3d96b9c8; }
+        .contact-container form label textarea {
+          padding-left: 10px;
+          padding-top: 10px;
+          border: 2px solid #3d96b9c8; } }
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%; }
+    .contact-container .contact-info {
+      background: #3d96b9c8;
+      width: 100%;
+      padding: 30px 0; }
+      .contact-container .contact-info .contact-info-inner {
+        display: flex;
+        gap: 80px;
+        margin: 10px auto;
+        color: #fff;
+        width: 80%; }
+        .contact-container .contact-info .contact-info-inner h2 {
+          width: 100%;
+          font-size: 1.9em;
+          margin: 15px 0; }
+        .contact-container .contact-info .contact-info-inner p {
+          margin: 30px 0;
+          font-size: 1.2em;
+          font-weight: 600; }
+        .contact-container .contact-info .contact-info-inner .phone-numbers-container {
+          margin-top: 65px; }
+          .contact-container .contact-info .contact-info-inner .phone-numbers-container h4 {
+            margin: 17px 0; }
+        .contact-container .contact-info .contact-info-inner .email-container p {
+          display: inline-block;
+          margin: 5px 0 15px;
+          font-size: 1em; }
+        .contact-container .contact-info .contact-info-inner .email-container a {
+          color: #fff; }
+    .contact-container form {
+      margin: 10px auto;
+      width: 85%; }
+      .contact-container form button {
+        width: 150px;
+        background: linear-gradient(#3d96b9c8, #275f75c8);
+        border: 1px solid rgba(89, 89, 89, 0.711);
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: 800;
+        padding: 5px 10px;
+        border-radius: 10px; }
+      .contact-container form button:hover {
+        background: #3d96b9c8; }
+      .contact-container form label {
+        display: flex;
+        flex-direction: column;
+        margin: 5px 0px; }
+        .contact-container form label h5 {
+          position: relative;
+          top: 10px;
+          margin-left: 10px;
+          background-color: #fff;
+          width: fit-content;
+          border-radius: 10px;
+          font-size: 0.85em;
+          padding-left: 5px;
+          padding-right: 5px;
+          border: 1px solid #3d96b9c8; }
+        .contact-container form label input {
+          height: 40px;
+          padding-left: 10px;
+          outline: none;
+          border-radius: 3px;
+          border: 2px solid #3d96b9c8; }
+        .contact-container form label textarea {
+          padding-left: 10px;
+          padding-top: 10px;
+          border: 2px solid #3d96b9c8; } }
 
 /*# sourceMappingURL=contact.css.map */

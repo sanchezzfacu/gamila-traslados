@@ -1,4 +1,4 @@
-@media screen and (min-width: 300px) and (max-width: 500px) {
+@media screen and (min-width: 300px) and (max-width: 480px) {
   .slider {
     width: 100%;
     margin: auto;
@@ -50,7 +50,7 @@
           right: 0;
           left: 0;
           background-color: rgba(0, 0, 0, 0.59);
-          margin-bottom: 5px; } }
+          margin-bottom: 3px; } }
 @media screen and (min-width: 480px) and (max-width: 1024px) {
   .slider {
     width: 100%;
@@ -101,7 +101,7 @@
           right: 0;
           left: 0;
           background-color: rgba(0, 0, 0, 0.59);
-          margin-bottom: 5px; } }
+          margin-bottom: 4px; } }
 @media screen and (min-width: 1024px) and (max-width: 1600px) {
   .slider {
     width: 100%;
@@ -153,7 +153,7 @@
           right: 0;
           left: 0;
           background-color: rgba(0, 0, 0, 0.59);
-          margin-bottom: 5px; } }
+          margin-bottom: 4px; } }
 @keyframes cambio {
   0% {
     margin-left: 0; }

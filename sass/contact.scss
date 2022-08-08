@@ -1,86 +1,281 @@
 @import 'colours';
 
 .contact-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    width: 100%;
-    
-    .contact-info {
+    text-shadow: 0px 0px 2px #00000056;
+
+}
+
+@media screen and (min-width: 300px) and (max-width:480px) {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
         width: 100%;
-        .contact-info-inner {
-            padding: 20px 20px 25px;
-            margin: 10px 0;
-            background: $blue;
-            color: #fff;
-            h2 {
-                font-size: 1.5em;
-                margin: 15px 0;
-            }      
-            h5 {
+        
+        .contact-info {
+            width: 100%;
+            .contact-info-inner {
+                padding: 20px 20px 25px;
                 margin: 10px 0;
-            }  
-            p {
-                margin: 30px 0;
-            }
-            .phone-numbers-container h4 {
-                margin: 5px 0;
-            }
-            .email-container {
-                h4 {
-                    margin: 15px 0 5px;
-                    font-size: 1em;
+                background: $blue;
+                color: #fff;
+                h2 {
+                    font-size: 2em;
+                    margin: 15px 0;
+                }      
+                p {
+                    margin: 30px 0;
+                    font-size: 1.2em;
+                    font-weight: 600;
                 }
-                a {
-                    color: #fff;
+                .phone-numbers-container {
+                    
+                    h4 {
+                        margin: 10px 0;
+                        font-size: 1.2em;
+                    }
+                } 
+                    .email-container {
+                    margin-top: -20px ;
+                    p {
+                        display: inline-block;
+                        font-size: 1.2em;
+                    }
+                    a {
+                        font-size: 1.2em;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        form {
+            margin: 10px auto;
+            width: 85%;
+            button {
+                width: 150px;
+                background: linear-gradient($blue, #275f75c8);
+                border: 1px solid rgba(89, 89, 89, 0.711);
+                color: #fff;
+                font-size: 1.2em;
+                font-weight: 800;
+                padding: 5px 10px;
+                border-radius: 10px;
+            }
+            button:hover {
+                background: #3d96b9c8
+            }
+            label {
+                display: flex;
+                flex-direction: column;
+                margin: 5px 0px;
+                h5 {
+                    position: relative;
+                    top: 10px;
+                    margin-left: 10px;
+                    background-color: #fff;
+                    width: fit-content;
+                    border-radius: 10px;
+                    font-size: 0.85em;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    border: 1px solid $blue;
+                }
+                input {
+                    height: 40px;
+                    padding-left: 10px;
+                    outline: none;
+                    border-radius: 3px;
+                    border: 2px solid $blue;
+                }
+                textarea {
+                    padding-left: 10px;
+                    padding-top: 10px;
+                    border: 2px solid $blue;
                 }
             }
         }
     }
-    form {
-        margin: 10px auto;
-        width: 85%;
-        button {
-            width: 150px;
-            background: linear-gradient($blue, #275f75c8);
-            border: 1px solid rgba(89, 89, 89, 0.711);
-            color: #fff;
-            font-size: 1.2em;
-            font-weight: 800;
-            padding: 5px 10px;
-            border-radius: 10px;
+}
+
+@media screen and (min-width: 480px) and (max-width:1024px) {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+        
+        .contact-info {
+            width: 100%;
+            .contact-info-inner {
+                padding: 20px 20px 25px;
+                margin: 10px 0;
+                background: $blue;
+                color: #fff;
+                h2 {
+                    font-size: 1.9em;
+                    margin: 15px 0;
+                }      
+                p {
+                    margin: 30px 0;
+                    font-size: 1.2em;
+                    font-weight: 600;
+                }
+                .phone-numbers-container h4 {
+                    margin: 15px 0;
+                }
+                .email-container {
+                    p {
+                        display: inline-block;
+                        margin: 5px 0 15px;
+                        font-size: 1em;
+                    }
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
         }
-        button:hover {
-            background: #3d96b9c8
-        }
-        label {
-            display: flex;
-            flex-direction: column;
-            margin: 5px 0px;
-            h5 {
-                position: relative;
-                top: 10px;
-                margin-left: 10px;
-                background-color: #fff;
-                width: fit-content;
+        form {
+            margin: 10px auto;
+            width: 85%;
+            button {
+                width: 150px;
+                background: linear-gradient($blue, #275f75c8);
+                border: 1px solid rgba(89, 89, 89, 0.711);
+                color: #fff;
+                font-size: 1.2em;
+                font-weight: 800;
+                padding: 5px 10px;
                 border-radius: 10px;
-                font-size: 0.85em;
-                padding-left: 5px;
-                padding-right: 5px;
-                border: 1px solid $blue;
             }
-            input {
-                height: 40px;
-                padding-left: 10px;
-                outline: none;
-                border-radius: 3px;
-                border: 2px solid $blue;
+            button:hover {
+                background: #3d96b9c8
             }
-            textarea {
-                padding-left: 10px;
-                padding-top: 10px;
-                border: 2px solid $blue;
+            label {
+                display: flex;
+                flex-direction: column;
+                margin: 5px 0px;
+                h5 {
+                    position: relative;
+                    top: 10px;
+                    margin-left: 10px;
+                    background-color: #fff;
+                    width: fit-content;
+                    border-radius: 10px;
+                    font-size: 0.85em;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    border: 1px solid $blue;
+                }
+                input {
+                    height: 40px;
+                    padding-left: 10px;
+                    outline: none;
+                    border-radius: 3px;
+                    border: 2px solid $blue;
+                }
+                textarea {
+                    padding-left: 10px;
+                    padding-top: 10px;
+                    border: 2px solid $blue;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width:1600px) {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+        
+        .contact-info {
+            background: $blue;
+            width: 100%;
+            padding: 30px 0;
+            .contact-info-inner {
+                display: flex;
+                gap: 80px;
+                margin: 10px auto;
+                color: #fff;
+                width: 80%;
+                h2 {
+                    width: 100%;
+                    font-size: 1.9em;
+                    margin: 15px 0;
+                }      
+                p {
+                    margin: 30px 0;
+                    font-size: 1.2em;
+                    font-weight: 600;
+                }
+                .phone-numbers-container {
+                    margin-top: 65px;
+                    h4 {
+                        margin: 17px 0;
+                    }
+                } 
+                .email-container {
+                    p {
+                        display: inline-block;
+                        margin: 5px 0 15px;
+                        font-size: 1em;
+                    }
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        form {
+            margin: 10px auto;
+            width: 85%;
+            button {
+                width: 150px;
+                background: linear-gradient($blue, #275f75c8);
+                border: 1px solid rgba(89, 89, 89, 0.711);
+                color: #fff;
+                font-size: 1.2em;
+                font-weight: 800;
+                padding: 5px 10px;
+                border-radius: 10px;
+            }
+            button:hover {
+                background: #3d96b9c8
+            }
+            label {
+                display: flex;
+                flex-direction: column;
+                margin: 5px 0px;
+                h5 {
+                    position: relative;
+                    top: 10px;
+                    margin-left: 10px;
+                    background-color: #fff;
+                    width: fit-content;
+                    border-radius: 10px;
+                    font-size: 0.85em;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    border: 1px solid $blue;
+                }
+                input {
+                    height: 40px;
+                    padding-left: 10px;
+                    outline: none;
+                    border-radius: 3px;
+                    border: 2px solid $blue;
+                }
+                textarea {
+                    padding-left: 10px;
+                    padding-top: 10px;
+                    border: 2px solid $blue;
+                }
             }
         }
     }
