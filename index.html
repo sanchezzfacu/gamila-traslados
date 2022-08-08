@@ -71,34 +71,45 @@
     <section class="slider">
         <ul>
             <li>
-                <div class="info-img">
+                <!-- <div class="info-img">
                     <img src="./img/traslados-img-1.jpg" alt="img not found">
+                    <h1>Servicio de traslados con reserva</h1>
+                    <button>Reserva tu traslado</button>
+                </div> -->
+                <div class="info-img">
+                    <picture>
+                        <source srcset="./img/flota2.jpg" media="(max-width: 600px)">
+                        <source srcset="./img/flota1.jpg" media="(min-width: 601px)">
+                        <img src="./img/flota1.jpg" alt="">
+                    </picture>
                     <h1>Servicio de traslados con reserva</h1>
                     <button>Reserva tu traslado</button>
                 </div>
             </li>
-            <li>
+            <!-- <li>
                 <div class="info-img">
                     <img src="./img/traslados-img-2.png" alt="img not found">
                     <h1>Servicio de traslados para personas con movilidad reducida</h1>
                     <button>Contáctanos</button>
                 </div>
-            </li>
+            </li> -->
         </ul>
     </section>
     
     <section id="about" class="about-container">
         <h1>Gamila Traslados</h1>
-        <h2>Quiénes somos</h2>
         <div class="about-text">
-            <p>Somos una <strong>empresa dedicada al traslado de personas</strong> con capacidades diferentes. Brindamos un servicio integral las 24 hs. con y sin dependencia.</p>
-            <p>Nos dedicamos al traslado de niños y adultos con discapacidades motrices, mentales y otras necesidades especiales dentro de Salta.</p>
-            <p>Nuestro servicio está asistido con un seguro cuya cobertura alcanza a los pasajeros y sus eventuales acompañantes.</p>
+            <div class="about-text-inner">
+                <h2>Quiénes somos</h2>
+                <p>Somos una <strong>empresa dedicada al traslado de personas</strong> con capacidades diferentes. Brindamos un servicio integral las 24 hs. con y sin dependencia.</p>
+                <p>Nos dedicamos al traslado de niños y adultos con discapacidades motrices, mentales y otras necesidades especiales dentro de Salta.</p>
+                <p>Nuestro servicio está asistido con un seguro cuya cobertura alcanza a los pasajeros y sus eventuales acompañantes.</p>
+            </div>
         </div>
     </section>
 
     <section id="services" class="services-container">
-        <h2>Sobre nuestros servicios</h2>
+        <h2>Nuestros servicios</h2>
         <div class="services-slider">
             <div class="service">
                 <div class="service-img">
@@ -110,7 +121,8 @@
                 <hr>
 
                 <div class="service-text">
-                    <h3>Lorem, ipsum dolor sit amet consectetur adndis molestiae neque veritatis dolorem, quisquam inventore suscipit ipsum magnam qui necessitatibus hic maxime.</h3>
+                    <h3>Traslados ejecutivos</h3>
+                    <h4>Necesitas trasladar a tus empleados de un punto a otro? Contactanos</h4>
                 </div>
             </div>
     

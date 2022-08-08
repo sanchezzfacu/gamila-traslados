@@ -8,16 +8,16 @@
 #opener {
   display: none; }
 
-.section-nav {
-  display: none;
-  position: absolute;
-  left: -100%;
-  overflow: hidden; }
-
 nav {
   border-bottom: 1px solid #9a9a9a; }
 
-@media screen and (min-width: 300px) and (max-width: 500px) {
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .section-nav {
+    display: none;
+    position: absolute;
+    left: -100%;
+    overflow: hidden; }
+
   nav ul {
     display: flex;
     list-style: none;
@@ -61,5 +61,81 @@ nav {
       margin: 5px 10px; }
       nav ul .close-menu label img {
         height: 60px; } }
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  .section-nav {
+    display: none;
+    position: absolute;
+    left: -100%;
+    overflow: hidden; }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px; }
+    nav ul li {
+      margin: 25px;
+      text-align: end; }
+      nav ul li a {
+        color: black;
+        text-decoration: none; }
+      nav ul li h3 {
+        font-family: 'Raleway', sans-serif;
+        cursor: pointer; }
+    nav ul .logo li img {
+      height: 80px;
+      margin-left: 20px;
+      margin-top: 5px; }
+    nav ul .menu-btn label img {
+      display: none; }
+    nav ul #opener:checked ~ .section-nav {
+      position: absolute;
+      left: 0;
+      top: 0px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      background-color: #f1f1f1;
+      z-index: 150;
+      transition: all ease .3s; }
+    nav ul .section-nav-inner {
+      background-color: #d8d8d8;
+      width: 60%; }
+    nav ul .close-menu label {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin: 5px 10px; }
+      nav ul .close-menu label img {
+        height: 60px; } }
+@media screen and (min-width: 1024px) and (max-width: 1600px) {
+  nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px; }
+    nav ul li {
+      margin: 25px;
+      text-align: end; }
+      nav ul li a {
+        color: black;
+        text-decoration: none; }
+      nav ul li h3 {
+        font-family: 'Raleway', sans-serif;
+        cursor: pointer; }
+    nav ul .logo li img {
+      height: 70px;
+      margin-left: 40px;
+      margin-top: 5px; }
+    nav ul .menu-btn label img {
+      display: none; }
+    nav ul .section-nav-inner {
+      display: flex;
+      background-color: #fff; }
+    nav ul .close-menu {
+      display: none; } }
 
 /*# sourceMappingURL=navabar.css.map */

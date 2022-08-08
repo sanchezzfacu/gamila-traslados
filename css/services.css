@@ -4,7 +4,8 @@
   margin-top: 50px;
   height: 250px; }
   .services-container h2 {
-    margin: 0 10px 30px; }
+    margin: 0 10px 30px;
+    color: #6d6d6d; }
   .services-container .services-slider {
     display: flex;
     justify-content: center; }
