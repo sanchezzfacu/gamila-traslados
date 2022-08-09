@@ -35,7 +35,10 @@
             color: #fff; }
     .contact-container form {
       margin: 10px auto;
-      width: 85%; }
+      background: url("../img/form-bg.svg");
+      background-size: cover;
+      width: 100%;
+      padding: 50px 0px; }
       .contact-container form button {
         width: 150px;
         background: linear-gradient(#3d96b9c8, #275f75c8);
@@ -50,7 +53,8 @@
       .contact-container form label {
         display: flex;
         flex-direction: column;
-        margin: 5px 0px; }
+        margin: 5px 0px;
+        padding: 0 10px; }
         .contact-container form label h5 {
           position: relative;
           top: 10px;
@@ -71,7 +75,9 @@
         .contact-container form label textarea {
           padding-left: 10px;
           padding-top: 10px;
-          border: 2px solid #3d96b9c8; } }
+          border: 2px solid #3d96b9c8; }
+        .contact-container form label select {
+          padding-left: 20px; } }
 @media screen and (min-width: 480px) and (max-width: 1024px) {
   .contact-container {
     display: flex;

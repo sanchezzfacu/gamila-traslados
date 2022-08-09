@@ -51,7 +51,10 @@
         }
         form {
             margin: 10px auto;
-            width: 85%;
+            background: url('../img/form-bg.svg');
+            background-size: cover;
+            width: 100%;
+            padding: 50px 0px;
             button {
                 width: 150px;
                 background: linear-gradient($blue, #275f75c8);
@@ -69,6 +72,7 @@
                 display: flex;
                 flex-direction: column;
                 margin: 5px 0px;
+                padding: 0 10px;
                 h5 {
                     position: relative;
                     top: 10px;
@@ -92,6 +96,9 @@
                     padding-left: 10px;
                     padding-top: 10px;
                     border: 2px solid $blue;
+                }
+                select {
+                    padding-left: 20px;
                 }
             }
         }

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/gamila-logo.jpg">
     <link rel="stylesheet" href="./css/navabar.css">
     <link rel="stylesheet" href="./css/slider.css">
     <link rel="stylesheet" href="./css/about.css">
@@ -25,7 +26,7 @@
             </div>
             <div class="menu-btn">
                 <label for="opener">
-                    <img src="./img//menu-bttn.png" alt="img not found">
+                    <img src="./img//menu-btn.png" alt="img not found">
                 </label>
             </div>
             <div class="section-nav" id="inicio">
@@ -97,7 +98,7 @@
     </section>
     
     <section id="about" class="about-container">
-        <h1>Gamila Traslados S.R.L</h1>
+        <h1>Traslados Gamila S.R.L</h1>
         <div class="about-text">
             <div class="about-text-inner">
                 <h2>Quiénes somos</h2>
@@ -176,32 +177,39 @@
                     <h4>• Cel: 387-5821387</h4>
                 </div>
             </div>
-
         </div>
         
-        <form>
-            <label>
-                <h5>Su nombre (requerido)</h5>
-                <input type="text">
-            </label>
-            <label>
-                <h5>Su email (requerido)</h5>
-                <input type="text">
-            </label>
-            <label>
-                <h5>Teléfono (requerido)</h5>
-                <input type="text">
-            </label>
-            <label>
-                <h5>Asunto</h5>
-                <input type="text">
-            </label>
-            <label>
-                <h5>Su mensaje</h5>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-            </label>
-            <button>Enviar</button>
-        </form>
+        <div class="form-container" style="margin-bottom: 400px;">
+            <h2>Contanos que necesitas y te cotizamos al instante.</h2>
+            <form>
+                <label>
+                    <h5>Su nombre (requerido)</h5>
+                    <input required type="text">
+                </label>
+                <!-- <label>
+                    <h5>Su email (requerido)</h5>
+                    <input type="text">
+                </label> -->
+                <label>
+                    <h5>Teléfono (requerido)</h5>
+                    <input required type="text">
+                </label>
+                <label for="">
+                    <h5>¿Que servicio quiere contratar?</h5>
+                    <select name="" id="">
+                        <option hidden >Seleccioná el Tipo</option>
+                        <option value="Personal coorporativo">Personal coorporativo(ejectivo)</option>
+                        <option value="Salida turística">Salida turística</option>
+                        <option value="Persona con movilidad reducida">Persona con movilidad reducida</option>
+                    </select>
+                </label>
+                <label>
+                    <h5>Dejanos tu mensaje</h5>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </label>
+                <button>Enviar</button>
+            </form>
+        </div>
     </section>
     <div class="wpp-btn"><img src="./img/wpp-icon.png" alt=""></div>
 </body>
