@@ -72,28 +72,26 @@
     <section class="slider">
         <ul>
             <li>
-                <!-- <div class="info-img">
-                    <img src="./img/traslados-img-1.jpg" alt="img not found">
-                    <h1>Servicio de traslados con reserva</h1>
-                    <button>Reserva tu traslado</button>
-                </div> -->
                 <div class="info-img">
+                    <!-- <div class="slider-info-container">
+                        <div class="phrase-container">
+                            <h4 class="first-line-phrase">Estamos cerca tuyo en los momentos más importantes</h4>
+                            <h3 class="second-line-phrase">Porque para nosotros tu tiempo vale.</h3>
+                        </div>
+                        <div class="service-slider">
+                            <h3 class="coorporative">Traslados coorporativos</h3>
+                            <h3 class="turistic">Salidas turísticas/recreativas</h3>
+                            <h3 class="disabled">Traslados de personas con discapacidad</h3>
+                        </div>
+                    </div> -->
+                    <button>Reserva tu traslado</button>
                     <picture>
                         <source srcset="./img/flota2.jpg" media="(max-width: 600px)">
                         <source srcset="./img/flota1.jpg" media="(min-width: 601px)">
                         <img src="./img/flota1.jpg" alt="">
                     </picture>
-                    <h1>Servicio de traslados con reserva</h1>
-                    <button>Reserva tu traslado</button>
                 </div>
             </li>
-            <!-- <li>
-                <div class="info-img">
-                    <img src="./img/traslados-img-2.png" alt="img not found">
-                    <h1>Servicio de traslados para personas con movilidad reducida</h1>
-                    <button>Contáctanos</button>
-                </div>
-            </li> -->
         </ul>
     </section>
     
@@ -181,31 +179,49 @@
         
         <div class="form-container" style="margin-bottom: 400px;">
             <h2>Contanos que necesitas y te cotizamos al instante.</h2>
-            <form>
-                <label>
-                    <h5>Su nombre (requerido)</h5>
-                    <input required type="text">
-                </label>
-                <!-- <label>
-                    <h5>Su email (requerido)</h5>
-                    <input type="text">
-                </label> -->
-                <label>
-                    <h5>Teléfono (requerido)</h5>
-                    <input required type="text">
-                </label>
-                <label for="">
-                    <h5>¿Que servicio quiere contratar?</h5>
+            <form style="margin-bottom: 300px">
+                <div class="personal-info-form">
+                    <label>
+                        <h5>Su nombre *</h5>
+                        <input required type="text">
+                    </label>
+                    <label>
+                        <h5>Celular/Teléfono *</h5>
+                        <input required type="text">
+                    </label>
+                </div>
+                <label class="select-form">
+                    <h5>¿Que servicio quiere contratar? *</h5>
                     <select name="" id="">
-                        <option hidden >Seleccioná el Tipo</option>
-                        <option value="Personal coorporativo">Personal coorporativo(ejectivo)</option>
+                        <option hidden >Seleccioná el tipo de traslado</option>
+                        <option value="Personal coorporativo">Personal coorporativo (ejecutivo)</option>
                         <option value="Salida turística">Salida turística</option>
                         <option value="Persona con movilidad reducida">Persona con movilidad reducida</option>
                     </select>
                 </label>
+                <div class="service-time-form">
+                    <label for="date">
+                        <h5>Fecha</h5>
+                        <input name="date" type="date">
+                    </label>
+                    <label>
+                        <h5>Hora</h5>
+                        <input name='time' type="time">
+                    </label>
+                </div>
+                <div class="service-destiny-form">
+                    <label for="">
+                        <h5>Lugar de partida</h5>
+                        <input name='' type="text">
+                    </label>
+                    <label for="">
+                        <h5>Lugar de destino</h5>
+                        <input type="text">
+                    </label>
+                </div>
                 <label>
                     <h5>Dejanos tu mensaje</h5>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <textarea name="" id="" rows="5"></textarea>
                 </label>
                 <button>Enviar</button>
             </form>
