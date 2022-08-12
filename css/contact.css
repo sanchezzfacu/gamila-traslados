@@ -25,7 +25,8 @@
           font-weight: 600; }
         .contact-container .contact-info .contact-info-inner .phone-numbers-container h4 {
           margin: 10px 0;
-          font-size: 1.2em; }
+          font-size: 1.2em;
+          letter-spacing: 1px; }
         .contact-container .contact-info .contact-info-inner .email-container {
           margin-top: -20px; }
           .contact-container .contact-info .contact-info-inner .email-container p {
