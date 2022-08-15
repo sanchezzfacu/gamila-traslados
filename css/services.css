@@ -16,7 +16,7 @@ hr {
     color: #fff;
     font-size: 20px;
     font-weight: 800;
-    background-color: #3d96b9c8;
+    background-color: #468189;
     transition: all ease 0.3s; }
   .tns-controls button:hover {
     background-color: #1f556bc8; }
@@ -39,7 +39,7 @@ hr {
         border-radius: 10px;
         height: 320px;
         margin: 10px;
-        background: #3d96b9c8;
+        background: #77ACA2;
         color: #fff;
         text-shadow: 0px 0px 2px #00000056; }
         .services-container .services-slider .service .service-text {
@@ -78,7 +78,7 @@ hr {
         border-radius: 10px;
         height: 300px;
         margin: 10px;
-        background: #3d96b9c8;
+        background: #468189;
         color: #fff; }
         .services-container .services-slider .service .service-text {
           width: 70%;
@@ -115,7 +115,7 @@ hr {
         border-radius: 10px;
         height: 350px;
         margin: 10px;
-        background: #3d96b9c8;
+        background: #77ACA2;
         color: #fff; }
         .services-container .services-slider .service .service-text {
           width: 70%;

@@ -55,7 +55,7 @@
                 img {
                     width: 100vw;
                     background-size: cover;
-                    height: 50vh;
+                    height: 40vh;
                     overflow: hidden;
                 }
             }
@@ -67,7 +67,8 @@
                 bottom: 0;
                 right: 0;
                 left: 0;
-                background-color: rgba(0, 0, 0, 0.59);
+                background: #4b4a4a10;
+                backdrop-filter: blur(3px);
                 margin-bottom: 3px;
                 
             }
@@ -129,7 +130,8 @@
                     bottom: 0;
                     right: 0;
                     left: 0;
-                    background-color: rgba(0, 0, 0, 0.59);
+                    background: #4b4a4a10;
+                    backdrop-filter: blur(3px);
                     margin-bottom: 4px;
                 }
             }
@@ -182,7 +184,7 @@
                     img {
                         width: 100vw;
                         background-size: cover;
-                        height: 80vh;
+                        height: 70vh;
                     }
                 }
                 .info-img::after {
@@ -193,7 +195,8 @@
                     bottom: 0;
                     right: 0;
                     left: 0;
-                    background-color: rgba(0, 0, 0, 0.59);
+                    background: #4b4a4a10;
+                    backdrop-filter: blur(3px);
                     margin-bottom: 4px;
                 }
             }

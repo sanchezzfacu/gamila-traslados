@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway&family=Righteous&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600&family=Montserrat&family=Poppins&family=Raleway&family=Righteous&family=Roboto&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +10,14 @@
 
 nav {
   border-bottom: 1px solid #9a9a9a; }
+
+.logo li {
+  cursor: pointer; }
+  .logo li h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #494949;
+    letter-spacing: 1px;
+    font-size: 2.1em; }
 
 @media screen and (min-width: 300px) and (max-width: 480px) {
   .section-nav {
@@ -23,7 +31,8 @@ nav {
     list-style: none;
     justify-content: space-between;
     align-items: center;
-    height: 100px; }
+    height: 100px;
+    background: #fff; }
     nav ul li {
       margin: 25px;
       text-align: end; }
@@ -73,7 +82,8 @@ nav {
     list-style: none;
     justify-content: space-between;
     align-items: center;
-    height: 100px; }
+    height: 100px;
+    background: #fff; }
     nav ul li {
       margin: 25px;
       text-align: end; }
@@ -116,7 +126,8 @@ nav {
     list-style: none;
     justify-content: space-between;
     align-items: center;
-    height: 80px; }
+    height: 80px;
+    background: #fff; }
     nav ul li {
       margin: 25px;
       text-align: end; }
@@ -126,10 +137,15 @@ nav {
       nav ul li h3 {
         font-family: 'Raleway', sans-serif;
         cursor: pointer; }
-    nav ul .logo li img {
-      height: 70px;
-      margin-left: 40px;
-      margin-top: 5px; }
+    nav ul .logo li {
+      display: flex;
+      align-items: center; }
+      nav ul .logo li h1 {
+        font-size: 30px; }
+      nav ul .logo li img {
+        height: 70px;
+        margin-left: 20px;
+        margin-top: 5px; }
     nav ul .menu-btn label img {
       display: none; }
     nav ul .section-nav-inner {
