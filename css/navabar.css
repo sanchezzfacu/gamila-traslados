@@ -8,6 +8,9 @@
 #opener {
   display: none; }
 
+html {
+  scroll-behavior: smooth; }
+
 nav {
   border-bottom: 1px solid #9a9a9a; }
 

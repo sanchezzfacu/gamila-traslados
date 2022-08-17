@@ -1,9 +1,15 @@
 .clients-container {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 400px;
     width: 100%;
-    margin-bottom:  80px;
+    background-image: url('../img/bg-clients.jpg');
+    background-size: cover;
+    color: #fff;
+    margin-bottom: 50px;
+    z-index: 1;
     h2 {
         text-align: center;
         font-size: 2.5em;
@@ -11,6 +17,7 @@
     }
     .companies-img {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         width: 80%;
@@ -29,4 +36,17 @@
             }
         }
     }
+}
+.clients-container-inner::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.611);
+    width: 100%;
+    height: 400px;  
+    z-index: -1;
 }
