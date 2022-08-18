@@ -64,8 +64,7 @@ nav {
       flex-direction: column;
       align-items: flex-end;
       background-color: #f1f1f1;
-      z-index: 150;
-      transition: all ease 0.3s; }
+      z-index: 150; }
     nav ul .section-nav-inner {
       background-color: #d8d8d8;
       width: 60%; }
@@ -88,7 +87,7 @@ nav {
     list-style: none;
     justify-content: space-between;
     align-items: center;
-    height: 100px;
+    height: 80px;
     background: #fff; }
     nav ul li {
       margin: 25px;
@@ -99,12 +98,14 @@ nav {
       nav ul li h3 {
         font-family: 'Raleway', sans-serif;
         cursor: pointer; }
-    nav ul .logo li h1 {
-      display: none; }
-    nav ul .logo li img {
-      height: 80px;
-      margin-left: 20px;
-      margin-top: 5px; }
+    nav ul .logo li {
+      margin: 0; }
+      nav ul .logo li h1 {
+        display: none; }
+      nav ul .logo li img {
+        height: 80px;
+        margin-left: 20px;
+        margin-top: 5px; }
     nav ul .menu-btn label img {
       height: 65px;
       margin-right: 10px; }

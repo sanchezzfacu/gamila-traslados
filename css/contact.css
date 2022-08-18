@@ -10,15 +10,17 @@
     width: 100%; }
     .contact-container .contact-info {
       width: 100%;
-      margin-bottom: 10px; }
+      display: flex;
+      flex-direction: column;
+      background: #468189;
+      color: #fff; }
+      .contact-container .contact-info h2 {
+        font-size: 2.2em;
+        margin: 15px 0 -10px;
+        text-align: center; }
       .contact-container .contact-info .contact-info-inner {
-        padding: 20px 20px 25px;
-        margin: 10px 0;
-        background: #468189;
-        color: #fff; }
-        .contact-container .contact-info .contact-info-inner h2 {
-          font-size: 2em;
-          margin: 15px 0; }
+        padding: 0px 20px 0px;
+        margin: 10px 0; }
         .contact-container .contact-info .contact-info-inner p {
           margin: 30px 0;
           font-size: 1.2em;
@@ -113,15 +115,19 @@
     margin: 0 auto;
     width: 100%; }
     .contact-container .contact-info {
-      width: 100%; }
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      background: #468189;
+      color: #fff; }
+      .contact-container .contact-info h2 {
+        font-size: 2.2em;
+        margin: 15px 0 -5px;
+        text-align: center; }
       .contact-container .contact-info .contact-info-inner {
-        padding: 20px 20px 25px;
-        margin: 10px 0;
+        padding: 0px 20px 25px;
         background: #468189;
         color: #fff; }
-        .contact-container .contact-info .contact-info-inner h2 {
-          font-size: 1.9em;
-          margin: 15px 0; }
         .contact-container .contact-info .contact-info-inner p {
           margin: 30px 0;
           font-size: 1.2em;
@@ -143,6 +149,8 @@
       border-bottom: 2px black solid; }
       .contact-container .form-container .form-info {
         text-align: center; }
+        .contact-container .form-container .form-info .cotization-text {
+          margin-top: 30px; }
         .contact-container .form-container .form-info .phone-img img {
           height: 450px; }
       .contact-container .form-container form {
@@ -210,25 +218,24 @@
     .contact-container .contact-info {
       background: #468189;
       width: 100%;
-      padding: 30px 0; }
+      padding: 30px 0;
+      color: #fff; }
+      .contact-container .contact-info h2 {
+        width: 100%;
+        font-size: 2.1em;
+        margin: 15px 0;
+        text-align: center; }
       .contact-container .contact-info .contact-info-inner {
         display: flex;
         gap: 80px;
         margin: 10px auto;
-        color: #fff;
         width: 80%; }
-        .contact-container .contact-info .contact-info-inner h2 {
-          width: 100%;
-          font-size: 1.9em;
-          margin: 15px 0; }
         .contact-container .contact-info .contact-info-inner p {
           margin: 30px 0;
           font-size: 1.2em;
           font-weight: 600; }
-        .contact-container .contact-info .contact-info-inner .phone-numbers-container {
-          margin-top: 65px; }
-          .contact-container .contact-info .contact-info-inner .phone-numbers-container h4 {
-            margin: 17px 0; }
+        .contact-container .contact-info .contact-info-inner .phone-numbers-container h4 {
+          margin: 17px 0; }
         .contact-container .contact-info .contact-info-inner .email-container p {
           display: inline-block;
           margin: 5px 0 15px;
@@ -242,7 +249,7 @@
       align-items: center;
       background: #031926;
       color: #fff;
-      height: 90vh;
+      height: 100vh;
       border-bottom: 2px black solid; }
       .contact-container .form-container .form-info {
         text-align: center; }

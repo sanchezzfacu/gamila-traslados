@@ -1,3 +1,5 @@
+@import 'colours';
+
 
 @media screen and (min-width: 300px) and (max-width:480px) {
     .slider {
@@ -19,20 +21,30 @@
                     position: absolute;
                     top: 50px;
                     .phrase-container {
-                        background-color: #222526c8;
-                        padding: 5px 10px;
                         color: #fff;
                         h4 {
+                            display: inline-block;
+                            padding: 5px 10px;
+                            background-color: $blue-transparent;
                             padding-bottom: 5px;
+                            margin: 5px 0;
                         }
                         h3 {
+                            display: inline-block;
+                            margin: 5px 0;
+                            background-color: $blue-transparent;
+                            padding: 5px 10px;
                             margin-bottom: 5px;
                         }
                     }
                     .service-slider {
                         color: #fff;
                         h3 {
+                            display: inline-block;
                             margin: 5px 0px;
+                            background-color: rgba(0, 0, 0, 0.574);
+                            padding: 5px 2px;
+                            margin-left: 10px;
                         }
                     }
                 }
@@ -67,8 +79,8 @@
                 bottom: 0;
                 right: 0;
                 left: 0;
-                background: #4b4a4a10;
-                backdrop-filter: blur(3px);
+                // background: #4b4a4a10;
+                // backdrop-filter: blur(3px);
                 margin-bottom: 3px;
             }
         }
@@ -92,6 +104,51 @@
                 .info-img {
                     position: relative;
                     display: inline-block;
+                    .slider-info-container {
+                        display: flex;
+                        gap: 15px;
+                        flex-direction: column; 
+                        position: absolute;
+                        top: 100px;
+                        left: 40px;
+                        z-index: 50;
+                        .phrase-container {
+                            color: #fff;
+                            display: flex;
+                            flex-direction: column;
+                            h4 {
+                                padding: 5px 10px;
+                                background-color: $blue-transparent;
+                                padding-bottom: 5px;
+                                margin: 5px 0;
+                                width: fit-content;
+                                margin-left: 10px;
+                                font-size: 30px;
+                            }
+                            h3 {
+                                margin: 5px 0;
+                                background-color: $blue-transparent;
+                                padding: 5px 10px;
+                                margin-bottom: 5px;
+                                margin-left: 10px;
+                                width: fit-content;
+                                font-size: 20px;
+                            }
+                        }
+                        .service-slider {
+                            color: #fff;
+                            display: flex;
+                            flex-direction: column;
+                            h3 {
+                                width: fit-content;
+                                margin: 5px 0px;
+                                background-color: rgba(0, 0, 0, 0.574);
+                                padding: 5px 2px;
+                                margin-left: 10px;
+                                padding: 5px 10px;
+                            }
+                        }
+                    }
                     h1 {
                         position: absolute;
                         top: 10px;
@@ -156,14 +213,50 @@
                 .info-img {
                     position: relative;
                     display: inline-block;
-                    h1 {
+                    .slider-info-container {
+                        display: flex;
+                        gap: 15px;
+                        flex-direction: column; 
                         position: absolute;
-                        top: 10px;
-                        background-color: #3d96b9c8;
-                        padding: 5px 10px;
-                        border-radius: 15px;
-                        z-index: 100;
-                        color: #fff;
+                        top: 100px;
+                        left: 80px;
+                        z-index: 50;
+                        .phrase-container {
+                            color: #fff;
+                            display: flex;
+                            flex-direction: column;
+                            h4 {
+                                padding: 5px 10px;
+                                background-color: $blue-transparent;
+                                padding-bottom: 5px;
+                                margin: 5px 0;
+                                width: fit-content;
+                                margin-left: 10px;
+                                font-size: 30px;
+                            }
+                            h3 {
+                                margin: 5px 0;
+                                background-color: $blue-transparent;
+                                padding: 5px 10px;
+                                margin-bottom: 5px;
+                                margin-left: 10px;
+                                width: fit-content;
+                                font-size: 20px;
+                            }
+                        }
+                        .service-slider {
+                            color: #fff;
+                            display: flex;
+                            flex-direction: column;
+                            h3 {
+                                width: fit-content;
+                                margin: 5px 0px;
+                                background-color: rgba(0, 0, 0, 0.574);
+                                padding: 5px 2px;
+                                margin-left: 10px;
+                                padding: 5px 10px;
+                            }
+                        }
                     }
                     button {
                         position: absolute;
@@ -194,8 +287,8 @@
                     bottom: 0;
                     right: 0;
                     left: 0;
-                    background: #4b4a4a10;
-                    backdrop-filter: blur(3px);
+                    background: #4b4a4a5f;
+                    backdrop-filter: blur(1px);
                     margin-bottom: 4px;
                 }
             }

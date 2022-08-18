@@ -82,7 +82,6 @@ nav {
             align-items: flex-end;
             background-color: rgb(241, 241, 241);
             z-index: 150;
-            transition: all ease 0.3s;
         } 
 
         .section-nav-inner {
@@ -115,7 +114,7 @@ nav {
         list-style: none;
         justify-content: space-between;
         align-items: center;
-        height: 100px;
+        height: 80px;
         background: $navbar-bg;
         li {
             margin: 25px;
@@ -131,6 +130,7 @@ nav {
         }
         .logo {
             li  {
+                margin: 0;
                 h1 {
                     display: none;
                 }

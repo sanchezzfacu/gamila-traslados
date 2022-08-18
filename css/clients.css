@@ -9,7 +9,6 @@
     background-image: url("../img/bg-clients.jpg");
     background-size: cover;
     color: #fff;
-    margin-bottom: 50px;
     z-index: 1; }
     .clients-container h2 {
       text-align: center;
@@ -51,7 +50,6 @@
     background-image: url("../img/bg-clients.jpg");
     background-size: cover;
     color: #fff;
-    margin-bottom: 50px;
     z-index: 1; }
     .clients-container h2 {
       text-align: center;
