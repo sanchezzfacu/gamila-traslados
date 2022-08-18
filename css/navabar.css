@@ -45,10 +45,13 @@ nav {
       nav ul li h3 {
         font-family: 'Raleway', sans-serif;
         cursor: pointer; }
-    nav ul .logo li img {
-      height: 80px;
-      margin-left: 20px;
-      margin-top: 5px; }
+    nav ul .logo {
+      text-align: start; }
+      nav ul .logo img {
+        height: 80px;
+        margin-top: 5px; }
+      nav ul .logo h1 {
+        display: none; }
     nav ul .menu-btn label img {
       margin-right: 10px;
       height: 100px; }

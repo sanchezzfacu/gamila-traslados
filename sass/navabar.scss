@@ -57,10 +57,13 @@ nav {
             }
         }
         .logo {
-            li img {
+            text-align: start;
+            img {
                 height: 80px;
-                margin-left: 20px;
                 margin-top: 5px;
+            }
+            h1 {
+                display: none;
             }
         }
         .menu-btn label img{
