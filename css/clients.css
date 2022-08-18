@@ -1,43 +1,86 @@
-.clients-container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 400px;
-  width: 100%;
-  background-image: url("../img/bg-clients.jpg");
-  background-size: cover;
-  color: #fff;
-  margin-bottom: 50px;
-  z-index: 1; }
-  .clients-container h2 {
-    text-align: center;
-    font-size: 2.5em;
-    margin-bottom: 70px; }
-  .clients-container .companies-img {
+@media screen and (min-width: 300px) and (max-width: 1280px) {
+  .clients-container {
+    position: relative;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 80%;
-    margin: 0 auto;
-    gap: 40px; }
-    .clients-container .companies-img .company .minera-exar img {
-      height: 60px; }
-    .clients-container .companies-img .company .minera-ultra img {
-      height: 20px; }
+    height: 500px;
+    width: 100%;
+    background-image: url("../img/bg-clients.jpg");
+    background-size: cover;
+    color: #fff;
+    margin-bottom: 50px;
+    z-index: 1; }
+    .clients-container h2 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 70px; }
+    .clients-container .companies-img {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      margin: 0 auto;
+      gap: 40px; }
+      .clients-container .companies-img .company .minera-exar img {
+        height: 60px; }
+      .clients-container .companies-img .company .minera-ultra img {
+        height: 20px; }
 
-.clients-container-inner::after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.611);
-  width: 100%;
-  height: 400px;
-  z-index: -1; }
+  .clients-container-inner::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.611);
+    width: 100%;
+    height: 500px;
+    z-index: -1; } }
+@media screen and (min-width: 1280px) and (max-width: 1600px) {
+  .clients-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    background-image: url("../img/bg-clients.jpg");
+    background-size: cover;
+    color: #fff;
+    margin-bottom: 50px;
+    z-index: 1; }
+    .clients-container h2 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 70px; }
+    .clients-container .companies-img {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+      margin: 0 auto;
+      gap: 40px; }
+      .clients-container .companies-img .company .minera-exar img {
+        height: 60px; }
+      .clients-container .companies-img .company .minera-ultra img {
+        height: 20px; }
+
+  .clients-container-inner::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.611);
+    width: 100%;
+    height: 500px;
+    z-index: -1; } }
 
 /*# sourceMappingURL=clients.css.map */
