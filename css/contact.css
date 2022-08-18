@@ -35,61 +35,76 @@
           .contact-container .contact-info .contact-info-inner .email-container a {
             font-size: 1.2em;
             color: #fff; }
-    .contact-container form {
-      display: flex;
-      flex-direction: column;
-      background: #468189;
-      align-items: center;
-      width: 100%;
+    .contact-container .form-container {
+      display: block;
+      background: #031926;
       color: #fff;
-      padding: 20px 0;
-      margin-top: 10px; }
-      .contact-container form h2 {
-        margin-left: 10px; }
-      .contact-container form label {
-        margin: 5px 0; }
-      .contact-container form input {
-        height: 30px;
-        padding-left: 5px;
-        outline: none;
-        border: 1px solid black;
-        border-radius: 2px; }
-      .contact-container form button {
-        padding: 5px 15px; }
-      .contact-container form .personal-info-form, .contact-container form .service-time-form, .contact-container form .service-destiny-form {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 95%;
-        gap: 5px;
-        margin: 5px 0; }
-        .contact-container form .personal-info-form label, .contact-container form .service-time-form label, .contact-container form .service-destiny-form label {
+      height: 90vh;
+      border-bottom: 2px black solid; }
+      .contact-container .form-container .form-info {
+        margin-top: 40px;
+        text-align: center; }
+        .contact-container .form-container .form-info .cotization-text {
           display: flex;
           flex-direction: column;
-          align-items: center;
-          width: 90%;
-          margin: 0px 3px; }
-          .contact-container form .personal-info-form label input, .contact-container form .service-time-form label input, .contact-container form .service-destiny-form label input {
-            width: 100%; }
-      .contact-container form .select-form {
-        width: 95%; }
-        .contact-container form .select-form select {
-          margin: 0 auto;
-          width: 100%;
-          outline: none;
-          height: 30px;
-          border: 1px solid black; }
-      .contact-container form .message-form {
-        width: 95%;
+          gap: 8px; }
+        .contact-container .form-container .form-info .phone-img img {
+          height: 300px; }
+      .contact-container .form-container form {
         display: flex;
         flex-direction: column;
-        align-items: center; }
-        .contact-container form .message-form textarea {
-          width: 100%;
+        background: #468189;
+        align-items: center;
+        width: 100%;
+        color: #fff;
+        padding: 20px 0;
+        margin-top: 10px; }
+        .contact-container .form-container form h2 {
+          margin-left: 10px; }
+        .contact-container .form-container form label {
+          margin: 5px 0; }
+        .contact-container .form-container form input {
+          height: 30px;
           padding-left: 5px;
-          padding-top: 5px;
           outline: none;
-          border-radius: 2px; } }
+          border: 1px solid black;
+          border-radius: 2px; }
+        .contact-container .form-container form button {
+          padding: 5px 15px; }
+        .contact-container .form-container form .personal-info-form, .contact-container .form-container form .service-time-form, .contact-container .form-container form .service-destiny-form {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 95%;
+          gap: 5px;
+          margin: 5px 0; }
+          .contact-container .form-container form .personal-info-form label, .contact-container .form-container form .service-time-form label, .contact-container .form-container form .service-destiny-form label {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+            margin: 0px 3px; }
+            .contact-container .form-container form .personal-info-form label input, .contact-container .form-container form .service-time-form label input, .contact-container .form-container form .service-destiny-form label input {
+              width: 100%; }
+        .contact-container .form-container form .select-form {
+          width: 95%; }
+          .contact-container .form-container form .select-form select {
+            margin: 0 auto;
+            width: 100%;
+            outline: none;
+            height: 30px;
+            border: 1px solid black; }
+        .contact-container .form-container form .message-form {
+          width: 95%;
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          .contact-container .form-container form .message-form textarea {
+            width: 100%;
+            padding-left: 5px;
+            padding-top: 5px;
+            outline: none;
+            border-radius: 2px; } }
 @media screen and (min-width: 480px) and (max-width: 1024px) {
   .contact-container {
     display: flex;
@@ -119,7 +134,18 @@
           font-size: 1em; }
         .contact-container .contact-info .contact-info-inner .email-container a {
           color: #fff; }
-      .contact-container .contact-info form {
+    .contact-container .form-container {
+      display: block;
+      align-items: center;
+      background: #031926;
+      color: #fff;
+      height: 90vh;
+      border-bottom: 2px black solid; }
+      .contact-container .form-container .form-info {
+        text-align: center; }
+        .contact-container .form-container .form-info .phone-img img {
+          height: 450px; }
+      .contact-container .form-container form {
         display: flex;
         flex-direction: column;
         background: #468189;
@@ -128,47 +154,47 @@
         color: #fff;
         padding: 20px 0;
         margin-top: 10px; }
-        .contact-container .contact-info form h2 {
+        .contact-container .form-container form h2 {
           margin-left: 10px; }
-        .contact-container .contact-info form label {
+        .contact-container .form-container form label {
           margin: 5px 0; }
-        .contact-container .contact-info form input {
+        .contact-container .form-container form input {
           height: 30px;
           padding-left: 5px;
           outline: none;
           border: 1px solid black;
           border-radius: 2px; }
-        .contact-container .contact-info form button {
+        .contact-container .form-container form button {
           padding: 5px 15px; }
-        .contact-container .contact-info form .personal-info-form, .contact-container .contact-info form .service-time-form, .contact-container .contact-info form .service-destiny-form {
+        .contact-container .form-container form .personal-info-form, .contact-container .form-container form .service-time-form, .contact-container .form-container form .service-destiny-form {
           display: flex;
           align-items: center;
           justify-content: center;
           width: 95%;
           gap: 5px;
           margin: 5px 0; }
-          .contact-container .contact-info form .personal-info-form label, .contact-container .contact-info form .service-time-form label, .contact-container .contact-info form .service-destiny-form label {
+          .contact-container .form-container form .personal-info-form label, .contact-container .form-container form .service-time-form label, .contact-container .form-container form .service-destiny-form label {
             display: flex;
             flex-direction: column;
             align-items: center;
             width: 90%;
             margin: 0px 3px; }
-            .contact-container .contact-info form .personal-info-form label input, .contact-container .contact-info form .service-time-form label input, .contact-container .contact-info form .service-destiny-form label input {
+            .contact-container .form-container form .personal-info-form label input, .contact-container .form-container form .service-time-form label input, .contact-container .form-container form .service-destiny-form label input {
               width: 100%; }
-        .contact-container .contact-info form .select-form {
+        .contact-container .form-container form .select-form {
           width: 95%; }
-          .contact-container .contact-info form .select-form select {
+          .contact-container .form-container form .select-form select {
             margin: 0 auto;
             width: 100%;
             outline: none;
             height: 30px;
             border: 1px solid black; }
-        .contact-container .contact-info form .message-form {
+        .contact-container .form-container form .message-form {
           width: 95%;
           display: flex;
           flex-direction: column;
           align-items: center; }
-          .contact-container .contact-info form .message-form textarea {
+          .contact-container .form-container form .message-form textarea {
             width: 100%;
             padding-left: 5px;
             padding-top: 5px;
@@ -209,60 +235,74 @@
           font-size: 1em; }
         .contact-container .contact-info .contact-info-inner .email-container a {
           color: #fff; }
-    .contact-container form {
+    .contact-container .form-container {
       display: flex;
-      flex-direction: column;
-      background: #468189;
+      justify-content: center;
+      gap: 40px;
       align-items: center;
-      width: 50%;
+      background: #031926;
       color: #fff;
-      padding: 20px 0;
-      margin-top: 10px; }
-      .contact-container form h2 {
-        margin-left: 10px; }
-      .contact-container form label {
-        margin: 5px 0; }
-      .contact-container form input {
-        height: 30px;
-        padding-left: 5px;
-        outline: none;
-        border: 1px solid black;
-        border-radius: 2px; }
-      .contact-container form button {
-        padding: 5px 15px; }
-      .contact-container form .personal-info-form, .contact-container form .service-time-form, .contact-container form .service-destiny-form {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 95%;
-        gap: 5px;
-        margin: 5px 0; }
-        .contact-container form .personal-info-form label, .contact-container form .service-time-form label, .contact-container form .service-destiny-form label {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          width: 90%;
-          margin: 0px 3px; }
-          .contact-container form .personal-info-form label input, .contact-container form .service-time-form label input, .contact-container form .service-destiny-form label input {
-            width: 100%; }
-      .contact-container form .select-form {
-        width: 95%; }
-        .contact-container form .select-form select {
-          margin: 0 auto;
-          width: 100%;
-          outline: none;
-          height: 30px;
-          border: 1px solid black; }
-      .contact-container form .message-form {
-        width: 95%;
+      height: 90vh;
+      border-bottom: 2px black solid; }
+      .contact-container .form-container .form-info {
+        text-align: center; }
+        .contact-container .form-container .form-info .phone-img img {
+          height: 450px; }
+      .contact-container .form-container form {
         display: flex;
         flex-direction: column;
-        align-items: center; }
-        .contact-container form .message-form textarea {
-          width: 100%;
+        background: #468189;
+        align-items: center;
+        width: 50%;
+        color: #fff;
+        padding: 20px 0;
+        margin-top: 10px;
+        max-height: 430px; }
+        .contact-container .form-container form h2 {
+          margin-left: 10px; }
+        .contact-container .form-container form label {
+          margin: 5px 0; }
+        .contact-container .form-container form input {
+          height: 30px;
           padding-left: 5px;
-          padding-top: 5px;
           outline: none;
-          border-radius: 2px; } }
+          border: 1px solid black;
+          border-radius: 2px; }
+        .contact-container .form-container form button {
+          padding: 5px 15px; }
+        .contact-container .form-container form .personal-info-form, .contact-container .form-container form .service-time-form, .contact-container .form-container form .service-destiny-form {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 95%;
+          gap: 5px;
+          margin: 5px 0; }
+          .contact-container .form-container form .personal-info-form label, .contact-container .form-container form .service-time-form label, .contact-container .form-container form .service-destiny-form label {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+            margin: 0px 3px; }
+            .contact-container .form-container form .personal-info-form label input, .contact-container .form-container form .service-time-form label input, .contact-container .form-container form .service-destiny-form label input {
+              width: 100%; }
+        .contact-container .form-container form .select-form {
+          width: 95%; }
+          .contact-container .form-container form .select-form select {
+            margin: 0 auto;
+            width: 100%;
+            outline: none;
+            height: 30px;
+            border: 1px solid black; }
+        .contact-container .form-container form .message-form {
+          width: 95%;
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          .contact-container .form-container form .message-form textarea {
+            width: 100%;
+            padding-left: 5px;
+            padding-top: 5px;
+            outline: none;
+            border-radius: 2px; } }
 
 /*# sourceMappingURL=contact.css.map */

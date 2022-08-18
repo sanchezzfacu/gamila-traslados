@@ -50,70 +50,92 @@
                 }
             }
         }
-        form {
-            display: flex;
-            flex-direction: column;
-            background: $blue;
-            align-items: center;
-            width: 100%;
+        .form-container {
+            display: block;
+            background: $form-bg;
             color: #fff;
-            padding: 20px 0;
-            margin-top: 10px;
-            h2{
-                margin-left: 10px;
-            }
-            label {
-                margin: 5px 0;
-            }
-            input {
-                height: 30px;
-                padding-left: 5px;
-                outline: none;
-                border: 1px solid black;
-                border-radius: 2px;
-            }
-            button {
-                padding: 5px 15px;
-            }
-            .personal-info-form, .service-time-form, .service-destiny-form {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 95%;
-                gap: 5px;
-                margin: 5px 0;
-                label {
+            height: 90vh;
+            border-bottom: 2px black solid;
+            
+            .form-info {
+                margin-top: 40px;
+                text-align: center;
+                .cotization-text {
                     display: flex;
                     flex-direction: column;
-                    align-items: center;
-                    width: 90%;
-                    margin: 0px 3px;
-                    input {
-                        width: 100%;
+                    gap: 8px;
+                }
+                .phone-img {
+                    img {
+                        height: 300px;
                     }
                 }
             }
-            .select-form {
-                width: 95%;
-                select{
-                    margin: 0 auto;
-                    width: 100%;
-                    outline: none;
-                    height: 30px;
-                    border: 1px solid black
-                }
-            }
-            .message-form {
-                width: 95%;
+            form {
                 display: flex;
                 flex-direction: column;
+                background: $blue;
                 align-items: center;
-                textarea {
-                    width: 100%;
+                width: 100%;
+                color: #fff;
+                padding: 20px 0;
+                margin-top: 10px;
+                h2{
+                    margin-left: 10px;
+                }
+                label {
+                    margin: 5px 0;
+                }
+                input {
+                    height: 30px;
                     padding-left: 5px;
-                    padding-top: 5px;
                     outline: none;
+                    border: 1px solid black;
                     border-radius: 2px;
+                }
+                button {
+                    padding: 5px 15px;
+                }
+                .personal-info-form, .service-time-form, .service-destiny-form {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 95%;
+                    gap: 5px;
+                    margin: 5px 0;
+                    label {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 90%;
+                        margin: 0px 3px;
+                        input {
+                            width: 100%;
+                        }
+                    }
+                }
+                .select-form {
+                    width: 95%;
+                    select{
+                        margin: 0 auto;
+                        width: 100%;
+                        outline: none;
+                        height: 30px;
+                        border: 1px solid black
+                    }
+                }
+                .message-form {
+                    width: 95%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    textarea {
+                        width: 100%;
+                        padding-left: 5px;
+                        padding-top: 5px;
+                        outline: none;
+                        border-radius: 2px;
+                    }
                 }
             }
         }
@@ -155,6 +177,23 @@
                     }
                     a {
                         color: #fff;
+                    }
+                }
+            }
+        }
+        .form-container {
+            display: block;
+            align-items: center;
+            background: $form-bg;
+            color: #fff;
+            height: 90vh;
+            border-bottom: 2px black solid;
+            
+            .form-info {
+                text-align: center;
+                .phone-img {
+                    img {
+                        height: 450px;
                     }
                 }
             }
@@ -275,70 +314,91 @@
                 }
             }
         }
-        form {
+        .form-container {
             display: flex;
-            flex-direction: column;
-            background: $blue;
+            justify-content: center;
+            gap: 40px;
             align-items: center;
-            width: 50%;
+            background: $form-bg;
             color: #fff;
-            padding: 20px 0;
-            margin-top: 10px;
-            h2{
-                margin-left: 10px;
-            }
-            label {
-                margin: 5px 0;
-            }
-            input {
-                height: 30px;
-                padding-left: 5px;
-                outline: none;
-                border: 1px solid black;
-                border-radius: 2px;
-            }
-            button {
-                padding: 5px 15px;
-            }
-            .personal-info-form, .service-time-form, .service-destiny-form {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 95%;
-                gap: 5px;
-                margin: 5px 0;
-                label {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    width: 90%;
-                    margin: 0px 3px;
-                    input {
-                        width: 100%;
+            height: 90vh;
+            border-bottom: 2px black solid;
+            
+            .form-info {
+                text-align: center;
+                .phone-img {
+                    img {
+                        height: 450px;
                     }
                 }
             }
-            .select-form {
-                width: 95%;
-                select{
-                    margin: 0 auto;
-                    width: 100%;
-                    outline: none;
-                    height: 30px;
-                    border: 1px solid black
-                }
-            }
-            .message-form {
-                width: 95%;
+
+            form {
                 display: flex;
                 flex-direction: column;
+                background: $blue;
                 align-items: center;
-                textarea {
-                    width: 100%;
+                width: 50%;
+                color: #fff;
+                padding: 20px 0;
+                margin-top: 10px;
+                max-height: 430px;
+                h2{
+                    margin-left: 10px;
+                }
+                label {
+                    margin: 5px 0;
+                }
+                input {
+                    height: 30px;
                     padding-left: 5px;
-                    padding-top: 5px;
                     outline: none;
+                    border: 1px solid black;
                     border-radius: 2px;
+                }
+                button {
+                    padding: 5px 15px;
+                }
+                .personal-info-form, .service-time-form, .service-destiny-form {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 95%;
+                    gap: 5px;
+                    margin: 5px 0;
+                    label {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 90%;
+                        margin: 0px 3px;
+                        input {
+                            width: 100%;
+                        }
+                    }
+                }
+                .select-form {
+                    width: 95%;
+                    select{
+                        margin: 0 auto;
+                        width: 100%;
+                        outline: none;
+                        height: 30px;
+                        border: 1px solid black
+                    }
+                }
+                .message-form {
+                    width: 95%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    textarea {
+                        width: 100%;
+                        padding-left: 5px;
+                        padding-top: 5px;
+                        outline: none;
+                        border-radius: 2px;
+                    }
                 }
             }
         }
