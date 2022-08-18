@@ -16,9 +16,7 @@ html {
     scroll-behavior: smooth;
   }
 
-nav {
-    border-bottom: 1px solid #9a9a9a;
-}
+
 
 .logo li {
     cursor: pointer;
@@ -42,8 +40,7 @@ nav {
         list-style: none;
         justify-content: space-between;
         align-items: center;
-        height: 100px;
-        background: $navbar-bg;
+        height: 75px;
         li {
             margin: 25px;
             text-align: end;
@@ -59,7 +56,7 @@ nav {
         .logo {
             text-align: start;
             img {
-                height: 80px;
+                height: 65px;
                 margin-top: 5px;
             }
             h1 {
@@ -68,7 +65,7 @@ nav {
         }
         .menu-btn label img{
             margin-right: 10px;
-            height: 60px;
+            height: 55px;
         }
  
 
@@ -87,7 +84,6 @@ nav {
         .section-nav-inner {
             background-color: rgb(216, 216, 216);
             width: 60%;
-
         }
         .close-menu label {
                 display: flex;
@@ -184,12 +180,14 @@ nav {
         justify-content: space-between;
         align-items: center;
         height: 80px;
-        background: $navbar-bg;
+        background: $blue;
+        z-index: 50;
+        gap: 40px;
         li {
             margin: 25px;
             text-align: end;
             a {
-                color: black;
+                color: #fff;
                 text-decoration: none;
             }
             h3 {
@@ -203,6 +201,7 @@ nav {
                 align-items: center;
                 h1 {
                     font-size: 30px;
+                    color: #fff;
                 }
                 img {
                     height: 70px;
@@ -217,7 +216,6 @@ nav {
 
         .section-nav-inner {
             display: flex;
-            background-color: #fff
         }
         .close-menu {
             display: none;

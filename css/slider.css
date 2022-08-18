@@ -157,8 +157,6 @@
           bottom: 0;
           right: 0;
           left: 0;
-          background: #4b4a4a10;
-          backdrop-filter: blur(3px);
           margin-bottom: 4px; } }
 @media screen and (min-width: 1024px) and (max-width: 1600px) {
   .slider {
@@ -241,8 +239,6 @@
           bottom: 0;
           right: 0;
           left: 0;
-          background: #4b4a4a5f;
-          backdrop-filter: blur(1px);
           margin-bottom: 4px; } }
 @keyframes cambio {
   0% {
