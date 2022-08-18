@@ -54,7 +54,7 @@ nav {
         display: none; }
     nav ul .menu-btn label img {
       margin-right: 10px;
-      height: 100px; }
+      height: 60px; }
     nav ul #opener:checked ~ .section-nav {
       position: absolute;
       left: 0;
@@ -99,12 +99,15 @@ nav {
       nav ul li h3 {
         font-family: 'Raleway', sans-serif;
         cursor: pointer; }
+    nav ul .logo li h1 {
+      display: none; }
     nav ul .logo li img {
       height: 80px;
       margin-left: 20px;
       margin-top: 5px; }
     nav ul .menu-btn label img {
-      display: none; }
+      height: 65px;
+      margin-right: 10px; }
     nav ul #opener:checked ~ .section-nav {
       position: absolute;
       left: 0;

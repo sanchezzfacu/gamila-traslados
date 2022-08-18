@@ -68,7 +68,7 @@ nav {
         }
         .menu-btn label img{
             margin-right: 10px;
-            height: 100px;
+            height: 60px;
         }
  
 
@@ -130,14 +130,20 @@ nav {
             }
         }
         .logo {
-            li img {
-                height: 80px;
-                margin-left: 20px;
-                margin-top: 5px;
+            li  {
+                h1 {
+                    display: none;
+                }
+                img {
+                    height: 80px;
+                    margin-left: 20px;
+                    margin-top: 5px;
+                }
             }
         }
         .menu-btn label img{
-            display: none;
+            height: 65px;
+            margin-right: 10px;
         }
 
         #opener:checked ~ .section-nav {
