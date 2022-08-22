@@ -331,7 +331,7 @@
             background: $form-bg;
             color: #fff;
             height: 100vh;
-            border-bottom: 2px black solid;
+            border-bottom: 2px #000 solid;
             
             .form-info {
                 text-align: center;
@@ -345,18 +345,26 @@
             form {
                 display: flex;
                 flex-direction: column;
-                background: $blue;
+                background: $form-bg;
+                color: #fff;
                 align-items: center;
                 width: 50%;
-                color: #fff;
+                color: black;
                 padding: 20px 0;
                 margin-top: 10px;
                 max-height: 430px;
+                border-radius: 10px;
+                text-align: start;
                 h2{
                     margin-left: 10px;
                 }
                 label {
                     margin: 5px 0;
+                    text-align: start;
+                    color: #fff;
+                    h5 {
+                        margin-bottom: 5px;
+                    }
                 }
                 input {
                     height: 30px;
@@ -364,17 +372,27 @@
                     outline: none;
                     border: 1px solid black;
                     border-radius: 2px;
+                    transition: all ease 0.3s;
+                    box-sizing: border-box;
+                }
+                input:focus {
+                    border: none;
+                    border-bottom: 4px solid black;
                 }
                 button {
                     padding: 5px 15px;
                 }
                 .personal-info-form, .service-time-form, .service-destiny-form {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    width: 95%;
-                    gap: 5px;
-                    margin: 5px 0;
+                    // display: flex;
+                    // align-items: center;
+                    // justify-content: center;
+                    // width: 95%;
+                    // gap: 5px;
+                    // margin: 5px 0;
+                    width: 100%;
+                    display: grid;
+                    grid-template-columns: 49% 2% 49%;
+                    place-items: center;
                     label {
                         display: flex;
                         flex-direction: column;

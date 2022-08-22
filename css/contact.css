@@ -12,7 +12,7 @@
       width: 100%;
       display: flex;
       flex-direction: column;
-      background: #468189;
+      background: #4e9da7;
       color: #fff; }
       .contact-container .contact-info h2 {
         font-size: 2.2em;
@@ -55,7 +55,7 @@
       .contact-container .form-container form {
         display: flex;
         flex-direction: column;
-        background: #468189;
+        background: #4e9da7;
         align-items: center;
         width: 100%;
         color: #fff;
@@ -118,7 +118,7 @@
       width: 100%;
       display: flex;
       flex-direction: column;
-      background: #468189;
+      background: #4e9da7;
       color: #fff; }
       .contact-container .contact-info h2 {
         font-size: 2.2em;
@@ -126,7 +126,7 @@
         text-align: center; }
       .contact-container .contact-info .contact-info-inner {
         padding: 0px 20px 25px;
-        background: #468189;
+        background: #4e9da7;
         color: #fff; }
         .contact-container .contact-info .contact-info-inner p {
           margin: 30px 0;
@@ -156,7 +156,7 @@
       .contact-container .form-container form {
         display: flex;
         flex-direction: column;
-        background: #468189;
+        background: #4e9da7;
         align-items: center;
         width: 100%;
         color: #fff;
@@ -216,7 +216,7 @@
     margin: 0 auto;
     width: 100%; }
     .contact-container .contact-info {
-      background: #468189;
+      background: #4e9da7;
       width: 100%;
       padding: 30px 0;
       color: #fff; }
@@ -250,7 +250,7 @@
       background: #031926;
       color: #fff;
       height: 100vh;
-      border-bottom: 2px black solid; }
+      border-bottom: 2px #000 solid; }
       .contact-container .form-container .form-info {
         text-align: center; }
         .contact-container .form-container .form-info .phone-img img {
@@ -258,32 +258,42 @@
       .contact-container .form-container form {
         display: flex;
         flex-direction: column;
-        background: #468189;
+        background: #031926;
+        color: #fff;
         align-items: center;
         width: 50%;
-        color: #fff;
+        color: black;
         padding: 20px 0;
         margin-top: 10px;
-        max-height: 430px; }
+        max-height: 430px;
+        border-radius: 10px;
+        text-align: start; }
         .contact-container .form-container form h2 {
           margin-left: 10px; }
         .contact-container .form-container form label {
-          margin: 5px 0; }
+          margin: 5px 0;
+          text-align: start;
+          color: #fff; }
+          .contact-container .form-container form label h5 {
+            margin-bottom: 5px; }
         .contact-container .form-container form input {
           height: 30px;
           padding-left: 5px;
           outline: none;
           border: 1px solid black;
-          border-radius: 2px; }
+          border-radius: 2px;
+          transition: all ease 0.3s;
+          box-sizing: border-box; }
+        .contact-container .form-container form input:focus {
+          border: none;
+          border-bottom: 4px solid black; }
         .contact-container .form-container form button {
           padding: 5px 15px; }
         .contact-container .form-container form .personal-info-form, .contact-container .form-container form .service-time-form, .contact-container .form-container form .service-destiny-form {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          width: 95%;
-          gap: 5px;
-          margin: 5px 0; }
+          width: 100%;
+          display: grid;
+          grid-template-columns: 49% 2% 49%;
+          place-items: center; }
           .contact-container .form-container form .personal-info-form label, .contact-container .form-container form .service-time-form label, .contact-container .form-container form .service-destiny-form label {
             display: flex;
             flex-direction: column;

@@ -141,12 +141,17 @@ hr {
 @media screen and (min-width: 1024px) and (max-width:1600px) {
     .services-container {
         width: 100%;
-        padding: 80px 0 40px;
+        padding: 80px 0 80px;
         text-align: center;
+        background: $form-bg;
+        .services-container-inner {
+            margin: 0 auto;
+            width: 85%;
+        }
         h2 {
+            color: #fff;
             text-align: center;
             margin: 0 20px 60px;
-            color: #000000;
             font-size: 2.2em;
         }
         .services-slider {
@@ -160,11 +165,11 @@ hr {
                 box-shadow: 0px 0px 10px #0000007c;
                 text-shadow: 0px 0px 2px #00000056;
                 border-radius: 5px;
-                height: 350px;
+                min-height: 350px;
                 margin: 10px;
-                background: #77ACA2;
+                background: $blue;
                 color: #fff;
-
+                padding-bottom: 10px;
                 .service-text {
                     width: 85%;
                     margin: 0 auto;

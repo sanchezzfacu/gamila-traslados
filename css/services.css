@@ -16,7 +16,7 @@ hr {
     color: #fff;
     font-size: 20px;
     font-weight: 800;
-    background-color: #468189;
+    background-color: #4e9da7;
     transition: all ease 0.3s; }
   .tns-controls button:hover {
     background-color: #1f556bc8; }
@@ -80,7 +80,7 @@ hr {
         border-radius: 10px;
         height: 350px;
         margin: 10px;
-        background: #468189;
+        background: #4e9da7;
         color: #fff; }
         .services-container .services-slider .service .service-text {
           width: 70%;
@@ -103,12 +103,16 @@ hr {
 @media screen and (min-width: 1024px) and (max-width: 1600px) {
   .services-container {
     width: 100%;
-    padding: 80px 0 40px;
-    text-align: center; }
+    padding: 80px 0 80px;
+    text-align: center;
+    background: #031926; }
+    .services-container .services-container-inner {
+      margin: 0 auto;
+      width: 85%; }
     .services-container h2 {
+      color: #fff;
       text-align: center;
       margin: 0 20px 60px;
-      color: #000000;
       font-size: 2.2em; }
     .services-container .services-slider {
       display: flex;
@@ -118,10 +122,11 @@ hr {
         box-shadow: 0px 0px 10px #0000007c;
         text-shadow: 0px 0px 2px #00000056;
         border-radius: 5px;
-        height: 350px;
+        min-height: 350px;
         margin: 10px;
-        background: #77ACA2;
-        color: #fff; }
+        background: #4e9da7;
+        color: #fff;
+        padding-bottom: 10px; }
         .services-container .services-slider .service .service-text {
           width: 85%;
           margin: 0 auto; }

@@ -133,14 +133,14 @@ html {
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    background: #468189;
+    background: #fff;
     z-index: 50;
     gap: 40px; }
     nav ul li {
       margin: 25px;
       text-align: end; }
       nav ul li a {
-        color: #fff;
+        color: #282828;
         text-decoration: none; }
       nav ul li h3 {
         font-family: 'Raleway', sans-serif;
@@ -150,7 +150,7 @@ html {
       align-items: center; }
       nav ul .logo li h1 {
         font-size: 30px;
-        color: #fff; }
+        color: #282828; }
       nav ul .logo li img {
         height: 70px;
         margin-left: 20px;

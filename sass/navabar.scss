@@ -180,14 +180,14 @@ html {
         justify-content: space-between;
         align-items: center;
         height: 80px;
-        background: $blue;
+        background: #fff;
         z-index: 50;
         gap: 40px;
         li {
             margin: 25px;
             text-align: end;
             a {
-                color: #fff;
+                color: #282828;
                 text-decoration: none;
             }
             h3 {
@@ -201,7 +201,7 @@ html {
                 align-items: center;
                 h1 {
                     font-size: 30px;
-                    color: #fff;
+                    color: #282828;
                 }
                 img {
                     height: 70px;
