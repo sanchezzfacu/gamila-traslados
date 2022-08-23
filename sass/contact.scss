@@ -115,6 +115,11 @@
                         margin: 0px 3px;
                         input {
                             width: 100%;
+                            border-bottom: 4px solid $blue-transparent;
+                            transition: all ease 0.3s;
+                        }
+                        input:focus {
+                            border-bottom: 4px solid $blue;
                         }
                     }
                 }
@@ -144,9 +149,14 @@
                         background: $form-bg-lighter;
                         color: #fff;
                         border: none;
+                        border-bottom: 4px solid $blue-transparent;
+                        transition: all ease 0.3s;
+                    }
+                    textarea:focus {
+                        border-bottom: 4px solid $blue;
                     }
                 }
-            }
+            } 
         }
     }
 }

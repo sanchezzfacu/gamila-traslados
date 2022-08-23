@@ -89,7 +89,11 @@
             width: 90%;
             margin: 0px 3px; }
             .contact-container .form-container form .personal-info-form label input, .contact-container .form-container form .service-time-form label input, .contact-container .form-container form .service-destiny-form label input {
-              width: 100%; }
+              width: 100%;
+              border-bottom: 4px solid #468189bd;
+              transition: all ease 0.3s; }
+            .contact-container .form-container form .personal-info-form label input:focus, .contact-container .form-container form .service-time-form label input:focus, .contact-container .form-container form .service-destiny-form label input:focus {
+              border-bottom: 4px solid #4e9da7; }
         .contact-container .form-container form .select-form {
           width: 95%; }
           .contact-container .form-container form .select-form select {
@@ -113,7 +117,11 @@
             border-radius: 2px;
             background: #062638;
             color: #fff;
-            border: none; } }
+            border: none;
+            border-bottom: 4px solid #468189bd;
+            transition: all ease 0.3s; }
+          .contact-container .form-container form .message-form textarea:focus {
+            border-bottom: 4px solid #4e9da7; } }
 @media screen and (min-width: 480px) and (max-width: 1024px) {
   .contact-container {
     display: flex;
