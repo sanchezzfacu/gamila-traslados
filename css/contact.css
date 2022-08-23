@@ -55,7 +55,7 @@
       .contact-container .form-container form {
         display: flex;
         flex-direction: column;
-        background: #4e9da7;
+        background: #031926;
         align-items: center;
         width: 100%;
         color: #fff;
@@ -69,7 +69,9 @@
           height: 30px;
           padding-left: 5px;
           outline: none;
-          border: 1px solid black;
+          border: none;
+          background: #062638;
+          color: #fff;
           border-radius: 2px; }
         .contact-container .form-container form button {
           padding: 5px 15px; }
@@ -95,7 +97,9 @@
             width: 100%;
             outline: none;
             height: 30px;
-            border: 1px solid black; }
+            border: none;
+            background: #062638;
+            color: #fff; }
         .contact-container .form-container form .message-form {
           width: 95%;
           display: flex;
@@ -106,7 +110,10 @@
             padding-left: 5px;
             padding-top: 5px;
             outline: none;
-            border-radius: 2px; } }
+            border-radius: 2px;
+            background: #062638;
+            color: #fff;
+            border: none; } }
 @media screen and (min-width: 480px) and (max-width: 1024px) {
   .contact-container {
     display: flex;
@@ -156,7 +163,7 @@
       .contact-container .form-container form {
         display: flex;
         flex-direction: column;
-        background: #4e9da7;
+        background: #031926;
         align-items: center;
         width: 100%;
         color: #fff;
@@ -170,8 +177,10 @@
           height: 30px;
           padding-left: 5px;
           outline: none;
-          border: 1px solid black;
-          border-radius: 2px; }
+          border: none;
+          background: #062638;
+          border-radius: 2px;
+          color: #fff; }
         .contact-container .form-container form button {
           padding: 5px 15px; }
         .contact-container .form-container form .personal-info-form, .contact-container .form-container form .service-time-form, .contact-container .form-container form .service-destiny-form {
@@ -196,7 +205,9 @@
             width: 100%;
             outline: none;
             height: 30px;
-            border: 1px solid black; }
+            border: none;
+            background: #062638;
+            color: #fff; }
         .contact-container .form-container form .message-form {
           width: 95%;
           display: flex;
@@ -207,7 +218,10 @@
             padding-left: 5px;
             padding-top: 5px;
             outline: none;
-            border-radius: 2px; } }
+            border-radius: 2px;
+            border: none;
+            background: #062638;
+            color: #fff; } }
 @media screen and (min-width: 1024px) and (max-width: 1600px) {
   .contact-container {
     display: flex;
@@ -271,7 +285,7 @@
         .contact-container .form-container form h2 {
           margin-left: 10px; }
         .contact-container .form-container form label {
-          margin: 5px 0;
+          margin: 15  px 0;
           text-align: start;
           color: #fff; }
           .contact-container .form-container form label h5 {
@@ -280,13 +294,16 @@
           height: 30px;
           padding-left: 5px;
           outline: none;
-          border: 1px solid black;
+          border: none;
           border-radius: 2px;
           transition: all ease 0.3s;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+          color: #fff;
+          background: #062638;
+          border-bottom: 4px solid #468189bd; }
         .contact-container .form-container form input:focus {
           border: none;
-          border-bottom: 4px solid black; }
+          border-bottom: 4px solid #4e9da7; }
         .contact-container .form-container form button {
           padding: 5px 15px; }
         .contact-container .form-container form .personal-info-form, .contact-container .form-container form .service-time-form, .contact-container .form-container form .service-destiny-form {
@@ -299,17 +316,21 @@
             flex-direction: column;
             align-items: center;
             width: 90%;
-            margin: 0px 3px; }
+            margin: 15px 0; }
             .contact-container .form-container form .personal-info-form label input, .contact-container .form-container form .service-time-form label input, .contact-container .form-container form .service-destiny-form label input {
               width: 100%; }
         .contact-container .form-container form .select-form {
-          width: 95%; }
+          width: 95%;
+          margin: 5px 0; }
           .contact-container .form-container form .select-form select {
             margin: 0 auto;
             width: 100%;
             outline: none;
             height: 30px;
-            border: 1px solid black; }
+            border: 1px solid black;
+            background: #062638;
+            color: #fff;
+            border: none; }
         .contact-container .form-container form .message-form {
           width: 95%;
           display: flex;
@@ -320,6 +341,9 @@
             padding-left: 5px;
             padding-top: 5px;
             outline: none;
-            border-radius: 2px; } }
+            border-radius: 2px;
+            background: #062638;
+            color: #fff;
+            border: none; } }
 
 /*# sourceMappingURL=contact.css.map */
