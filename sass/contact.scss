@@ -440,7 +440,6 @@
                         width: 100%;
                         outline: none;
                         height: 30px;
-                        border: 1px solid black;
                         background: $form-bg-lighter;
                         color: #fff;
                         border: none;
@@ -460,6 +459,11 @@
                         background: $form-bg-lighter;
                         color: #fff;
                         border: none;
+                        border-bottom: 4px solid $blue-transparent;
+                        transition: all ease 0.3s;
+                    }
+                    textarea:focus {
+                        border-bottom: 4px solid $blue;    
                     }
                 }
             }

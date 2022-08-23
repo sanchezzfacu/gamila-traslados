@@ -1,0 +1,14 @@
+.obras-sociales-container {
+  width: 100%;
+  background: #4e9da7;
+  color: #fff; }
+  .obras-sociales-container h2 {
+    text-align: center; }
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .obras-sociales-container {
+    padding: 40px 0; }
+    .obras-sociales-container h2 {
+      font-size: 1.8em; } }
+
+/*# sourceMappingURL=obras-sociales.css.map */

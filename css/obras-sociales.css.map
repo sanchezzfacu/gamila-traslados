@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,yBAA0B;EACtB,KAAK,EAAE,IAAI;EACX,UAAU,ECJP,OAAO;EDKV,KAAK,EAAE,IAAI;EACX,4BAAG;IACC,UAAU,EAAE,MAAM;;AAI1B,2DAA2D;EACvD,yBAA0B;IACtB,OAAO,EAAE,MAAM;IACf,4BAAG;MACC,SAAS,EAAE,KAAK",
+"sources": ["../sass/obras-sociales.scss","../sass/_colours.scss"],
+"names": [],
+"file": "obras-sociales.css"
+}

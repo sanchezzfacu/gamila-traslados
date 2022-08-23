@@ -1,0 +1,27 @@
+@import 'colours';
+
+.obras-sociales-container {
+    width: 100%;
+    background: $blue;
+    color: #fff;
+    h2 {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width:480px) {
+    .obras-sociales-container {
+        padding: 40px 0;
+        h2 {
+            font-size: 1.8em;
+        }
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width:1200px) {
+
+}
+
+@media screen and (min-width: 1200px) and (max-width:1600px) {
+
+}

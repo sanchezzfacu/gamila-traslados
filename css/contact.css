@@ -335,7 +335,6 @@
             width: 100%;
             outline: none;
             height: 30px;
-            border: 1px solid black;
             background: #062638;
             color: #fff;
             border: none; }
@@ -352,6 +351,10 @@
             border-radius: 2px;
             background: #062638;
             color: #fff;
-            border: none; } }
+            border: none;
+            border-bottom: 4px solid #468189bd;
+            transition: all ease 0.3s; }
+          .contact-container .form-container form .message-form textarea:focus {
+            border-bottom: 4px solid #4e9da7; } }
 
 /*# sourceMappingURL=contact.css.map */
