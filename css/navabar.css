@@ -8,7 +8,7 @@
 #opener {
   display: none; }
 
-html {
+body {
   scroll-behavior: smooth; }
 
 .logo li {
@@ -31,7 +31,8 @@ html {
     list-style: none;
     justify-content: space-between;
     align-items: center;
-    height: 75px; }
+    height: 75px;
+    background: #f3f4f6; }
     nav ul li {
       margin: 25px;
       text-align: end; }
@@ -84,7 +85,7 @@ html {
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    background: #e3deda; }
+    background: #f3f4f6; }
     nav ul li {
       margin: 25px;
       text-align: end; }
@@ -133,7 +134,7 @@ html {
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    background: #fff;
+    background: #f3f4f6;
     z-index: 50;
     gap: 40px; }
     nav ul li {
@@ -145,6 +146,9 @@ html {
       nav ul li h3 {
         font-family: 'Raleway', sans-serif;
         cursor: pointer; }
+    nav ul li:hover {
+      box-sizing: border-box;
+      border-bottom: 2px solid #4e9da7; }
     nav ul .logo li {
       display: flex;
       align-items: center; }

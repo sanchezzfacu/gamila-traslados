@@ -103,14 +103,27 @@ hr {
 @media screen and (min-width: 1024px) and (max-width: 1600px) {
   .services-container {
     width: 100%;
-    padding: 80px 0 80px;
+    padding: 50px 0 50px;
     text-align: center;
-    background: #031926; }
+    background: #f3f4f6; }
     .services-container .services-container-inner {
       margin: 0 auto;
       width: 85%; }
+      .services-container .services-container-inner button {
+        margin-top: 50px;
+        padding: 20px 25px;
+        background: #3a8e99;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: 800;
+        cursor: pointer;
+        transition: all ease 0.3s;
+        box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.202); }
+      .services-container .services-container-inner button:hover {
+        box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.264); }
     .services-container h2 {
-      color: #fff;
       text-align: center;
       margin: 0 20px 60px;
       font-size: 2.2em; }
@@ -119,11 +132,12 @@ hr {
       justify-content: center; }
       .services-container .services-slider .service {
         box-sizing: border-box;
-        box-shadow: 0px 0px 10px #0000007c;
+        box-shadow: 8px 4px 10px -3px rgba(0, 0, 0, 0.1), -8px -4px 10px -4px rgba(0, 0, 0, 0.1);
         text-shadow: 0px 0px 2px #00000056;
         border-radius: 5px;
-        min-height: 350px;
+        min-height: 370px;
         margin: 10px;
+        background: #f4f4f4;
         background: #4e9da7;
         color: #fff;
         padding-bottom: 10px; }
@@ -131,16 +145,21 @@ hr {
           width: 85%;
           margin: 0 auto; }
           .services-container .services-slider .service .service-text h3 {
-            font-size: 1.5em;
-            margin: 10px 0px 5px; }
+            font-size: 1.4em;
+            margin: 10px 0px 5px;
+            border-bottom: 1px solid #fff;
+            border-bottom-left-radius: 2px;
+            border-bottom-right-radius: 2px;
+            padding-bottom: 5px; }
           .services-container .services-slider .service .service-text h4 {
-            font-size: 1em; }
+            font-size: 1em;
+            margin: 5px 0; }
         .services-container .services-slider .service .service-img {
           display: flex;
           justify-content: center;
-          padding: 10px; }
+          padding: 1px; }
           .services-container .services-slider .service .service-img img {
-            height: 180px;
+            height: 210px;
             width: 100%;
             object-fit: cover;
             border-top-left-radius: 5px;

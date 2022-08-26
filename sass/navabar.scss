@@ -12,7 +12,7 @@
     display: none;
 }
 
-html {
+body {
     scroll-behavior: smooth;
   }
 
@@ -41,6 +41,7 @@ html {
         justify-content: space-between;
         align-items: center;
         height: 75px;
+        background: #f3f4f6;
         li {
             margin: 25px;
             text-align: end;
@@ -48,6 +49,7 @@ html {
                 color: black;
                 text-decoration: none;
             }
+
             h3 {
                 font-family: 'Raleway', sans-serif;
                 cursor: pointer;
@@ -111,7 +113,7 @@ html {
         justify-content: space-between;
         align-items: center;
         height: 80px;
-        background: $navbar-bg;
+        background: #f3f4f6;
         li {
             margin: 25px;
             text-align: end;
@@ -119,6 +121,7 @@ html {
                 color: black;
                 text-decoration: none;
             }
+            
             h3 {
                 font-family: 'Raleway', sans-serif;
                 cursor: pointer;
@@ -180,7 +183,7 @@ html {
         justify-content: space-between;
         align-items: center;
         height: 80px;
-        background: #fff;
+        background: #f3f4f6;
         z-index: 50;
         gap: 40px;
         li {
@@ -194,6 +197,10 @@ html {
                 font-family: 'Raleway', sans-serif;
                 cursor: pointer;
             }
+        }
+        li:hover {
+            box-sizing: border-box;
+            border-bottom: 2px solid $blue;
         }
         .logo {
             li {
