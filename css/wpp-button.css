@@ -6,8 +6,6 @@
   right: 10px;
   cursor: pointer;
   z-index: 200;
-  border-radius: 50%;
-  transition: all ease 0.3s;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.689); }
+  border-radius: 50%; }
 
 /*# sourceMappingURL=wpp-button.css.map */

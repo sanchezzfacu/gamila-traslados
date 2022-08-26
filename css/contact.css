@@ -258,6 +258,8 @@
           font-weight: 600; }
         .contact-container .contact-info .contact-info-inner .phone-numbers-container h4 {
           margin: 17px 0; }
+          .contact-container .contact-info .contact-info-inner .phone-numbers-container h4 span {
+            font-family: sans-serif; }
         .contact-container .contact-info .contact-info-inner .email-container p {
           display: inline-block;
           margin: 5px 0 15px;

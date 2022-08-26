@@ -9,6 +9,31 @@
   .obras-sociales-container {
     padding: 40px 0; }
     .obras-sociales-container h2 {
-      font-size: 1.8em; } }
+      font-size: 1.8em; }
+    .obras-sociales-container .obras-sociales-names {
+      margin: 20px auto;
+      width: 90%; } }
+@media screen and (min-width: 480px) and (max-width: 1200px) {
+  .obras-sociales-container {
+    padding: 40px 0; }
+    .obras-sociales-container h2 {
+      font-size: 1.8em; }
+    .obras-sociales-container .obras-sociales-names {
+      margin: 20px auto;
+      width: 90%; } }
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .obras-sociales-container {
+    padding: 40px 0; }
+    .obras-sociales-container h2 {
+      font-size: 1.8em; }
+    .obras-sociales-container .obras-sociales-names {
+      margin: 20px auto;
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 50px;
+      justify-content: space-around; }
+      .obras-sociales-container .obras-sociales-names .obras-sociales-1 h3, .obras-sociales-container .obras-sociales-names .obras-sociales-2 h3 {
+        margin: 10px 0; } }
 
 /*# sourceMappingURL=obras-sociales.css.map */
