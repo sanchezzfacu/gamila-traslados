@@ -14,7 +14,7 @@
 
 body {
     scroll-behavior: smooth;
-  }
+}
 
 
 
@@ -192,6 +192,7 @@ body {
             a {
                 color: #282828;
                 text-decoration: none;
+                border-bottom: 2px solid $blue;
             }
             h3 {
                 font-family: 'Raleway', sans-serif;
@@ -200,7 +201,6 @@ body {
         }
         li:hover {
             box-sizing: border-box;
-            border-bottom: 2px solid $blue;
         }
         .logo {
             li {

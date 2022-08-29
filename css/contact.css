@@ -274,7 +274,8 @@
       background: #031926;
       color: #fff;
       height: 100vh;
-      border-bottom: 2px #000 solid; }
+      border-bottom: 2px #000 solid;
+      overflow: hidden; }
       .contact-container .form-container .form-info {
         text-align: center; }
         .contact-container .form-container .form-info .phone-img img {
