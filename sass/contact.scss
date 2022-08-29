@@ -12,7 +12,7 @@
         margin: 0 auto;
         width: 100%;
         overflow: hidden;
-        background: $blue;
+        background: $form-bg;
         color: #fff;
         .contact-info {
             width: 100%;
@@ -169,7 +169,7 @@
         margin: 0 auto;
         width: 100%;
         overflow: hidden;
-        background: $blue;
+        background: $form-bg;
         color: #fff;
         .contact-info {
             width: 100%;
@@ -182,7 +182,6 @@
             }      
             .contact-info-inner {
                 padding: 0px 20px 25px;
-                background: $blue;
                 color: #fff;
                 p {
                     margin: 30px 0;

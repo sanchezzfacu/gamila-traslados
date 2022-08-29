@@ -9,7 +9,7 @@
     margin: 0 auto;
     width: 100%;
     overflow: hidden;
-    background: #4e9da7;
+    background: #031926;
     color: #fff; }
     .contact-container .contact-info {
       width: 100%;
@@ -131,7 +131,7 @@
     margin: 0 auto;
     width: 100%;
     overflow: hidden;
-    background: #4e9da7;
+    background: #031926;
     color: #fff; }
     .contact-container .contact-info {
       width: 100%;
@@ -143,7 +143,6 @@
         text-align: center; }
       .contact-container .contact-info .contact-info-inner {
         padding: 0px 20px 25px;
-        background: #4e9da7;
         color: #fff; }
         .contact-container .contact-info .contact-info-inner p {
           margin: 30px 0;
