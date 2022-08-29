@@ -12,7 +12,9 @@
       font-size: 1.8em; }
     .obras-sociales-container .obras-sociales-names {
       margin: 20px auto;
-      width: 90%; } }
+      width: 90%; }
+    .obras-sociales-container .obras-sociales-1 h3, .obras-sociales-container .obras-sociales-2 h3 {
+      margin: 10px 0; } }
 @media screen and (min-width: 480px) and (max-width: 1200px) {
   .obras-sociales-container {
     padding: 40px 0; }
@@ -20,7 +22,9 @@
       font-size: 1.8em; }
     .obras-sociales-container .obras-sociales-names {
       margin: 20px auto;
-      width: 90%; } }
+      width: 90%; }
+    .obras-sociales-container .obras-sociales-1 h3, .obras-sociales-container .obras-sociales-2 h3 {
+      margin: 10px 0; } }
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
   .obras-sociales-container {
     padding: 40px 0; }
