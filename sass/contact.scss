@@ -12,7 +12,7 @@
         margin: 0 auto;
         width: 100%;
         overflow: hidden;
-        background: $form-bg;
+        background: $blue;
         color: #fff;
         .contact-info {
             width: 100%;
@@ -80,7 +80,6 @@
                 align-items: center;
                 width: 100%;
                 color: #fff;
-                padding: 20px 0;
                 margin-top: 10px;
                 h2{
                     margin-left: 10px;
@@ -169,9 +168,9 @@
         margin: 0 auto;
         width: 100%;
         overflow: hidden;
-        background: $form-bg;
-        color: #fff;
         .contact-info {
+            background: $blue;
+            color: #fff;
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -182,6 +181,7 @@
             }      
             .contact-info-inner {
                 padding: 0px 20px 25px;
+                background: $blue;
                 color: #fff;
                 p {
                     margin: 30px 0;
@@ -229,7 +229,6 @@
                 align-items: center;
                 width: 100%;
                 color: #fff;
-                padding: 20px 0;
                 margin-top: 10px;
                 h2{
                     margin-left: 10px;
