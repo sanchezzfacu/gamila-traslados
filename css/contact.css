@@ -8,13 +8,13 @@
     justify-content: center;
     margin: 0 auto;
     width: 100%;
-    overflow: hidden; }
+    overflow: hidden;
+    background: #4e9da7;
+    color: #fff; }
     .contact-container .contact-info {
       width: 100%;
       display: flex;
-      flex-direction: column;
-      background: #4e9da7;
-      color: #fff; }
+      flex-direction: column; }
       .contact-container .contact-info h2 {
         font-size: 2.2em;
         margin: 15px 0 -10px;
@@ -130,13 +130,13 @@
     justify-content: center;
     margin: 0 auto;
     width: 100%;
-    overflow: hidden; }
+    overflow: hidden;
+    background: #4e9da7;
+    color: #fff; }
     .contact-container .contact-info {
       width: 100%;
       display: flex;
-      flex-direction: column;
-      background: #4e9da7;
-      color: #fff; }
+      flex-direction: column; }
       .contact-container .contact-info h2 {
         font-size: 2.2em;
         margin: 15px 0 -5px;

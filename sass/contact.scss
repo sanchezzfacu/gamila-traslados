@@ -12,12 +12,12 @@
         margin: 0 auto;
         width: 100%;
         overflow: hidden;
+        background: $blue;
+        color: #fff;
         .contact-info {
             width: 100%;
             display: flex;
             flex-direction: column;
-            background: $blue;
-            color: #fff;
             h2 {
                 font-size: 2.2em;
                 margin: 15px 0 -10px;
@@ -169,12 +169,12 @@
         margin: 0 auto;
         width: 100%;
         overflow: hidden;
+        background: $blue;
+        color: #fff;
         .contact-info {
             width: 100%;
             display: flex;
             flex-direction: column;
-            background: $blue;
-            color: #fff;
             h2 {
                 font-size: 2.2em;
                 margin: 15px 0 -5px;
