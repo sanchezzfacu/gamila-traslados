@@ -4,27 +4,45 @@ hr {
   border-top: 1px solid  #fff;
   height: 1px; }
 
-.tns-controls {
+.tns-nav {
   display: flex;
   gap: 10px;
-  justify-content: center; }
-  .tns-controls button {
-    height: 40px;
-    width: 40px;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px; }
+  .tns-nav button {
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
     border: none;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 800;
-    background-color: #4e9da7;
-    transition: all ease 0.3s; }
-  .tns-controls button:hover {
-    background-color: #1f556bc8; }
+    background: #fff;
+    transition: all ease 0.3s;
+    border: 1px solid #c0c0c4; }
+  .tns-nav .tns-nav-active {
+    background: #4e9da7; }
+
+.tns-controls {
+  display: none; }
 
 @media screen and (min-width: 300px) and (max-width: 480px) {
   .services-container {
     width: 100%;
     padding: 60px 0; }
+    .services-container .cotization-service {
+      display: flex;
+      justify-content: center;
+      margin: 50px auto 0;
+      padding: 10px 15px;
+      max-width: 250px;
+      background: #3a8e99;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      font-size: 1.2em;
+      font-weight: 800;
+      cursor: pointer;
+      transition: all ease 0.3s;
+      box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.202); }
     .services-container h2 {
       margin: 0 10px 50px;
       color: #000000;
@@ -36,27 +54,29 @@ hr {
       .services-container .services-slider .service {
         box-sizing: border-box;
         box-shadow: 0px 0px 10px #0000007c;
-        border-radius: 10px;
-        height: 320px;
+        border-radius: 5px;
+        height: 380px;
         margin: 10px;
-        background: #77ACA2;
+        background: #4e9da7;
         color: #fff;
         text-shadow: 0px 0px 2px #00000056; }
         .services-container .services-slider .service .service-text {
-          width: 80%;
+          width: 90%;
           margin: 0 auto; }
           .services-container .services-slider .service .service-text h3 {
             text-align: center;
-            font-size: 1.3em;
-            margin: 15px 0px; }
+            font-size: 1.2em;
+            margin: 15px 0px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #fff; }
           .services-container .services-slider .service .service-text h4 {
             font-size: 1em; }
         .services-container .services-slider .service .service-img {
           display: flex;
           justify-content: center;
-          padding: 10px; }
+          padding: 1px; }
           .services-container .services-slider .service .service-img img {
-            height: 135px;
+            height: 180px;
             width: 100%;
             object-fit: cover;
             border-top-left-radius: 5px;
@@ -109,7 +129,7 @@ hr {
     .services-container .services-container-inner {
       margin: 0 auto;
       width: 85%; }
-      .services-container .services-container-inner button {
+      .services-container .services-container-inner .cotization-service {
         margin-top: 50px;
         padding: 20px 25px;
         background: #3a8e99;
@@ -121,7 +141,7 @@ hr {
         cursor: pointer;
         transition: all ease 0.3s;
         box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.202); }
-      .services-container .services-container-inner button:hover {
+      .services-container .services-container-inner .cotization-service:hover {
         box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.264); }
     .services-container h2 {
       text-align: center;
