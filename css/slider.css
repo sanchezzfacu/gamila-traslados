@@ -16,7 +16,7 @@
           gap: 15px;
           flex-direction: column;
           position: absolute;
-          top: 50px; }
+          top: 30px; }
           .slider ul li .info-img .slider-info-container .phrase-container {
             color: #fff; }
             .slider ul li .info-img .slider-info-container .phrase-container h4 {
@@ -58,7 +58,7 @@
         .slider ul li .info-img img {
           width: 100vw;
           background-size: cover;
-          height: 40vh;
+          height: 50vh;
           overflow: hidden; }
       .slider ul .info-img::before {
         content: '';
@@ -69,7 +69,7 @@
         right: 0;
         left: 0;
         margin-bottom: 3px; } }
-@media screen and (min-width: 480px) and (max-width: 1024px) {
+@media screen and (min-width: 481px) and (max-width: 1024px) {
   .slider {
     width: 100%;
     margin: auto;

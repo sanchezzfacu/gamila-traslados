@@ -6,7 +6,7 @@ var slider = tns({
     'items': 1.20,
     'autoplay': true,
     'navPosition': 'bottom',
-    'autoplayTimeout' : 5000,
+    'autoplayTimeout' : 4000,
     'autoplayHoverPause': false,
     autoplayButtonOutput: false,
     arrowKeys: false,

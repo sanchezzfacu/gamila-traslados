@@ -34,15 +34,17 @@ hr {
       margin: 50px auto 0;
       padding: 10px 15px;
       max-width: 250px;
-      background: #3a8e99;
+      background: #db2955;
       border: none;
       border-radius: 5px;
-      color: #fff;
-      font-size: 1.2em;
-      font-weight: 800;
       cursor: pointer;
       transition: all ease 0.3s;
       box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.202); }
+      .services-container .cotization-service a {
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: 800;
+        text-decoration: none; }
     .services-container h2 {
       margin: 0 10px 50px;
       color: #000000;
@@ -59,7 +61,7 @@ hr {
         margin: 10px;
         background: #4e9da7;
         color: #fff;
-        text-shadow: 0px 0px 2px #00000056; }
+        text-shadow: 0px 0px 2px #00000079; }
         .services-container .services-slider .service .service-text {
           width: 90%;
           margin: 0 auto; }
@@ -95,8 +97,7 @@ hr {
       justify-content: center; }
       .services-container .services-slider .service {
         box-sizing: border-box;
-        box-shadow: 0px 0px 10px #0000007c;
-        text-shadow: 0px 0px 2px #00000056;
+        text-shadow: 0px 0px 2px #0000006a;
         border-radius: 10px;
         height: 350px;
         margin: 10px;
@@ -132,15 +133,17 @@ hr {
       .services-container .services-container-inner .cotization-service {
         margin-top: 50px;
         padding: 20px 25px;
-        background: #3a8e99;
+        background: #db2955;
         border: none;
         border-radius: 5px;
-        color: #fff;
-        font-size: 1.2em;
-        font-weight: 800;
         cursor: pointer;
         transition: all ease 0.3s;
         box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.202); }
+        .services-container .services-container-inner .cotization-service a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 1.2em;
+          font-weight: 900; }
       .services-container .services-container-inner .cotization-service:hover {
         box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.264); }
     .services-container h2 {
@@ -153,11 +156,10 @@ hr {
       .services-container .services-slider .service {
         box-sizing: border-box;
         box-shadow: 8px 4px 10px -3px rgba(0, 0, 0, 0.1), -8px -4px 10px -4px rgba(0, 0, 0, 0.1);
-        text-shadow: 0px 0px 2px #00000056;
+        text-shadow: 0px 0px 2px #0000007c;
         border-radius: 5px;
         min-height: 370px;
         margin: 10px;
-        background: #f4f4f4;
         background: #4e9da7;
         color: #fff;
         padding-bottom: 10px; }
