@@ -249,23 +249,32 @@
         text-align: center; }
       .contact-container .contact-info .contact-info-inner {
         display: flex;
+        justify-content: center;
+        align-items: center;
         gap: 80px;
         margin: 10px auto;
-        width: 80%; }
+        width: 100%; }
         .contact-container .contact-info .contact-info-inner p {
           margin: 30px 0;
           font-size: 1.2em;
           font-weight: 600; }
-        .contact-container .contact-info .contact-info-inner .phone-numbers-container h4 {
+        .contact-container .contact-info .contact-info-inner .contact-section h4 {
           margin: 17px 0; }
-          .contact-container .contact-info .contact-info-inner .phone-numbers-container h4 span {
+          .contact-container .contact-info .contact-info-inner .contact-section h4 span {
             font-family: sans-serif; }
-        .contact-container .contact-info .contact-info-inner .email-container p {
-          display: inline-block;
-          margin: 5px 0 15px;
-          font-size: 1em; }
-        .contact-container .contact-info .contact-info-inner .email-container a {
-          color: #fff; }
+          .contact-container .contact-info .contact-info-inner .contact-section h4 a {
+            color: #fff;
+            text-decoration: underline #fff; }
+        .contact-container .contact-info .contact-info-inner .contact-section .contact-image-container {
+          height: 550px; }
+          .contact-container .contact-info .contact-info-inner .contact-section .contact-image-container img {
+            height: 450px; }
+        .contact-container .contact-info .contact-info-inner .contact-section .email {
+          margin: 20px 0px; }
+        .contact-container .contact-info .contact-info-inner .contact-section .numbers-container {
+          display: flex;
+          gap: 45px;
+          height: auto; }
     .contact-container .form-container {
       display: flex;
       justify-content: center;

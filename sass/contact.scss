@@ -320,32 +320,42 @@
             }      
             .contact-info-inner {
                 display: flex;
+                justify-content: center;
+                align-items: center;
                 gap: 80px;
                 margin: 10px auto;
-                width: 80%;
+                width: 100%;
                 p {
                     margin: 30px 0;
                     font-size: 1.2em;
                     font-weight: 600;
                 }
-                .phone-numbers-container {
+                .contact-section {
                     h4 {
                         margin: 17px 0;
                         span {
                             font-family: sans-serif;
                         }
+                        a {
+                            color: #fff;
+                            text-decoration: underline #fff;
+                        }
+                    }
+                    .contact-image-container {
+                        height: 550px;
+                        img {
+                            height: 450px; 
+                        }
+                    }
+                    .email {
+                        margin: 20px 0px;
+                    }
+                    .numbers-container {
+                        display: flex;
+                        gap: 45px;
+                        height: auto;
                     }
                 } 
-                .email-container {
-                    p {
-                        display: inline-block;
-                        margin: 5px 0 15px;
-                        font-size: 1em;
-                    }
-                    a {
-                        color: #fff;
-                    }
-                }
             }
         }
         .form-container {
