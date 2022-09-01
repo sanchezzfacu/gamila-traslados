@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Righteous&family=Roboto&display=swap');
+@import 'colours';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1600px) {
+    .agradecimientos-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: 'Raleway', sans-serif;
+        background: $form-bg;
+        .agradecimientos-content {
+            color: #fff;
+            margin: 40px;
+            h1 {
+                font-size: 2.5em;
+                margin-bottom: 20px;
+            }
+            h3 {
+                font-size: 1.2em;
+            }
+            .btn-volver {
+                margin-top: 20px;
+                padding: 10px 15px;
+                border-radius: 10px;
+                background-color: $red;
+                cursor: pointer;
+                border: none;
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    font-weight: 800;
+                    font-size: 1.4em;
+                }
+            }
+        }
+        .tilde-verde-container {
+            img {
+                height: 250px;
+            }
+        }
+    }
+}

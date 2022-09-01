@@ -232,21 +232,24 @@
                 </div>
             </div>
             
-            <form id="form">
+            <form id="form" action="https://formsubmit.co/sanchezfacundocristian@hotmail.com" method="POST">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_subject" value="Alguien pidió una cotización!">
                 <div class="personal-info-form">
                     <label>
-                        <h5>Su nombre *</h5>
-                        <input spellcheck="false" required type="text">
+                        <h5>Su nombre completo</h5>
+                        <input name="Nombre" spellcheck="false" required type="text">
                     </label>
                     <div></div>
                     <label>
-                        <h5>Celular/Teléfono *</h5>
-                        <input spellcheck="false" required type="text">
+                        <h5>Celular/Teléfono</h5>
+                        <input name="Celular" spellcheck="false" required type="text">
                     </label>
                 </div>
                 <label class="select-form">
-                    <h5>¿Que servicio quiere contratar? *</h5>
-                    <select name="" id="">
+                    <h5>¿Que servicio quiere contratar?</h5>
+                    <select name="Tipo de traslado" id="">
                         <option hidden >Seleccioná el tipo de traslado</option>
                         <option value="Personal coorporativo">Personal coorporativo (ejecutivo)</option>
                         <option value="Salida turística">Salida turística/recreativa</option>
@@ -256,12 +259,12 @@
                 <div class="service-time-form">
                     <label for="date">
                         <h5>Fecha</h5>
-                        <input name="date" type="date">
+                        <input name="Fecha" type="date">
                     </label>
                     <div></div>
                     <label>
                         <h5>Hora</h5>
-                        <input name='time' type="time">
+                        <input name='Hora' type="time">
                     </label>
                 </div>
                 <div class="service-destiny-form">
@@ -276,8 +279,8 @@
                     </label>
                 </div>
                 <label class="message-form">
-                    <h5>Dejanos tu mensaje</h5>
-                    <textarea spellcheck="false" name="" id="" rows="5"></textarea>
+                    <h5>Dejanos tu mensaje (opcional)</h5>
+                    <textarea spellcheck="false" name="Mensaje" id="" rows="5"></textarea>
                 </label>
                 <button>Enviar</button>
             </form>

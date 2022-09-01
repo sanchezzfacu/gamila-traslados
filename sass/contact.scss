@@ -31,25 +31,32 @@
                     font-size: 1.2em;
                     font-weight: 600;
                 }
-                .phone-numbers-container {
-                    
+                .contact-section {
                     h4 {
-                        margin: 10px 0;
-                        font-size: 1.2em;
-                        letter-spacing: 1px;
+                        margin: 17px 0;
+                        span {
+                            font-family: sans-serif;
+                        }
+                        a {
+                            color: #fff;
+                            text-decoration: underline #fff;
+                        }
+                    }
+                    .contact-image-container {
+                        height: 550px;
+                        img {
+                            height: 450px; 
+                        }
+                    }
+                    .email {
+                        margin: 20px 0px;
+                    }
+                    .numbers-container {
+                        display: flex;
+                        gap: 45px;
+                        height: auto;
                     }
                 } 
-                    .email-container {
-                    margin-top: -20px ;
-                    p {
-                        display: inline-block;
-                        font-size: 1.2em;
-                    }
-                    a {
-                        font-size: 1.2em;
-                        color: #fff;
-                    }
-                }
             }
         }
         .form-container {
@@ -183,24 +190,33 @@
                 padding: 0px 20px 25px;
                 background: $blue;
                 color: #fff;
-                p {
-                    margin: 30px 0;
-                    font-size: 1.2em;
-                    font-weight: 600;
-                }
-                .phone-numbers-container h4 {
-                    margin: 15px 0;
-                }
-                .email-container {
-                    p {
-                        display: inline-block;
-                        margin: 5px 0 15px;
-                        font-size: 1em;
+                margin: 0 auto;
+                .contact-section {
+                    h4 {
+                        margin: 17px 0;
+                        span {
+                            font-family: sans-serif;
+                        }
+                        a {
+                            color: #fff;
+                            text-decoration: underline #fff;
+                        }
                     }
-                    a {
-                        color: #fff;
+                    .contact-image-container {
+                        height: 550px;
+                        img {
+                            height: 450px; 
+                        }
                     }
-                }
+                    .email {
+                        margin: 20px 0px;
+                    }
+                    .numbers-container {
+                        display: flex;
+                        gap: 45px;
+                        height: auto;
+                    }
+                } 
             }
         }
         .form-container {
