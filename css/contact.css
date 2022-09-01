@@ -66,6 +66,16 @@
         width: 100%;
         color: #fff;
         margin-top: 10px; }
+        .contact-container .form-container form .submit-btn {
+          width: 96%;
+          margin: 20px 0;
+          background: #db2955;
+          color: #fff;
+          border: none;
+          cursor: pointer;
+          font-weight: 800;
+          font-size: 1.2em;
+          border-radius: 5px; }
         .contact-container .form-container form h2 {
           margin-left: 10px; }
         .contact-container .form-container form label {
@@ -188,6 +198,16 @@
         width: 100%;
         color: #fff;
         margin-top: 10px; }
+        .contact-container .form-container form .submit-btn {
+          width: 96%;
+          margin: 20px 0;
+          background: #db2955;
+          color: #fff;
+          border: none;
+          cursor: pointer;
+          font-weight: 800;
+          font-size: 1.2em;
+          border-radius: 5px; }
         .contact-container .form-container form h2 {
           margin-left: 10px; }
         .contact-container .form-container form label {
@@ -313,6 +333,16 @@
         max-height: 430px;
         border-radius: 10px;
         text-align: start; }
+        .contact-container .form-container form .submit-btn {
+          width: 96%;
+          margin: 20px 0;
+          background: #db2955;
+          color: #fff;
+          border: none;
+          cursor: pointer;
+          font-weight: 800;
+          font-size: 1.2em;
+          border-radius: 5px; }
         .contact-container .form-container form h2 {
           margin-left: 10px; }
         .contact-container .form-container form label {
@@ -336,7 +366,7 @@
           border: none;
           border-bottom: 4px solid #4e9da7; }
         .contact-container .form-container form button {
-          padding: 5px 15px; }
+          padding: 5px 0; }
         .contact-container .form-container form .personal-info-form, .contact-container .form-container form .service-time-form, .contact-container .form-container form .service-destiny-form, .contact-container .form-container form .select-passengers {
           width: 100%;
           display: grid;

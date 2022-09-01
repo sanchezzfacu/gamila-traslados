@@ -1,4 +1,3 @@
-const form = document.querySelector('#form')
 const serviceSelect = document.querySelector('.service-type')
 const obraSocialSelect = document.querySelector('.obra-social-select')
 

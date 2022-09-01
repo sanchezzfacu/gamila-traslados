@@ -88,6 +88,17 @@
                 width: 100%;
                 color: #fff;
                 margin-top: 10px;
+                .submit-btn {
+                    width: 96%;
+                    margin: 20px 0;
+                    background: $red;
+                    color: #fff;
+                    border: none;
+                    cursor: pointer;
+                    font-weight: 800;
+                    font-size: 1.2em;
+                    border-radius: 5px;
+                }
                 h2{
                     margin-left: 10px;
                 }
@@ -246,6 +257,17 @@
                 width: 100%;
                 color: #fff;
                 margin-top: 10px;
+                .submit-btn {
+                    width: 96%;
+                    margin: 20px 0;
+                    background: $red;
+                    color: #fff;
+                    border: none;
+                    cursor: pointer;
+                    font-weight: 800;
+                    font-size: 1.2em;
+                    border-radius: 5px;
+                }
                 h2{
                     margin-left: 10px;
                 }
@@ -406,6 +428,17 @@
                 max-height: 430px;
                 border-radius: 10px;
                 text-align: start;
+                .submit-btn {
+                    width: 96%;
+                    margin: 20px 0;
+                    background: $red;
+                    color: #fff;
+                    border: none;
+                    cursor: pointer;
+                    font-weight: 800;
+                    font-size: 1.2em;
+                    border-radius: 5px;
+                }
                 h2{
                     margin-left: 10px;
                 }
@@ -435,7 +468,7 @@
                     border-bottom: 4px solid $blue;
                 }
                 button {
-                    padding: 5px 15px;
+                    padding: 5px 0;
                 }
                 .personal-info-form, .service-time-form, .service-destiny-form, .select-passengers {
                     // display: flex;
