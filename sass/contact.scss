@@ -12,9 +12,9 @@
         margin: 0 auto;
         width: 100%;
         overflow: hidden;
-        background: $blue;
         color: #fff;
         .contact-info {
+            background: $blue;
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -63,7 +63,6 @@
             display: block;
             background: $form-bg;
             color: #fff;
-            border-bottom: 2px black solid;
             
             .form-info {
                 margin-top: 40px;
@@ -235,7 +234,6 @@
             background: $form-bg;
             color: #fff;
             height: 90vh;
-            border-bottom: 2px black solid;
             
             .form-info {
                 text-align: center;
@@ -403,7 +401,6 @@
             background: $form-bg;
             color: #fff;
             height: 100vh;
-            border-bottom: 2px #000 solid;
             overflow: hidden;
             .form-info {
                 text-align: center;
