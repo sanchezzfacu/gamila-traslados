@@ -12,7 +12,8 @@
       gap: 10px; }
       footer .page-sections-footer a {
         color: #fff;
-        text-decoration: none; }
+        text-decoration: none;
+        font-size: 1em; }
     footer h3 {
       color: #fff;
       text-align: center;
@@ -20,7 +21,6 @@
       padding: 10px 0; } }
 @media screen and (min-width: 480px) and (max-width: 1280px) {
   footer {
-    height: 120px;
     width: 100%;
     background: #4e9da7; }
     footer .page-sections-footer {

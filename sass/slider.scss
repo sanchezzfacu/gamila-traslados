@@ -14,12 +14,13 @@
                 list-style: none;
                 width: 100%;
                 position: relative;
+
                 .slider-info-container {
                     display: flex;
                     gap: 15px;
                     flex-direction: column; 
                     position: absolute;
-                    top: 30px;
+                    top: 40px;
                     .phrase-container {
                         color: #fff;
                         h4 {
@@ -52,24 +53,21 @@
                 }
 
                 button {
-                    position: absolute;
-                    padding: 10px;
+                    padding: 10px 10px;
                     z-index: 100;
-                    background: linear-gradient(#22b022d0,#166016bd);
+                    background: $red;
                     color: #fff;
-                    border: 1px solid rgb(55, 178, 41);
+                    border: none;
                     border-radius: 5px;
-                    bottom: 10px;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    font-size: 15px;
-                    font-weight: 600;
-                    letter-spacing: 2px;
+                    font-size: 1em;
+                    font-weight: 800;
+                    cursor: pointer;
+                    margin-left: 10px;
                 }
                 img {
                     width: 100vw;
                     background-size: cover;
-                    height: 50vh;
+                    height: 65vh;
                     overflow: hidden;
                 }
             }
@@ -81,8 +79,8 @@
                 bottom: 0;
                 right: 0;
                 left: 0;
-                // background: #4b4a4a10;
-                // backdrop-filter: blur(3px);
+                background: #1b1b1b5f;
+                backdrop-filter: blur(1px);
                 margin-bottom: 3px;
             }
         }
@@ -161,22 +159,20 @@
                         color: #fff;
                     }
                     button {
-                        position: absolute;
-                        padding: 10px;
+                        padding: 10px 10px;
                         z-index: 100;
-                        background: linear-gradient(#22b022d0,#166016bd);
+                        background: $red;
                         color: #fff;
-                        border: 1px solid rgb(55, 178, 41);
+                        border: none;
                         border-radius: 5px;
-                        bottom: 10px;
-                        left: 50%;
-                        transform: translate(-50%, -50%);
-                        font-size: 15px;
-                        font-weight: 600;
-                        letter-spacing: 2px;
+                        font-size: 1em;
+                        font-weight: 800;
+                        cursor: pointer;
+                        margin-left: 10px;
                     }
                     img {
                         width: 100vw;
+                        height: 70vh;
                         background-size: cover;
                     }
                 }
@@ -188,8 +184,8 @@
                     bottom: 0;
                     right: 0;
                     left: 0;
-                    // background: #4b4a4a10;
-                    // backdrop-filter: blur(3px);
+                    background: #1b1b1b5f;
+                    backdrop-filter: blur(1px);
                     margin-bottom: 4px;
                 }
             }
@@ -262,18 +258,17 @@
                     }
                     button {
                         position: absolute;
-                        padding: 10px;
+                        padding: 10px 20px;
                         z-index: 100;
-                        background: linear-gradient(#22b022d0,#166016bd);
+                        background: $red;
                         color: #fff;
-                        border: 1px solid rgb(55, 178, 41);
+                        border: none;
                         border-radius: 5px;
-                        bottom: 10px;
-                        left: 50%;
-                        transform: translate(-50%, -50%);
-                        font-size: 15px;
-                        font-weight: 600;
-                        letter-spacing: 2px;
+                        top: 260px;
+                        left: 10px;
+                        font-size: 1.2em;
+                        font-weight: 800;
+                        cursor: pointer;
                     }
                     img {
                         width: 100vw;
@@ -289,8 +284,8 @@
                     bottom: 0;
                     right: 0;
                     left: 0;
-                    // background: #4b4a4a5f;
-                    // backdrop-filter: blur(1px);
+                    background: #1b1b1b5f;
+                    backdrop-filter: blur(1px);
                     margin-bottom: 4px;
                 }
             }

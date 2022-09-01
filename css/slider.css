@@ -16,20 +16,20 @@
           gap: 15px;
           flex-direction: column;
           position: absolute;
-          top: 30px; }
+          top: 40px; }
           .slider ul li .info-img .slider-info-container .phrase-container {
             color: #fff; }
             .slider ul li .info-img .slider-info-container .phrase-container h4 {
               display: inline-block;
               padding: 5px 10px;
-              background-color: #468189bd;
+              background-color: #468189a1;
               padding-bottom: 5px;
               margin: 5px 0 0px 10px;
               font-size: 1.3em; }
             .slider ul li .info-img .slider-info-container .phrase-container h3 {
               display: inline-block;
               margin: 5px 0 5px 10px;
-              background-color: #468189bd;
+              background-color: #468189a1;
               padding: 5px 10px;
               margin-bottom: 5px; }
           .slider ul li .info-img .slider-info-container .service-slider {
@@ -42,23 +42,20 @@
               margin-left: 10px;
               padding: 5px 10px; }
         .slider ul li .info-img button {
-          position: absolute;
-          padding: 10px;
+          padding: 10px 10px;
           z-index: 100;
-          background: linear-gradient(#22b022d0, #166016bd);
+          background: #db2955;
           color: #fff;
-          border: 1px solid #37b229;
+          border: none;
           border-radius: 5px;
-          bottom: 10px;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          font-size: 15px;
-          font-weight: 600;
-          letter-spacing: 2px; }
+          font-size: 1em;
+          font-weight: 800;
+          cursor: pointer;
+          margin-left: 10px; }
         .slider ul li .info-img img {
           width: 100vw;
           background-size: cover;
-          height: 50vh;
+          height: 65vh;
           overflow: hidden; }
       .slider ul .info-img::before {
         content: '';
@@ -68,6 +65,8 @@
         bottom: 0;
         right: 0;
         left: 0;
+        background: #1b1b1b5f;
+        backdrop-filter: blur(1px);
         margin-bottom: 3px; } }
 @media screen and (min-width: 481px) and (max-width: 1024px) {
   .slider {
@@ -99,7 +98,7 @@
               flex-direction: column; }
               .slider ul li .info-img .slider-info-container .phrase-container h4 {
                 padding: 5px 10px;
-                background-color: #468189bd;
+                background-color: #468189a1;
                 padding-bottom: 5px;
                 margin: 5px 0;
                 width: fit-content;
@@ -107,7 +106,7 @@
                 font-size: 30px; }
               .slider ul li .info-img .slider-info-container .phrase-container h3 {
                 margin: 5px 0;
-                background-color: #468189bd;
+                background-color: #468189a1;
                 padding: 5px 10px;
                 margin-bottom: 5px;
                 margin-left: 10px;
@@ -133,21 +132,19 @@
             z-index: 100;
             color: #fff; }
           .slider ul li .info-img button {
-            position: absolute;
-            padding: 10px;
+            padding: 10px 10px;
             z-index: 100;
-            background: linear-gradient(#22b022d0, #166016bd);
+            background: #db2955;
             color: #fff;
-            border: 1px solid #37b229;
+            border: none;
             border-radius: 5px;
-            bottom: 10px;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 15px;
-            font-weight: 600;
-            letter-spacing: 2px; }
+            font-size: 1em;
+            font-weight: 800;
+            cursor: pointer;
+            margin-left: 10px; }
           .slider ul li .info-img img {
             width: 100vw;
+            height: 70vh;
             background-size: cover; }
         .slider ul li .info-img::after {
           content: '';
@@ -157,6 +154,8 @@
           bottom: 0;
           right: 0;
           left: 0;
+          background: #1b1b1b5f;
+          backdrop-filter: blur(1px);
           margin-bottom: 4px; } }
 @media screen and (min-width: 1024px) and (max-width: 1600px) {
   .slider {
@@ -188,7 +187,7 @@
               flex-direction: column; }
               .slider ul li .info-img .slider-info-container .phrase-container h4 {
                 padding: 5px 10px;
-                background-color: #468189bd;
+                background-color: #468189a1;
                 padding-bottom: 5px;
                 margin: 5px 0;
                 width: fit-content;
@@ -196,7 +195,7 @@
                 font-size: 30px; }
               .slider ul li .info-img .slider-info-container .phrase-container h3 {
                 margin: 5px 0;
-                background-color: #468189bd;
+                background-color: #468189a1;
                 padding: 5px 10px;
                 margin-bottom: 5px;
                 margin-left: 10px;
@@ -215,18 +214,17 @@
                 padding: 5px 10px; }
           .slider ul li .info-img button {
             position: absolute;
-            padding: 10px;
+            padding: 10px 20px;
             z-index: 100;
-            background: linear-gradient(#22b022d0, #166016bd);
+            background: #db2955;
             color: #fff;
-            border: 1px solid #37b229;
+            border: none;
             border-radius: 5px;
-            bottom: 10px;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-size: 15px;
-            font-weight: 600;
-            letter-spacing: 2px; }
+            top: 260px;
+            left: 10px;
+            font-size: 1.2em;
+            font-weight: 800;
+            cursor: pointer; }
           .slider ul li .info-img img {
             width: 100vw;
             background-size: cover;
@@ -239,6 +237,8 @@
           bottom: 0;
           right: 0;
           left: 0;
+          background: #1b1b1b5f;
+          backdrop-filter: blur(1px);
           margin-bottom: 4px; } }
 @keyframes cambio {
   0% {
