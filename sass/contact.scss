@@ -437,7 +437,7 @@
                 button {
                     padding: 5px 15px;
                 }
-                .personal-info-form, .service-time-form, .service-destiny-form {
+                .personal-info-form, .service-time-form, .service-destiny-form, .select-passengers {
                     // display: flex;
                     // align-items: center;
                     // justify-content: center;
@@ -472,6 +472,9 @@
                         border: none;
                     }
                 }
+                // .obra-social-select {
+                //     display: none;
+                // }
                 .message-form {
                     width: 95%;
                     display: flex;

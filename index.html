@@ -247,19 +247,51 @@
                         <input name="Celular" spellcheck="false" required type="text">
                     </label>
                 </div>
-                <label class="select-form">
-                    <h5>¿Que servicio quiere contratar?</h5>
-                    <select name="Tipo de traslado" id="">
-                        <option hidden >Seleccioná el tipo de traslado</option>
-                        <option value="Personal coorporativo">Personal coorporativo (ejecutivo)</option>
-                        <option value="Salida turística">Salida turística/recreativa</option>
-                        <option value="Persona con movilidad reducida">Persona con movilidad reducida</option>
+                <div class="select-passengers">
+                    <label class="select-form ">
+                        <h5>¿Que servicio quiere contratar?</h5>
+                        <select class="service-type" name="Tipo de traslado" id="">
+                            <option hidden >Seleccioná el tipo de traslado</option>
+                            <option value="Personal coorporativo">Personal coorporativo (ejecutivo)</option>
+                            <option value="Salida turística">Salida turística/recreativa</option>
+                            <option value="Persona con discapacidad">Persona con discapacidad</option>
+                        </select>
+                    </label>
+                    <div></div>
+                    <label>
+                        <h5>Cantidad de pasajeros</h5>
+                        <input type="number">
+                    </label>
+                </div>
+                <label for="" class="select-form obra-social-select">
+                    <h5>¿Cuenta con obra social?</h5>
+                    <select name="Obra social" id="">
+                        <option hidden>Seleccioná alguna de las obras sociales con las que trabajamos</option>
+                        <option value="No tiene obra social">No cuento con obra social</option>
+                        <option value="OSDE">OSDE</option>
+                        <option value="OSPE">OSPE</option>
+                        <option value="GALENO">GALENO</option>
+                        <option value="BOREAL">BOREAL</option>
+                        <option value="OSPRERA">OSPRERA</option>
+                        <option value="SWISS MEDICAL">SWISS MEDICAL</option>
+                        <option value="OSMISS">OSMISS</option>
+                        <option value="OSSIMRA">OSSIMRA</option>
+                        <option value="OSDEB">OSDEB</option>
+                        <option value="AVALLIAN">AVALLIAN</option>
+                        <option value="SANCOR SALUD">SANCOR SALUD</option>
+                        <option value="PREVENCION DE SALUD SANCOR">PREVENCION DE SALUD SANCOR</option>
+                        <option value="FARMACIA">FARMACIA</option>
+                        <option value="OSDEPYM">OSDEPYM</option>
+                        <option value="OSSEG">OSSEG</option>
+                        <option value="SUPER INTENDENCIA DE SERVICIOS DE SALUD">SUPER INTENDENCIA DE SERVICIOS DE SALUD</option>
+                        <option value="Otra">Tengo otra obra social</option>
                     </select>
                 </label>
-                <div class="service-time-form">
-                    <label for="date">
-                        <h5>Fecha</h5>
-                        <input name="Fecha" type="date">
+                    
+                    <div class="service-time-form">
+                        <label for="date">
+                            <h5>Fecha</h5>
+                            <input name="Fecha" type="date">
                     </label>
                     <div></div>
                     <label>
@@ -291,4 +323,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.js" integrity="sha512-SsJj0nWdZIuaRDCYaLx6+jtIQFQ8OvZ/7V1SK6KPg5Xnr/P0CgVgv8kgain8kmcoraNB8ERNmaINs2Sa7As2Iw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
 <script src="./animations.js" ></script>
+<script src="./script.js"></script>
 </html>

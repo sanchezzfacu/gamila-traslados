@@ -1,0 +1,15 @@
+const form = document.querySelector('#form')
+const serviceSelect = document.querySelector('.service-type')
+const obraSocialSelect = document.querySelector('.obra-social-select')
+
+obraSocialSelect.style.display = 'none'
+
+serviceSelect.addEventListener('change', handleServiceSelect)
+
+function handleServiceSelect(e) {
+    if(e.target.value === 'Persona con discapacidad') {
+        obraSocialSelect.style.display = 'block'
+    } else if(e.target.value !== 'Persona con discapacidad') {
+        obraSocialSelect.style.display = 'none'
+    }
+}

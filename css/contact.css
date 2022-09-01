@@ -337,18 +337,18 @@
           border-bottom: 4px solid #4e9da7; }
         .contact-container .form-container form button {
           padding: 5px 15px; }
-        .contact-container .form-container form .personal-info-form, .contact-container .form-container form .service-time-form, .contact-container .form-container form .service-destiny-form {
+        .contact-container .form-container form .personal-info-form, .contact-container .form-container form .service-time-form, .contact-container .form-container form .service-destiny-form, .contact-container .form-container form .select-passengers {
           width: 100%;
           display: grid;
           grid-template-columns: 49% 2% 49%;
           place-items: center; }
-          .contact-container .form-container form .personal-info-form label, .contact-container .form-container form .service-time-form label, .contact-container .form-container form .service-destiny-form label {
+          .contact-container .form-container form .personal-info-form label, .contact-container .form-container form .service-time-form label, .contact-container .form-container form .service-destiny-form label, .contact-container .form-container form .select-passengers label {
             display: flex;
             flex-direction: column;
             align-items: center;
             width: 90%;
             margin: 15px 0; }
-            .contact-container .form-container form .personal-info-form label input, .contact-container .form-container form .service-time-form label input, .contact-container .form-container form .service-destiny-form label input {
+            .contact-container .form-container form .personal-info-form label input, .contact-container .form-container form .service-time-form label input, .contact-container .form-container form .service-destiny-form label input, .contact-container .form-container form .select-passengers label input {
               width: 100%; }
         .contact-container .form-container form .select-form {
           width: 95%;
