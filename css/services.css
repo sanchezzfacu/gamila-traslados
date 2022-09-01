@@ -86,7 +86,23 @@ hr {
 @media screen and (min-width: 480px) and (max-width: 1024px) {
   .services-container {
     width: 100%;
-    padding: 80px 0; }
+    padding: 60px 0; }
+    .services-container .cotization-service {
+      margin: 50px auto 0;
+      padding: 20px 25px;
+      background: #db2955;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all ease 0.3s;
+      box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.202); }
+      .services-container .cotization-service a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: 900; }
+    .services-container .cotization-service:hover {
+      box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.264); }
     .services-container h2 {
       margin: 0 10px 50px;
       color: #000000;
@@ -99,28 +115,32 @@ hr {
         box-sizing: border-box;
         text-shadow: 0px 0px 2px #0000006a;
         border-radius: 10px;
-        height: 350px;
+        min-height: 400px;
         margin: 10px;
         background: #4e9da7;
         color: #fff; }
         .services-container .services-slider .service .service-text {
-          width: 70%;
+          width: 90%;
           margin: 0 auto; }
           .services-container .services-slider .service .service-text h3 {
-            font-size: 1.4em;
-            margin: 15px 0px; }
+            font-size: 1.2em;
+            margin: 15px 0px;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 5px;
+            text-align: center; }
           .services-container .services-slider .service .service-text h4 {
             font-size: 1em; }
         .services-container .services-slider .service .service-img {
           display: flex;
           justify-content: center;
-          padding: 10px; }
+          padding: 1px; }
           .services-container .services-slider .service .service-img img {
-            height: 170px;
+            height: 210px;
             width: 100%;
             object-fit: cover;
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px; } }
+            object-position: top;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px; } }
 @media screen and (min-width: 1024px) and (max-width: 1600px) {
   .services-container {
     width: 100%;

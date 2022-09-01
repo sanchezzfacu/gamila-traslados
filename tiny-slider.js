@@ -1,4 +1,4 @@
-var slider = tns({
+let slider = tns({
     container: '.services-slider',
     'slideBy': 1,
     'speed' : 400,
@@ -7,13 +7,16 @@ var slider = tns({
     'autoplay': true,
     'navPosition': 'bottom',
     autoplayTimeout : 4000,
-    'autoplayHoverPause': false,
-    preventScrollOnTouch: 'auto',
+    'autoplayHoverPause': true,
+    preventScrollOnTouch: 'true',
     autoplayButtonOutput: false,
     arrowKeys: false,
     responsive: {
         660: {
             'items': 1.20
+        },
+        750: {
+            'items': 1.5 
         },
         900: {
             'items': 2.25
