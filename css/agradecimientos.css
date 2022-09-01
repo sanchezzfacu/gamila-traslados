@@ -4,6 +4,67 @@
   margin: 0;
   box-sizing: border-box; }
 
+@media screen and (min-width: 300px) and (max-width: 590px) {
+  .agradecimientos-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    background: #031926; }
+    .agradecimientos-container .agradecimientos-content {
+      color: #fff;
+      margin: 40px 10px; }
+      .agradecimientos-container .agradecimientos-content h1 {
+        font-size: 2em;
+        margin-bottom: 20px; }
+      .agradecimientos-container .agradecimientos-content h3 {
+        font-size: 1.2em; }
+      .agradecimientos-container .agradecimientos-content .btn-volver {
+        margin-top: 20px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        background-color: #db2955;
+        cursor: pointer;
+        border: none; }
+        .agradecimientos-container .agradecimientos-content .btn-volver a {
+          text-decoration: none;
+          color: #fff;
+          font-weight: 800;
+          font-size: 1.4em; }
+    .agradecimientos-container .tilde-verde-container img {
+      height: 170px; } }
+@media screen and (min-width: 590px) and (max-width: 1600px) {
+  .agradecimientos-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    background: #031926; }
+    .agradecimientos-container .agradecimientos-content {
+      color: #fff;
+      margin: 40px; }
+      .agradecimientos-container .agradecimientos-content h1 {
+        font-size: 2em;
+        margin-bottom: 20px; }
+      .agradecimientos-container .agradecimientos-content h3 {
+        font-size: 1em; }
+      .agradecimientos-container .agradecimientos-content .btn-volver {
+        margin-top: 20px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        background-color: #db2955;
+        cursor: pointer;
+        border: none; }
+        .agradecimientos-container .agradecimientos-content .btn-volver a {
+          text-decoration: none;
+          color: #fff;
+          font-weight: 800;
+          font-size: 1.4em; }
+    .agradecimientos-container .tilde-verde-container img {
+      height: 200px; } }
 @media screen and (min-width: 1280px) and (max-width: 1600px) {
   .agradecimientos-container {
     display: flex;
