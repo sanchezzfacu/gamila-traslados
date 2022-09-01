@@ -6,12 +6,11 @@ var slider = tns({
     'items': 1.20,
     'autoplay': true,
     'navPosition': 'bottom',
-    'autoplayTimeout' : 4000,
+    autoplayTimeout : 4000,
     'autoplayHoverPause': false,
+    preventScrollOnTouch: 'auto',
     autoplayButtonOutput: false,
-    lazyload: false,
     arrowKeys: false,
-    loop: true,
     responsive: {
         660: {
             'items': 1.20
