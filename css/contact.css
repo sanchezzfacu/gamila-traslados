@@ -46,9 +46,10 @@
     .contact-container .form-container {
       display: block;
       background: #031926;
-      color: #fff; }
+      color: #fff;
+      padding: 20px 0 50px; }
       .contact-container .form-container .form-info {
-        margin-top: 40px;
+        margin: 40px 0;
         text-align: center; }
         .contact-container .form-container .form-info .cotization-text {
           display: flex;
@@ -59,6 +60,7 @@
       .contact-container .form-container form {
         display: flex;
         flex-direction: column;
+        gap: 10px;
         background: #031926;
         align-items: center;
         width: 100%;
@@ -66,12 +68,13 @@
         margin-top: 10px; }
         .contact-container .form-container form .submit-btn {
           width: 96%;
-          margin: 20px 0;
+          margin: 20px 0 0;
           background: #db2955;
+          padding: 11px 0;
           color: #fff;
           border: none;
           cursor: pointer;
-          font-weight: 800;
+          font-weight: 900;
           font-size: 1.2em;
           border-radius: 5px; }
         .contact-container .form-container form h2 {
@@ -98,9 +101,12 @@
           .contact-container .form-container form .personal-info-form label, .contact-container .form-container form .service-time-form label, .contact-container .form-container form .service-destiny-form label, .contact-container .form-container form .select-passengers label {
             display: flex;
             flex-direction: column;
-            align-items: center;
             width: 90%;
             margin: 0px 3px; }
+            .contact-container .form-container form .personal-info-form label h5, .contact-container .form-container form .service-time-form label h5, .contact-container .form-container form .service-destiny-form label h5, .contact-container .form-container form .select-passengers label h5 {
+              text-align: start;
+              font-size: 0.9em;
+              margin-bottom: 5px; }
             .contact-container .form-container form .personal-info-form label input, .contact-container .form-container form .service-time-form label input, .contact-container .form-container form .service-destiny-form label input, .contact-container .form-container form .select-passengers label input {
               width: 100%;
               border-bottom: 4px solid #468189a1;
@@ -120,8 +126,11 @@
         .contact-container .form-container form .message-form {
           width: 95%;
           display: flex;
-          flex-direction: column;
-          align-items: center; }
+          flex-direction: column; }
+          .contact-container .form-container form .message-form h5 {
+            text-align: start;
+            font-size: 0.9em;
+            margin-bottom: 5px; }
           .contact-container .form-container form .message-form textarea {
             width: 100%;
             padding-left: 5px;
@@ -319,16 +328,21 @@
       .contact-container .form-container form {
         display: flex;
         flex-direction: column;
+        gap: 15px;
         background: #031926;
         color: #fff;
         align-items: center;
         width: 50%;
         color: black;
-        padding: 20px 0;
+        padding: 0 0 20px;
         margin-top: 10px;
         max-height: 430px;
         border-radius: 10px;
         text-align: start; }
+        .contact-container .form-container form .complete-form-phrase {
+          margin-left: 15px;
+          margin-bottom: 10px;
+          color: #fff; }
         .contact-container .form-container form .submit-btn {
           width: 96%;
           margin: 20px 0;
@@ -343,10 +357,11 @@
           margin-left: 10px; }
         .contact-container .form-container form label {
           margin: 15  px 0;
-          text-align: start;
           color: #fff; }
           .contact-container .form-container form label h5 {
-            margin-bottom: 5px; }
+            text-align: start;
+            margin-bottom: 5px;
+            font-size: 0.9em; }
         .contact-container .form-container form input {
           height: 30px;
           padding-left: 5px;
@@ -371,9 +386,7 @@
           .contact-container .form-container form .personal-info-form label, .contact-container .form-container form .service-time-form label, .contact-container .form-container form .service-destiny-form label, .contact-container .form-container form .select-passengers label {
             display: flex;
             flex-direction: column;
-            align-items: center;
-            width: 90%;
-            margin: 15px 0; }
+            width: 90%; }
             .contact-container .form-container form .personal-info-form label input, .contact-container .form-container form .service-time-form label input, .contact-container .form-container form .service-destiny-form label input, .contact-container .form-container form .select-passengers label input {
               width: 100%; }
         .contact-container .form-container form .select-form {
@@ -390,8 +403,11 @@
         .contact-container .form-container form .message-form {
           width: 95%;
           display: flex;
-          flex-direction: column;
-          align-items: center; }
+          flex-direction: column; }
+          .contact-container .form-container form .message-form h5 {
+            text-align: start;
+            margin-bottom: 5px;
+            font-size: 0.9em; }
           .contact-container .form-container form .message-form textarea {
             width: 100%;
             padding-left: 5px;

@@ -63,9 +63,9 @@
             display: block;
             background: $form-bg;
             color: #fff;
-            
+            padding: 20px 0 50px;
             .form-info {
-                margin-top: 40px;
+                margin: 40px 0;
                 text-align: center;
                 .cotization-text {
                     display: flex;
@@ -81,19 +81,22 @@
             form {
                 display: flex;
                 flex-direction: column;
+                gap: 10px;
                 background: $form-bg;
                 align-items: center;
                 width: 100%;
                 color: #fff;
                 margin-top: 10px;
+
                 .submit-btn {
                     width: 96%;
-                    margin: 20px 0;
+                    margin: 20px 0 0;
                     background: $red;
+                    padding: 11px 0;
                     color: #fff;
                     border: none;
                     cursor: pointer;
-                    font-weight: 800;
+                    font-weight: 900;
                     font-size: 1.2em;
                     border-radius: 5px;
                 }
@@ -125,9 +128,13 @@
                     label {
                         display: flex;
                         flex-direction: column;
-                        align-items: center;
                         width: 90%;
                         margin: 0px 3px;
+                        h5 {
+                            text-align: start;
+                            font-size: 0.9em;
+                            margin-bottom: 5px;
+                        }
                         input {
                             width: 100%;
                             border-bottom: 4px solid $blue-transparent;
@@ -154,7 +161,11 @@
                     width: 95%;
                     display: flex;
                     flex-direction: column;
-                    align-items: center;
+                    h5 {
+                        text-align: start;
+                        font-size: 0.9em;
+                        margin-bottom: 5px;
+                    }
                     textarea {
                         width: 100%;
                         padding-left: 5px;
@@ -414,16 +425,22 @@
             form {
                 display: flex;
                 flex-direction: column;
+                gap: 15px;
                 background: $form-bg;
                 color: #fff;
                 align-items: center;
                 width: 50%;
                 color: black;
-                padding: 20px 0;
+                padding: 0 0 20px;
                 margin-top: 10px;
                 max-height: 430px;
                 border-radius: 10px;
                 text-align: start;
+                .complete-form-phrase {
+                    margin-left: 15px;
+                    margin-bottom: 10px;
+                    color: #fff;
+                }
                 .submit-btn {
                     width: 96%;
                     margin: 20px 0;
@@ -440,10 +457,11 @@
                 }
                 label {
                     margin: 15  px 0;
-                    text-align: start;
                     color: #fff;
                     h5 {
+                        text-align: start;
                         margin-bottom: 5px;
+                        font-size: 0.9em;
                     }
                 }
                 input {
@@ -480,9 +498,7 @@
                     label {
                         display: flex;
                         flex-direction: column;
-                        align-items: center;
                         width: 90%;
-                        margin: 15px 0;
                         input {
                             width: 100%;
                         }
@@ -508,7 +524,11 @@
                     width: 95%;
                     display: flex;
                     flex-direction: column;
-                    align-items: center;
+                    h5 {
+                        text-align: start;
+                        margin-bottom: 5px;
+                        font-size: 0.9em;
+                    }
                     textarea {
                         width: 100%;
                         padding-left: 5px;
