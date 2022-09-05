@@ -4,7 +4,7 @@ let slider = tns({
     'speed' : 400,
     'nav': true,
     'items': 1.20,
-    'autoplay': true,
+    'autoplay': false,
     'navPosition': 'bottom',
     autoplayTimeout : 4000,
     'autoplayHoverPause': true,
