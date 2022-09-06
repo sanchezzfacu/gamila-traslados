@@ -23,9 +23,11 @@
       gap: 25px;
       text-align: center;
       margin-bottom: 50px; }
-      .qualities-container .service-qualifications .qualification img {
-        height: 80px; }
-      .qualities-container .service-qualifications .qualification h3 {
-        font-size: 1.1em; } }
+      .qualities-container .service-qualifications .qualification {
+        width: 95%; }
+        .qualities-container .service-qualifications .qualification img {
+          height: 80px; }
+        .qualities-container .service-qualifications .qualification h3 {
+          font-size: 1.1em; } }
 
 /*# sourceMappingURL=qualities.css.map */
