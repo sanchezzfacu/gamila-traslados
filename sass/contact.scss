@@ -150,13 +150,14 @@
                     }
                 }
                 .select-form {
-                    width: 95%;
+                    width: 100%;
                     select{
                         margin: 0 auto;
                         width: 100%;
                         outline: none;
-                        height: 30px;
+                        height: 33px;
                         border: none;
+                        border-bottom: 4px solid $blue-transparent;
                         background: $form-bg-lighter;
                         color: #fff;
                     }

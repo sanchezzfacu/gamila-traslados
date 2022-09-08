@@ -118,13 +118,14 @@
             .contact-container .form-container form .personal-info-form label input:focus, .contact-container .form-container form .service-time-form label input:focus, .contact-container .form-container form .service-destiny-form label input:focus, .contact-container .form-container form .select-passengers label input:focus {
               border-bottom: 4px solid #4e9da7; }
         .contact-container .form-container form .select-form {
-          width: 95%; }
+          width: 100%; }
           .contact-container .form-container form .select-form select {
             margin: 0 auto;
             width: 100%;
             outline: none;
-            height: 30px;
+            height: 33px;
             border: none;
+            border-bottom: 4px solid #468189a1;
             background: #062638;
             color: #fff; }
         .contact-container .form-container form .message-form {
