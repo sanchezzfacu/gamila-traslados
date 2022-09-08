@@ -6,11 +6,13 @@
     width: 100%;
     margin-top: 10px; }
     .qualities-container .qualities-img-cotainer {
+      display: flex;
+      justify-content: center;
       margin-top: 40px; }
       .qualities-container .qualities-img-cotainer .citroen {
         display: flex;
         justify-content: center;
-        width: 100%;
+        width: 90%;
         object-fit: cover; }
     .qualities-container .qualities-description {
       text-align: center;

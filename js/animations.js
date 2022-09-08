@@ -19,6 +19,16 @@ gsap.fromTo('.service-slider', 1, {
     opacity: 1
 });
 
+gsap.fromTo('.info-img button', 1.3, {
+    x: 550,
+    ease: Power2.easeOut,
+    opacity: 0
+}, {    
+    x: 0,
+    ease: Power2.easeOut,
+    opacity: 1
+});
+
 gsap.from('.about-text', 1, {
     x: -100,
     ease: Power2.easeOut,

@@ -6,11 +6,13 @@
         width: 100%;
         margin-top: 10px;
         .qualities-img-cotainer {
+            display: flex;
+            justify-content: center;
             margin-top: 40px;
             .citroen {
                 display: flex;
                 justify-content: center;
-                width: 100%;
+                width: 90%;
                 object-fit: cover;
             }
         }
