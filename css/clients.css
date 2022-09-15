@@ -22,10 +22,14 @@
       width: 80%;
       margin: 0 auto;
       gap: 40px; }
-      .clients-container .companies-img .company .minera-exar img {
-        height: 60px; }
-      .clients-container .companies-img .company .minera-ultra img {
-        height: 20px; }
+      .clients-container .companies-img .company .minera-exar {
+        z-index: -1; }
+        .clients-container .companies-img .company .minera-exar img {
+          height: 60px; }
+      .clients-container .companies-img .company .minera-ultra {
+        z-index: -1; }
+        .clients-container .companies-img .company .minera-ultra img {
+          height: 20px; }
 
   .clients-container-inner::after {
     content: '';

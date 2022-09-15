@@ -43,9 +43,9 @@ let tlService = gsap.timeline({
     },
 
 })
-tlService.fromTo('.service', 1, {
+tlService.fromTo('.service', 1.4, {
     y: 600,
-    opacity: 1,
+    opacity: 0,
     ease: Power2.easeOut
 }, {
     y: 0, 
@@ -78,12 +78,13 @@ let tlForm = gsap.timeline({
         start: 'top center'
     }
 })
-tlForm.from('.form-info', 1 , {
-    x: -700,
+tlForm.from('.form-info', 1.2 , {
+    x: -1400,
     ease: Power2.easeOut
 })
 tlForm.from('form', 1,{
-    x: 700,
+    opacity: 0,
+    x: 1400,
     ease: Power2.easeOut
 }, '-=1')
 

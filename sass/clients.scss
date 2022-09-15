@@ -26,11 +26,13 @@
             gap: 40px;
             .company {
                 .minera-exar {
+                    z-index: -1;
                     img {
                         height: 60px;
                     }
                 }
                 .minera-ultra {
+                    z-index: -1;
                     img {
                         height: 20px;
                     }

@@ -67,7 +67,8 @@
     display: flex;
     align-items: center;
     width: 100%;
-    margin-top: 10px; }
+    margin-top: 10px;
+    padding: 40px 0; }
     .qualities-container .qualities-img-cotainer {
       margin-top: 40px; }
       .qualities-container .qualities-img-cotainer .citroen {
