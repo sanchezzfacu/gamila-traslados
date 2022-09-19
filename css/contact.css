@@ -1,7 +1,7 @@
 .contact-container {
   text-shadow: 0px 0px 2px #00000056; }
 
-@media screen and (min-width: 300px) and (max-width: 480px) {
+@media screen and (min-width: 300px) and (max-width: 479px) {
   .contact-container {
     display: flex;
     flex-direction: column;
@@ -149,7 +149,7 @@
             transition: all ease 0.3s; }
           .contact-container .form-container form .message-form textarea:focus {
             border-bottom: 4px solid #4e9da7; } }
-@media screen and (min-width: 480px) and (max-width: 1024px) {
+@media screen and (min-width: 480px) and (max-width: 1023px) {
   .contact-container {
     display: flex;
     flex-direction: column;
@@ -272,7 +272,7 @@
             border: none;
             background: #062638;
             color: #fff; } }
-@media screen and (min-width: 1024px) and (max-width: 1600px) {
+@media screen and (min-width: 1024px) and (max-width: 1700px) {
   .contact-container {
     display: flex;
     flex-direction: column;
@@ -291,6 +291,7 @@
         text-align: center; }
       .contact-container .contact-info .contact-info-inner {
         display: flex;
+        flex-direction: row-reverse;
         justify-content: center;
         align-items: center;
         gap: 80px;

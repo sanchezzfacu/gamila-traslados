@@ -4,7 +4,7 @@
     text-shadow: 0px 0px 2px #00000056;
 }
 
-@media screen and (min-width: 300px) and (max-width:480px) {
+@media screen and (min-width: 300px) and (max-width:479px) {
     .contact-container {
         display: flex;
         flex-direction: column;
@@ -192,7 +192,7 @@
     }
 }
 
-@media screen and (min-width: 480px) and (max-width:1024px) {
+@media screen and (min-width: 480px) and (max-width:1023px) {
     .contact-container {
         display: flex;
         flex-direction: column;
@@ -350,7 +350,7 @@
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width:1600px) {
+@media screen and (min-width: 1024px) and (max-width:1700px) {
     .contact-container {
         display: flex;
         flex-direction: column;
@@ -371,6 +371,7 @@
             }      
             .contact-info-inner {
                 display: flex;
+                flex-direction: row-reverse;
                 justify-content: center;
                 align-items: center;
                 gap: 80px;

@@ -35,7 +35,7 @@ hr {
 
 
 
-@media screen and (min-width: 300px) and (max-width:480px) {
+@media screen and (min-width: 300px) and (max-width:479px) {
     .services-container {
         width: 100%;
         padding: 60px 0;
@@ -113,7 +113,7 @@ hr {
     }
 }
 
-@media screen and (min-width: 480px) and (max-width:1024px) {
+@media screen and (min-width: 480px) and (max-width:1023px) {
     .services-container {
         width: 100%;
         padding: 60px 0;
@@ -190,7 +190,7 @@ hr {
     
 }
 
-@media screen and (min-width: 1024px) and (max-width:1600px) {
+@media screen and (min-width: 1024px) and (max-width:1700px) {
     .services-container {
         width: 100%;
         padding: 50px 0 50px;
@@ -238,7 +238,8 @@ hr {
                 min-height: 370px;
                 margin: 10px;
                 background: $blue;
-                color: #fff;
+                background: #fff;
+                color: #000;
                 padding-bottom: 10px;
                 .service-text {
                     width: 85%;

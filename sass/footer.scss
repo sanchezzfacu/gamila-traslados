@@ -1,6 +1,6 @@
 @import 'colours';
 
-@media screen and (min-width: 300px) and (max-width: 480px) {
+@media screen and (min-width: 300px) and (max-width: 479px) {
 
     footer {
         height: auto;
@@ -29,7 +29,7 @@
     }
 }
 
-@media screen and (min-width: 480px) and (max-width: 1280px) {
+@media screen and (min-width: 480px) and (max-width: 1279px) {
     footer {
         width: 100%;
         background: $blue;
@@ -52,7 +52,7 @@
     }
 }
 
-@media screen and (min-width: 1280px) and (max-width: 1600px) {
+@media screen and (min-width: 1280px) and (max-width: 1700px) {
     footer {
         height: 120px;
         width: 100%;
