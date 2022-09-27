@@ -276,7 +276,7 @@
                 </div>
             </div>
             
-            <form  action="https://formsubmit.co/sanchezfacundocristian@hotmail.com" method="POST">
+            <form id="form" action="https://formsubmit.co/sanchezfacundocristian@hotmail.com" method="POST">
                 <h4 class="complete-form-phrase">Por favor, complete todos los campos. Esta información nos ayudará a brindarle una respuesta más rápida.</h4>
                 <input type="hidden" name="_next" value="https://trasladosgamila.com/thanks.html">
                 <input type="hidden" name="_captcha" value="false">
@@ -286,18 +286,18 @@
                 <div class="personal-info-form">
                     <label>
                         <h5>Su nombre completo</h5>
-                        <input name="Nombre" spellcheck="false" required type="text">
+                        <input id="name" name="Nombre" spellcheck="false" required type="text">
                     </label>
                     <div></div>
                     <label>
                         <h5>Celular/Teléfono</h5>
-                        <input name="Celular" spellcheck="false" required type="text">
+                        <input id="phone-number" name="Celular" spellcheck="false" required type="text">
                     </label>
                 </div>
                 <div class="select-passengers">
                     <label class="select-form ">
                         <h5>Servicio a contratar</h5>
-                        <select class="service-type" name="Tipo de traslado" id="">
+                        <select class="service-type" name="Tipo de traslado" id="service">
                             <option hidden >Seleccioná el tipo de traslado</option>
                             <option value="Personal coorporativo">Personal coorporativo (ejecutivo)</option>
                             <option value="Salida turística">Salida turística/recreativa</option>
@@ -307,7 +307,7 @@
                     <div></div>
                     <label>
                         <h5>Cantidad de pasajeros</h5>
-                        <input type="number" autocomplete="off" required>
+                        <input id="passengers" type="number" autocomplete="off" required>
                     </label>
                 </div>
                 <label for="" class="select-form obra-social-select">
@@ -338,7 +338,7 @@
                     <div class="service-time-form">
                         <label for="date">
                             <h5>Fecha</h5>
-                            <input name="Fecha" type="date">
+                            <input id="date" name="Fecha" type="date">
                     </label>
                     <div></div>
                     <label>
@@ -396,4 +396,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.js" integrity="sha512-SsJj0nWdZIuaRDCYaLx6+jtIQFQ8OvZ/7V1SK6KPg5Xnr/P0CgVgv8kgain8kmcoraNB8ERNmaINs2Sa7As2Iw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
 <script src="./js/animations.js" ></script>
 <script src="./js/script.js"></script>
+<!-- <script src="./js/formValidation.js"></script> -->
 </html>
