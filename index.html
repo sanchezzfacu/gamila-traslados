@@ -286,12 +286,16 @@
                 <div class="personal-info-form">
                     <label>
                         <h5>Su nombre completo</h5>
-                        <input id="name" name="Nombre" spellcheck="false" required type="text">
+                        <input id="name" name="Nombre" spellcheck="false" required type="text" autocomplete="off">
                     </label>
                     <div></div>
-                    <label>
+                    <label class="phone-number-label">
                         <h5>Celular/Teléfono</h5>
-                        <input id="phone-number" name="Celular" spellcheck="false" required type="text">
+                        <input id="phone-number" 
+                            spellcheck="false"
+                            type="number" 
+                            autocomplete="off"
+                            required >
                     </label>
                 </div>
                 <div class="select-passengers">
@@ -305,9 +309,13 @@
                         </select>
                     </label>
                     <div></div>
-                    <label>
+                    <label class="passengers-label">
                         <h5>Cantidad de pasajeros</h5>
-                        <input id="passengers" type="number" autocomplete="off" required>
+                        <input id="passengers" 
+                            type="number" 
+                            spellcheck="false"
+                            autocomplete="off" 
+                            required >
                     </label>
                 </div>
                 <label for="" class="select-form obra-social-select">
@@ -396,5 +404,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.js" integrity="sha512-SsJj0nWdZIuaRDCYaLx6+jtIQFQ8OvZ/7V1SK6KPg5Xnr/P0CgVgv8kgain8kmcoraNB8ERNmaINs2Sa7As2Iw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
 <script src="./js/animations.js" ></script>
 <script src="./js/script.js"></script>
-<!-- <script src="./js/formValidation.js"></script> -->
+<script src="./js/formValidation.js"></script>
 </html>

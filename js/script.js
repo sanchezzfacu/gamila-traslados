@@ -8,7 +8,7 @@ serviceSelect.addEventListener('change', handleServiceSelect)
 function handleServiceSelect(e) {
     if(e.target.value === 'Persona con discapacidad') {
         obraSocialSelect.style.display = 'block'
-    } else if(e.target.value !== 'Persona con discapacidad') {
+    } else {
         obraSocialSelect.style.display = 'none'
     }
 }

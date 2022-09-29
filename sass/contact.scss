@@ -4,6 +4,14 @@
     text-shadow: 0px 0px 2px #00000056;
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator, input[type="time"]::-webkit-calendar-picker-indicator{
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 2px;
+    opacity: 0.9;
+    filter: invert(0.9);
+}
+
 @media screen and (min-width: 300px) and (max-width:479px) {
     .contact-container {
         display: flex;
