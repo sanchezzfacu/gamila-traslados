@@ -23,9 +23,12 @@ const formBoilerplate = {
 const errors = {}
 
 function validateForm(e) {
-    let entryValue = e.target.value
-    let inputName = e.target.id
+    // console.log('working')
+    // const event = e.target
 
+    // let entryValue = event.value
+    // let inputName = event.id
+    
     formBoilerplate.inputName += entryValue
  
     if(e.target.id === 'name' && formBoilerplate.name.length > 3) {
