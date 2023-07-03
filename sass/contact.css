@@ -1,0 +1,539 @@
+.contact-container {
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.337254902);
+}
+
+input[type=date]::-webkit-calendar-picker-indicator, input[type=time]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 2px;
+  opacity: 0.9;
+  filter: invert(0.9);
+}
+
+@media screen and (min-width: 300px) and (max-width: 479px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+  }
+  .contact-container .contact-info {
+    background: #4e9da7;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-container .contact-info h2 {
+    font-size: 2.2em;
+    margin: 15px 0 -10px;
+    text-align: center;
+  }
+  .contact-container .contact-info .contact-info-inner {
+    padding: 0px 20px 0px;
+    margin: 10px 0;
+  }
+  .contact-container .contact-info .contact-info-inner p {
+    margin: 30px 0;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+  .contact-container .contact-info .contact-info-inner .contact-section h4 {
+    margin: 17px 0;
+  }
+  .contact-container .contact-info .contact-info-inner .contact-section h4 span {
+    font-family: sans-serif;
+  }
+  .contact-container .contact-info .contact-info-inner .contact-section h4 a {
+    color: #fff;
+    -webkit-text-decoration: underline #fff;
+            text-decoration: underline #fff;
+  }
+  .contact-container .contact-info .contact-info-inner .contact-section .contact-image-container {
+    height: 550px;
+  }
+  .contact-container .contact-info .contact-info-inner .contact-section .contact-image-container img {
+    height: 450px;
+  }
+  .contact-container .contact-info .contact-info-inner .contact-section .email {
+    margin: 20px 0px;
+  }
+  .contact-container .contact-info .contact-info-inner .contact-section .numbers-container {
+    display: flex;
+    gap: 45px;
+    height: auto;
+  }
+  .contact-container .form-container {
+    display: block;
+    background: #031926;
+    color: #fff;
+    padding: 20px 0 50px;
+  }
+  .contact-container .form-container .form-info {
+    margin: 40px 0;
+    text-align: center;
+  }
+  .contact-container .form-container .form-info .cotization-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .contact-container .form-container .form-info .phone-img img {
+    height: 300px;
+  }
+  .contact-container .form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #031926;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+    margin-top: 10px;
+  }
+  .contact-container .form-container form .complete-form-phrase {
+    width: 95%;
+    font-size: 1em;
+    margin: 10px 0 20px;
+  }
+  .contact-container .form-container form .submit-btn {
+    width: 96%;
+    margin: 20px 0 0;
+    background: #db2955;
+    padding: 11px 0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 1.2em;
+    border-radius: 5px;
+  }
+  .contact-container .form-container form h2 {
+    margin-left: 10px;
+  }
+  .contact-container .form-container form label {
+    margin: 5px 0;
+  }
+  .contact-container .form-container form input {
+    height: 30px;
+    padding-left: 5px;
+    outline: none;
+    border: none;
+    background: #062638;
+    color: #fff;
+    border-radius: 2px;
+  }
+  .contact-container .form-container form button {
+    padding: 5px 15px;
+  }
+  .contact-container .form-container form .personal-info-form, .contact-container .form-container form .service-time-form, .contact-container .form-container form .service-destiny-form, .contact-container .form-container form .select-passengers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    gap: 5px;
+    margin: 5px 0;
+  }
+  .contact-container .form-container form .personal-info-form label, .contact-container .form-container form .service-time-form label, .contact-container .form-container form .service-destiny-form label, .contact-container .form-container form .select-passengers label {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0px 3px;
+  }
+  .contact-container .form-container form .personal-info-form label h5, .contact-container .form-container form .service-time-form label h5, .contact-container .form-container form .service-destiny-form label h5, .contact-container .form-container form .select-passengers label h5 {
+    text-align: start;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+  }
+  .contact-container .form-container form .personal-info-form label input, .contact-container .form-container form .service-time-form label input, .contact-container .form-container form .service-destiny-form label input, .contact-container .form-container form .select-passengers label input {
+    width: 100%;
+    border-bottom: 4px solid rgba(70, 129, 137, 0.631372549);
+    transition: all ease 0.3s;
+  }
+  .contact-container .form-container form .personal-info-form label input:focus, .contact-container .form-container form .service-time-form label input:focus, .contact-container .form-container form .service-destiny-form label input:focus, .contact-container .form-container form .select-passengers label input:focus {
+    border-bottom: 4px solid #4e9da7;
+  }
+  .contact-container .form-container form .select-form {
+    width: 100%;
+  }
+  .contact-container .form-container form .select-form select {
+    margin: 0 auto;
+    width: 100%;
+    outline: none;
+    height: 33px;
+    border: none;
+    border-bottom: 4px solid rgba(70, 129, 137, 0.631372549);
+    background: #062638;
+    color: #fff;
+  }
+  .contact-container .form-container form .message-form {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-container .form-container form .message-form h5 {
+    text-align: start;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+  }
+  .contact-container .form-container form .message-form textarea {
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 5px;
+    outline: none;
+    border-radius: 2px;
+    background: #062638;
+    color: #fff;
+    border: none;
+    border-bottom: 4px solid rgba(70, 129, 137, 0.631372549);
+    transition: all ease 0.3s;
+  }
+  .contact-container .form-container form .message-form textarea:focus {
+    border-bottom: 4px solid #4e9da7;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1023px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+  }
+  .contact-container .contact-info {
+    background: #4e9da7;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-container .contact-info h2 {
+    font-size: 2.2em;
+    margin: 15px 0 -5px;
+    text-align: center;
+  }
+  .contact-container .contact-info .contact-info-inner {
+    padding: 0px 20px 25px;
+    background: #4e9da7;
+    color: #fff;
+    margin: 0 auto;
+  }
+  .contact-container .contact-info .contact-info-inner .contact-section h4 {
+    margin: 17px 0;
+  }
+  .contact-container .contact-info .contact-info-inner .contact-section h4 span {
+    font-family: sans-serif;
+  }
+  .contact-container .contact-info .contact-info-inner .contact-section h4 a {
+    color: #fff;
+    -webkit-text-decoration: underline #fff;
+            text-decoration: underline #fff;
+  }
+  .contact-container .contact-info .contact-info-inner .contact-section .contact-image-container {
+    height: 550px;
+  }
+  .contact-container .contact-info .contact-info-inner .contact-section .contact-image-container img {
+    height: 450px;
+  }
+  .contact-container .contact-info .contact-info-inner .contact-section .email {
+    margin: 20px 0px;
+  }
+  .contact-container .contact-info .contact-info-inner .contact-section .numbers-container {
+    display: flex;
+    gap: 45px;
+    height: auto;
+  }
+  .contact-container .form-container {
+    display: block;
+    align-items: center;
+    background: #031926;
+    color: #fff;
+    height: 90vh;
+  }
+  .contact-container .form-container .form-info {
+    text-align: center;
+  }
+  .contact-container .form-container .form-info .cotization-text {
+    margin-top: 30px;
+  }
+  .contact-container .form-container .form-info .phone-img img {
+    height: 450px;
+  }
+  .contact-container .form-container form {
+    display: flex;
+    flex-direction: column;
+    background: #031926;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+    margin-top: 10px;
+  }
+  .contact-container .form-container form .submit-btn {
+    width: 96%;
+    margin: 20px 0;
+    background: #db2955;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 1.2em;
+    border-radius: 5px;
+  }
+  .contact-container .form-container form h2 {
+    margin-left: 10px;
+  }
+  .contact-container .form-container form label {
+    margin: 5px 0;
+  }
+  .contact-container .form-container form input {
+    height: 30px;
+    padding-left: 5px;
+    outline: none;
+    border: none;
+    background: #062638;
+    border-radius: 2px;
+    color: #fff;
+  }
+  .contact-container .form-container form button {
+    padding: 5px 15px;
+  }
+  .contact-container .form-container form .personal-info-form, .contact-container .form-container form .service-time-form, .contact-container .form-container form .service-destiny-form, .contact-container .form-container form .select-passengers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    gap: 5px;
+    margin: 5px 0;
+  }
+  .contact-container .form-container form .personal-info-form label, .contact-container .form-container form .service-time-form label, .contact-container .form-container form .service-destiny-form label, .contact-container .form-container form .select-passengers label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0px 3px;
+  }
+  .contact-container .form-container form .personal-info-form label input, .contact-container .form-container form .service-time-form label input, .contact-container .form-container form .service-destiny-form label input, .contact-container .form-container form .select-passengers label input {
+    width: 100%;
+  }
+  .contact-container .form-container form .select-form {
+    width: 95%;
+  }
+  .contact-container .form-container form .select-form select {
+    margin: 0 auto;
+    width: 100%;
+    outline: none;
+    height: 30px;
+    border: none;
+    background: #062638;
+    color: #fff;
+  }
+  .contact-container .form-container form .message-form {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-container .form-container form .message-form textarea {
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 5px;
+    outline: none;
+    border-radius: 2px;
+    border: none;
+    background: #062638;
+    color: #fff;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1700px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .contact-container .contact-info {
+    background: #4e9da7;
+    width: 100%;
+    padding: 30px 0;
+    color: #fff;
+  }
+  .contact-container .contact-info h2 {
+    width: 100%;
+    font-size: 2.1em;
+    margin: 15px 0;
+    text-align: center;
+  }
+  .contact-container .contact-info .contact-info-inner {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 10px auto;
+    width: 100%;
+  }
+  .contact-container .contact-info .contact-info-inner p {
+    margin: 30px 0;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+  .contact-container .contact-info .contact-info-inner .contact-section h4 {
+    margin: 17px 0;
+  }
+  .contact-container .contact-info .contact-info-inner .contact-section h4 span {
+    font-family: sans-serif;
+  }
+  .contact-container .contact-info .contact-info-inner .contact-section h4 a {
+    color: #fff;
+    -webkit-text-decoration: underline #fff;
+            text-decoration: underline #fff;
+  }
+  .contact-container .contact-info .contact-info-inner .contact-section .contact-image-container {
+    height: 550px;
+  }
+  .contact-container .contact-info .contact-info-inner .contact-section .contact-image-container img {
+    height: 450px;
+  }
+  .contact-container .contact-info .contact-info-inner .contact-section .email {
+    margin: 20px 0px;
+  }
+  .contact-container .contact-info .contact-info-inner .contact-section .numbers-container {
+    display: flex;
+    gap: 45px;
+    height: auto;
+  }
+  .contact-container .form-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    background: #031926;
+    color: #fff;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .contact-container .form-container .form-info {
+    text-align: center;
+  }
+  .contact-container .form-container .form-info .phone-img img {
+    height: 450px;
+  }
+  .contact-container .form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #031926;
+    color: #fff;
+    align-items: center;
+    width: 50%;
+    color: black;
+    padding: 0 0 20px;
+    margin-top: 10px;
+    max-height: 430px;
+    border-radius: 10px;
+    text-align: start;
+  }
+  .contact-container .form-container form .complete-form-phrase {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  .contact-container .form-container form .submit-btn {
+    width: 96%;
+    margin: 20px 0;
+    background: #db2955;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 1.2em;
+    border-radius: 5px;
+  }
+  .contact-container .form-container form h2 {
+    margin-left: 10px;
+  }
+  .contact-container .form-container form label {
+    margin: 15 px 0;
+    color: #fff;
+  }
+  .contact-container .form-container form label h5 {
+    text-align: start;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+  }
+  .contact-container .form-container form input {
+    height: 30px;
+    padding-left: 5px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    transition: all ease 0.3s;
+    box-sizing: border-box;
+    color: #fff;
+    background: #062638;
+    border-bottom: 4px solid rgba(70, 129, 137, 0.631372549);
+  }
+  .contact-container .form-container form input:focus {
+    border: none;
+    border-bottom: 4px solid #4e9da7;
+  }
+  .contact-container .form-container form button {
+    padding: 5px 0;
+  }
+  .contact-container .form-container form .personal-info-form, .contact-container .form-container form .service-time-form, .contact-container .form-container form .service-destiny-form, .contact-container .form-container form .select-passengers {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 49% 2% 49%;
+    place-items: center;
+  }
+  .contact-container .form-container form .personal-info-form label, .contact-container .form-container form .service-time-form label, .contact-container .form-container form .service-destiny-form label, .contact-container .form-container form .select-passengers label {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  .contact-container .form-container form .personal-info-form label input, .contact-container .form-container form .service-time-form label input, .contact-container .form-container form .service-destiny-form label input, .contact-container .form-container form .select-passengers label input {
+    width: 100%;
+  }
+  .contact-container .form-container form .select-form {
+    width: 95%;
+    margin: 5px 0;
+  }
+  .contact-container .form-container form .select-form select {
+    margin: 0 auto;
+    width: 100%;
+    outline: none;
+    height: 30px;
+    background: #062638;
+    color: #fff;
+    border: none;
+  }
+  .contact-container .form-container form .message-form {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-container .form-container form .message-form h5 {
+    text-align: start;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+  }
+  .contact-container .form-container form .message-form textarea {
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 5px;
+    outline: none;
+    border-radius: 2px;
+    background: #062638;
+    color: #fff;
+    border: none;
+    border-bottom: 4px solid rgba(70, 129, 137, 0.631372549);
+    transition: all ease 0.3s;
+  }
+  .contact-container .form-container form .message-form textarea:focus {
+    border-bottom: 4px solid #4e9da7;
+  }
+}/*# sourceMappingURL=contact.css.map */
