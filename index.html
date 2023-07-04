@@ -278,11 +278,16 @@
             
             <form id="form" action="https://formsubmit.co/sanchezfacundocristian@hotmail.com" method="POST">
                 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-                <div class="g-recaptcha" data-sitekey="6LdJatImAAAAAK47L3y5kEUZbUuP8yEX-BPloNU6"></div>
+                <script type="text/javascript">
+                    var onloadCallback = function() {
+                      alert("grecaptcha is ready!");
+                    };
+                  </script>
                 <h4 class="complete-form-phrase">Por favor, complete todos los campos. Esta información nos ayudará a brindarle una respuesta más rápida.</h4>
                 <input type="hidden" name="_next" value="https://trasladosgamila.com/thanks.html">
                 <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_cc" value="sanchezfacundocristian@hotmail.com,transportegamilasrl@hotmail.com">
+                <input type="hidden" name="_cc" value="sanchezfacundocristian@hotmail.com">
+                <!-- <input type="hidden" name="_cc" value="sanchezfacundocristian@hotmail.com,transportegamilasrl@hotmail.com"> -->
 
                 <input type="hidden" name="_subject" value="Alguien pidió una cotización!">
                 <div class="personal-info-form">
@@ -371,6 +376,9 @@
                     <h5>Dejanos tu mensaje (opcional)</h5>
                     <textarea spellcheck="false" name="Mensaje" id="" rows="5"></textarea>
                 </label>
+
+                <div class="g-recaptcha" data-sitekey="6LfVovEmAAAAADOymYNszgX_2Gtmq5J31v8TVckA"></div>
+
                 <button class="submit-btn">Enviar</button>
             </form>
         </div>
