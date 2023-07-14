@@ -1,4 +1,4 @@
-@media screen and (min-width: 300px) and (max-width: 479px) {
+@media screen and (max-width: 479px) {
   .slider {
     width: 100%;
     margin: auto;
@@ -58,7 +58,7 @@
           height: 50vh;
           overflow: hidden; }
       .slider ul .info-img::before {
-        content: '';
+        content: "";
         display: block;
         position: absolute;
         top: 0;
@@ -76,8 +76,7 @@
     .slider ul {
       display: flex;
       padding: 0;
-      width: 200%;
-      overflow: hidden; }
+      width: 200%; }
       .slider ul li {
         list-style: none;
         width: 100%; }
@@ -147,7 +146,7 @@
             height: 70vh;
             background-size: cover; }
         .slider ul li .info-img::after {
-          content: '';
+          content: "";
           display: block;
           position: absolute;
           top: 0;
@@ -157,7 +156,7 @@
           background: #1b1b1b5f;
           backdrop-filter: blur(1px);
           margin-bottom: 4px; } }
-@media screen and (min-width: 1024px) and (max-width: 1700px) {
+@media screen and (min-width: 1024px) {
   .slider {
     width: 100%;
     margin: auto;
@@ -165,8 +164,7 @@
     .slider ul {
       display: flex;
       padding: 0;
-      width: 200%;
-      overflow: hidden; }
+      width: 200%; }
       .slider ul li {
         list-style: none;
         width: 100%; }
@@ -230,7 +228,7 @@
             background-size: cover;
             height: 70vh; }
         .slider ul li .info-img::after {
-          content: '';
+          content: "";
           display: block;
           position: absolute;
           top: 0;

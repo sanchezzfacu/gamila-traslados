@@ -1,14 +1,15 @@
 .contact-container {
   text-shadow: 0px 0px 2px #00000056; }
 
-input[type="date"]::-webkit-calendar-picker-indicator, input[type="time"]::-webkit-calendar-picker-indicator {
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   border-radius: 4px;
   margin-right: 2px;
   opacity: 0.9;
   filter: invert(0.9); }
 
-@media screen and (min-width: 300px) and (max-width: 479px) {
+@media screen and (max-width: 479px) {
   .contact-container {
     display: flex;
     flex-direction: column;
@@ -102,27 +103,42 @@ input[type="date"]::-webkit-calendar-picker-indicator, input[type="time"]::-webk
           border-radius: 2px; }
         .contact-container .form-container form button {
           padding: 5px 15px; }
-        .contact-container .form-container form .personal-info-form, .contact-container .form-container form .service-time-form, .contact-container .form-container form .service-destiny-form, .contact-container .form-container form .select-passengers {
+        .contact-container .form-container form .personal-info-form,
+        .contact-container .form-container form .service-time-form,
+        .contact-container .form-container form .service-destiny-form,
+        .contact-container .form-container form .select-passengers {
           display: flex;
           align-items: center;
           justify-content: center;
           width: 95%;
           gap: 5px;
           margin: 5px 0; }
-          .contact-container .form-container form .personal-info-form label, .contact-container .form-container form .service-time-form label, .contact-container .form-container form .service-destiny-form label, .contact-container .form-container form .select-passengers label {
+          .contact-container .form-container form .personal-info-form label,
+          .contact-container .form-container form .service-time-form label,
+          .contact-container .form-container form .service-destiny-form label,
+          .contact-container .form-container form .select-passengers label {
             display: flex;
             flex-direction: column;
             width: 90%;
             margin: 0px 3px; }
-            .contact-container .form-container form .personal-info-form label h5, .contact-container .form-container form .service-time-form label h5, .contact-container .form-container form .service-destiny-form label h5, .contact-container .form-container form .select-passengers label h5 {
+            .contact-container .form-container form .personal-info-form label h5,
+            .contact-container .form-container form .service-time-form label h5,
+            .contact-container .form-container form .service-destiny-form label h5,
+            .contact-container .form-container form .select-passengers label h5 {
               text-align: start;
               font-size: 0.9em;
               margin-bottom: 5px; }
-            .contact-container .form-container form .personal-info-form label input, .contact-container .form-container form .service-time-form label input, .contact-container .form-container form .service-destiny-form label input, .contact-container .form-container form .select-passengers label input {
+            .contact-container .form-container form .personal-info-form label input,
+            .contact-container .form-container form .service-time-form label input,
+            .contact-container .form-container form .service-destiny-form label input,
+            .contact-container .form-container form .select-passengers label input {
               width: 100%;
               border-bottom: 4px solid #468189a1;
               transition: all ease 0.3s; }
-            .contact-container .form-container form .personal-info-form label input:focus, .contact-container .form-container form .service-time-form label input:focus, .contact-container .form-container form .service-destiny-form label input:focus, .contact-container .form-container form .select-passengers label input:focus {
+            .contact-container .form-container form .personal-info-form label input:focus,
+            .contact-container .form-container form .service-time-form label input:focus,
+            .contact-container .form-container form .service-destiny-form label input:focus,
+            .contact-container .form-container form .select-passengers label input:focus {
               border-bottom: 4px solid #4e9da7; }
         .contact-container .form-container form .select-form {
           width: 100%; }
@@ -240,20 +256,29 @@ input[type="date"]::-webkit-calendar-picker-indicator, input[type="time"]::-webk
           color: #fff; }
         .contact-container .form-container form button {
           padding: 5px 15px; }
-        .contact-container .form-container form .personal-info-form, .contact-container .form-container form .service-time-form, .contact-container .form-container form .service-destiny-form, .contact-container .form-container form .select-passengers {
+        .contact-container .form-container form .personal-info-form,
+        .contact-container .form-container form .service-time-form,
+        .contact-container .form-container form .service-destiny-form,
+        .contact-container .form-container form .select-passengers {
           display: flex;
           align-items: center;
           justify-content: center;
           width: 95%;
           gap: 5px;
           margin: 5px 0; }
-          .contact-container .form-container form .personal-info-form label, .contact-container .form-container form .service-time-form label, .contact-container .form-container form .service-destiny-form label, .contact-container .form-container form .select-passengers label {
+          .contact-container .form-container form .personal-info-form label,
+          .contact-container .form-container form .service-time-form label,
+          .contact-container .form-container form .service-destiny-form label,
+          .contact-container .form-container form .select-passengers label {
             display: flex;
             flex-direction: column;
             align-items: center;
             width: 90%;
             margin: 0px 3px; }
-            .contact-container .form-container form .personal-info-form label input, .contact-container .form-container form .service-time-form label input, .contact-container .form-container form .service-destiny-form label input, .contact-container .form-container form .select-passengers label input {
+            .contact-container .form-container form .personal-info-form label input,
+            .contact-container .form-container form .service-time-form label input,
+            .contact-container .form-container form .service-destiny-form label input,
+            .contact-container .form-container form .select-passengers label input {
               width: 100%; }
         .contact-container .form-container form .select-form {
           width: 95%; }
@@ -262,9 +287,9 @@ input[type="date"]::-webkit-calendar-picker-indicator, input[type="time"]::-webk
             width: 100%;
             outline: none;
             height: 30px;
-            border: none;
             background: #062638;
-            color: #fff; }
+            color: #fff;
+            border: none; }
         .contact-container .form-container form .message-form {
           width: 95%;
           display: flex;
@@ -279,7 +304,7 @@ input[type="date"]::-webkit-calendar-picker-indicator, input[type="time"]::-webk
             border: none;
             background: #062638;
             color: #fff; } }
-@media screen and (min-width: 1024px) and (max-width: 1700px) {
+@media screen and (min-width: 1024px) {
   .contact-container {
     display: flex;
     flex-direction: column;
@@ -369,7 +394,7 @@ input[type="date"]::-webkit-calendar-picker-indicator, input[type="time"]::-webk
         .contact-container .form-container form h2 {
           margin-left: 10px; }
         .contact-container .form-container form label {
-          margin: 15  px 0;
+          margin: 15px 0;
           color: #fff; }
           .contact-container .form-container form label h5 {
             text-align: start;
@@ -380,6 +405,8 @@ input[type="date"]::-webkit-calendar-picker-indicator, input[type="time"]::-webk
           padding-left: 5px;
           outline: none;
           border: none;
+          background: #062638;
+          color: #fff;
           border-radius: 2px;
           transition: all ease 0.3s;
           box-sizing: border-box;
@@ -390,17 +417,27 @@ input[type="date"]::-webkit-calendar-picker-indicator, input[type="time"]::-webk
           border: none;
           border-bottom: 4px solid #4e9da7; }
         .contact-container .form-container form button {
-          padding: 5px 0; }
-        .contact-container .form-container form .personal-info-form, .contact-container .form-container form .service-time-form, .contact-container .form-container form .service-destiny-form, .contact-container .form-container form .select-passengers {
+          padding: 5px 15px; }
+        .contact-container .form-container form .personal-info-form,
+        .contact-container .form-container form .service-time-form,
+        .contact-container .form-container form .service-destiny-form,
+        .contact-container .form-container form .select-passengers {
           width: 100%;
           display: grid;
           grid-template-columns: 49% 2% 49%;
           place-items: center; }
-          .contact-container .form-container form .personal-info-form label, .contact-container .form-container form .service-time-form label, .contact-container .form-container form .service-destiny-form label, .contact-container .form-container form .select-passengers label {
+          .contact-container .form-container form .personal-info-form label,
+          .contact-container .form-container form .service-time-form label,
+          .contact-container .form-container form .service-destiny-form label,
+          .contact-container .form-container form .select-passengers label {
             display: flex;
             flex-direction: column;
-            width: 90%; }
-            .contact-container .form-container form .personal-info-form label input, .contact-container .form-container form .service-time-form label input, .contact-container .form-container form .service-destiny-form label input, .contact-container .form-container form .select-passengers label input {
+            width: 90%;
+            margin: 0px 3px; }
+            .contact-container .form-container form .personal-info-form label input,
+            .contact-container .form-container form .service-time-form label input,
+            .contact-container .form-container form .service-destiny-form label input,
+            .contact-container .form-container form .select-passengers label input {
               width: 100%; }
         .contact-container .form-container form .select-form {
           width: 95%;
@@ -416,11 +453,8 @@ input[type="date"]::-webkit-calendar-picker-indicator, input[type="time"]::-webk
         .contact-container .form-container form .message-form {
           width: 95%;
           display: flex;
-          flex-direction: column; }
-          .contact-container .form-container form .message-form h5 {
-            text-align: start;
-            margin-bottom: 5px;
-            font-size: 0.9em; }
+          flex-direction: column;
+          align-items: center; }
           .contact-container .form-container form .message-form textarea {
             width: 100%;
             padding-left: 5px;
@@ -429,10 +463,6 @@ input[type="date"]::-webkit-calendar-picker-indicator, input[type="time"]::-webk
             border-radius: 2px;
             background: #062638;
             color: #fff;
-            border: none;
-            border-bottom: 4px solid #468189a1;
-            transition: all ease 0.3s; }
-          .contact-container .form-container form .message-form textarea:focus {
-            border-bottom: 4px solid #4e9da7; } }
+            border: none; } }
 
 /*# sourceMappingURL=contact.css.map */
