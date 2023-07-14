@@ -1,7 +1,7 @@
 hr {
   margin: 10px 30px;
   border: 0;
-  border-top: 1px solid  #fff;
+  border-top: 1px solid #fff;
   height: 1px; }
 
 .tns-nav {
@@ -24,7 +24,7 @@ hr {
 .tns-controls {
   display: none; }
 
-@media screen and (min-width: 300px) and (max-width: 479px) {
+@media screen and (max-width: 479px) {
   .services-container {
     width: 100%;
     padding: 60px 0; }
@@ -141,7 +141,7 @@ hr {
             object-position: top;
             border-top-left-radius: 10px;
             border-top-right-radius: 10px; } }
-@media screen and (min-width: 1024px) and (max-width: 1700px) {
+@media screen and (min-width: 1024px) {
   .services-container {
     width: 100%;
     padding: 50px 0 50px;

@@ -1,107 +1,118 @@
 @import 'colours';
 
+@media screen and (max-width: 479px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: $blue;
+    margin-top: -5px;
+    z-index: 100;
+    color: #fff;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.449);
 
-@media screen and (min-width: 300px) and (max-width:479px) {
-    .about-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        background-color: $blue;
-        margin-top: -5px;
-        z-index: 100;
-        color: #fff;
-        text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.449);
-        h1 {
-            font-size: 800;
-            font-size: 2em;
-            text-align: center;
-            margin: 20px 10px;
-        }
-        h2 {
-            font-size: 1.5em;
-            margin: 10px 15px;
-        }
-        .about-text {
-            width: 100%;
-            p {
-                margin: 20px 15px;
-                font-size: 16px;
-            }
-            a {
-                font-size: 16px;
-            }
-            margin-bottom: 15px;
-        }
+    h1 {
+      font-size: 2em;
+      text-align: center;
+      margin: 20px 10px;
     }
+
+    h2 {
+      font-size: 1.5em;
+      margin: 10px 15px;
+    }
+
+    .about-text {
+      width: 100%;
+
+      p {
+        margin: 20px 15px;
+        font-size: 16px;
+      }
+
+      a {
+        font-size: 16px;
+      }
+
+      margin-bottom: 15px;
+    }
+  }
 }
 
-@media screen and (min-width: 480px) and (max-width:1023px) {
-    .about-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        background-color: $blue;
-        color: #fff;
-        margin-top: -5px;
-        z-index: 100;
-        text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.449);
-        h1 {
-            font-size: 800;
-            font-size: 2em;
-            text-align: center;
-            margin: 20px 10px;
-        }
-        h2 {
-            font-size: 1.5em;
-            margin: 10px;
-        }
-        .about-text {
-            width: 100%;
-            p {
-                margin: 20px 15px;
-            }
-            margin-bottom: 15px;
-        }
+@media screen and (min-width: 480px) and (max-width: 1023px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: $blue;
+    color: #fff;
+    margin-top: -5px;
+    z-index: 100;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.449);
+
+    h1 {
+      font-size: 2em;
+      text-align: center;
+      margin: 20px 10px;
     }
-    
+
+    h2 {
+      font-size: 1.5em;
+      margin: 10px;
+    }
+
+    .about-text {
+      width: 100%;
+
+      p {
+        margin: 20px 15px;
+      }
+
+      margin-bottom: 15px;
+    }
+  }
 }
 
-@media screen and (min-width: 1024px) and (max-width:1700px) {
-    .about-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-        background-color: $blue;
-        color: #fff;
-        margin-top: -5px;
-        text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.449);
-        padding: 40px 0 50px;
-        h1 {
-            font-size: 800;
-            font-size: 2.5em;
-            text-align: center;
-            margin: 20px auto;
-        }
-        h2 {
-            font-size: 2em;
-            margin: 10px;
-        }
-        .about-text {
+@media screen and (min-width: 1024px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: $blue;
+    color: #fff;
+    margin-top: -5px;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.449);
+    padding: 40px 0 50px;
 
-            width: 100%;
-            .about-text-inner {
-                margin: 0 auto;
-                width: 80%;
-            }
-            p {
-                margin: 20px 15px;
-                font-size: 18px;
-                font-weight: 600;
-            }
-            margin-bottom: 15px;
-        }
+    h1 {
+      font-size: 2.5em;
+      text-align: center;
+      margin: 20px auto;
     }
+
+    h2 {
+      font-size: 2em;
+      margin: 10px;
+    }
+
+    .about-text {
+      width: 100%;
+
+      .about-text-inner {
+        margin: 0 auto;
+        width: 80%;
+      }
+
+      p {
+        margin: 20px 15px;
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      margin-bottom: 15px;
+    }
+  }
 }
