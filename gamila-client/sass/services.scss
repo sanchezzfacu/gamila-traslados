@@ -1,0 +1,292 @@
+@import 'colors';
+
+hr {
+  margin: 10px 30px;
+  border: 0;
+  border-top: 1px solid #fff;
+  height: 1px;
+}
+
+.tns-nav {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+
+  button {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: none;
+    background: #fff;
+    transition: all ease 0.3s;
+    border: 1px solid rgb(192, 192, 196);
+  }
+
+  .tns-nav-active {
+    background: $blue;
+  }
+}
+
+.tns-controls {
+  display: none;
+}
+
+@media screen and (max-width: 479px) {
+  .services-container {
+    width: 100%;
+    padding: 60px 0;
+
+    .cotization-service {
+      display: flex;
+      justify-content: center;
+      margin: 50px auto 0;
+      padding: 10px 15px;
+      max-width: 250px;
+      background: $red;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all ease 0.3s;
+      box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.202);
+
+      a {
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: 800;
+        text-decoration: none;
+      }
+    }
+
+    h2 {
+      margin: 0 10px 50px;
+      color: #000000;
+      text-align: center;
+      font-size: 1.9em;
+    }
+
+    .services-slider {
+      display: flex;
+      justify-content: center;
+
+      .service {
+        box-sizing: border-box;
+        box-shadow: 0px 0px 10px #0000007c;
+        border-radius: 5px;
+        height: 380px;
+        margin: 10px;
+        background: $blue;
+        color: #fff;
+        text-shadow: 0px 0px 2px #00000079;
+
+        .service-text {
+          width: 90%;
+          margin: 0 auto;
+
+          h3 {
+            text-align: center;
+            font-size: 1.2em;
+            margin: 15px 0px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #fff;
+          }
+
+          h4 {
+            font-size: 1em;
+          }
+        }
+
+        .service-img {
+          display: flex;
+          justify-content: center;
+          padding: 1px;
+
+          img {
+            height: 180px;
+            width: 100%;
+            object-fit: cover;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1023px) {
+  .services-container {
+    width: 100%;
+    padding: 60px 0;
+
+    .cotization-service {
+      margin: 50px auto 0;
+      padding: 20px 25px;
+      background: $red;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all ease 0.3s;
+      box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.202);
+
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.2em;
+        font-weight: 900;
+      }
+    }
+
+    .cotization-service:hover {
+      box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.264);
+    }
+
+    h2 {
+      margin: 0 10px 50px;
+      color: #000000;
+      text-align: center;
+      font-size: 2em;
+    }
+
+    .services-slider {
+      display: flex;
+      justify-content: center;
+
+      .service {
+        box-sizing: border-box;
+        text-shadow: 0px 0px 2px #0000006a;
+        border-radius: 10px;
+        min-height: 400px;
+        margin: 10px;
+        background: $blue;
+        color: #fff;
+
+        .service-text {
+          width: 90%;
+          margin: 0 auto;
+
+          h3 {
+            font-size: 1.2em;
+            margin: 15px 0px;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 5px;
+            text-align: center;
+          }
+
+          h4 {
+            font-size: 1em;
+          }
+        }
+
+        .service-img {
+          display: flex;
+          justify-content: center;
+          padding: 1px;
+
+          img {
+            height: 210px;
+            width: 100%;
+            object-fit: cover;
+            object-position: top;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .services-container {
+    width: 100%;
+    padding: 50px 0 50px;
+    text-align: center;
+    background: #f3f4f6;
+
+    .services-container-inner {
+      margin: 0 auto;
+      width: 85%;
+
+      .cotization-service {
+        margin-top: 50px;
+        padding: 20px 25px;
+        background: $red;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all ease 0.3s;
+        box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.202);
+
+        a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 1.2em;
+          font-weight: 900;
+        }
+      }
+
+      .cotization-service:hover {
+        box-shadow: 0px 0px 15px 10px rgba(0, 0, 0, 0.264);
+      }
+    }
+
+    h2 {
+      text-align: center;
+      margin: 0 20px 40px;
+      font-size: 2.2em;
+    }
+
+    .services-slider {
+      display: flex;
+      justify-content: center;
+
+      .service {
+        box-sizing: border-box;
+        box-shadow: 8px 4px 10px -3px rgba(0, 0, 0, 0.1),
+          -8px -4px 10px -4px rgba(0, 0, 0, 0.1);
+        text-shadow: 0px 0px 2px #0000007c;
+        border-radius: 5px;
+        min-height: 370px;
+        margin: 10px;
+        background: $blue;
+        color: #fff;
+        padding-bottom: 10px;
+
+        .service-text {
+          width: 85%;
+          margin: 0 auto;
+
+          h3 {
+            font-size: 1.4em;
+            margin: 10px 0px 5px;
+            border-bottom: 1px solid #fff;
+            border-bottom-left-radius: 2px;
+            border-bottom-right-radius: 2px;
+            padding-bottom: 5px;
+          }
+
+          h4 {
+            font-size: 1em;
+            margin: 5px 0;
+          }
+        }
+
+        .service-img {
+          display: flex;
+          justify-content: center;
+          padding: 1px;
+
+          img {
+            height: 210px;
+            width: 100%;
+            object-fit: cover;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+          }
+        }
+      }
+    }
+  }
+}
