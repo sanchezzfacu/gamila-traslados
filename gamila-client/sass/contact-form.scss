@@ -1,0 +1,145 @@
+.form-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  background: $form-bg;
+  color: #fff;
+  padding: 20px 0 50px;
+
+  .form-info {
+    margin: 40px 0;
+    text-align: center;
+
+    .cotization-text {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: $form-bg;
+    align-items: center;
+    color: #fff;
+    margin-top: 10px;
+
+    .complete-form-phrase {
+      width: 95%;
+      font-size: 1em;
+      margin: 10px 0 20px;
+    }
+
+    .submit-btn {
+      margin: 20px 0 0;
+      background: $red;
+      padding: 11px 0;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-weight: 900;
+      font-size: 1.2em;
+      border-radius: 5px;
+    }
+
+    h2 {
+      margin-left: 10px;
+    }
+
+    button {
+      width: 100%;
+    }
+
+    .personal-info-form,
+    .service-time-form,
+    .service-destiny-form,
+    .select-passengers {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      gap: 5px;
+      margin: 5px 0;
+
+      label {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0px 3px;
+
+        h5 {
+          text-align: start;
+          font-size: 0.9em;
+          margin-bottom: 5px;
+        }
+
+        input {
+          height: 30px;
+          padding-left: 5px;
+          outline: none;
+          border: none;
+          background: $form-bg-lighter;
+          color: #fff;
+          border-radius: 2px;
+          width: 100%;
+          border-bottom: 4px solid $blue-transparent;
+          transition: all ease 0.3s;
+          font-family: sans-serif;
+          &:focus {
+            border-bottom: 4px solid $blue;
+          }
+        }
+      }
+    }
+
+    .select-form {
+      width: 100%;
+      margin-left: 5px;
+
+      select {
+        margin: 0 auto;
+        width: 100%;
+        outline: none;
+        height: 33px;
+        border: none;
+        border-bottom: 4px solid $blue-transparent;
+        background: $form-bg-lighter;
+        color: #fff;
+      }
+    }
+
+    .message-form {
+      width: 99%;
+      display: flex;
+      flex-direction: column;
+      margin-left: 5px;
+      margin-right: 5px;
+      h5 {
+        text-align: start;
+        font-size: 0.9em;
+        margin-bottom: 5px;
+      }
+
+      textarea {
+        height: 100px;
+        width: 100%;
+        padding-left: 5px;
+        padding-top: 5px;
+        outline: none;
+        border-radius: 2px;
+        background: $form-bg-lighter;
+        color: #fff;
+        border: none;
+        border-bottom: 4px solid $blue-transparent;
+        transition: all ease 0.3s;
+        &:focus {
+          border-bottom: 4px solid $blue;
+        }
+      }
+    }
+  }
+}
