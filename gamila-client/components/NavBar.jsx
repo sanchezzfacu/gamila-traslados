@@ -1,3 +1,6 @@
+import { Anton } from "next/font/google";
+
+const anton = Anton({ weight: ["400"], subsets: ["latin"] });
 
 function NavBar() {
   return (
@@ -7,7 +10,7 @@ function NavBar() {
         <div className="logo">
           <li>
             <img src="/gamila-logo-nav.png" alt="img not found" height="50px" />
-            <h1>Traslados Gamila</h1>
+            <h1 className={anton.className}>Traslados Gamila</h1>
           </li>
         </div>
         <div className="menu-btn">
@@ -27,13 +30,6 @@ function NavBar() {
               <label htmlFor="opener">
                 <a href="#services">
                   <h3 className="nav-option">Servicios</h3>
-                </a>
-              </label>
-            </li>
-            <li>
-              <label htmlFor="opener">
-                <a href="#obras-sociales">
-                  <h3 className="nav-option">Obras sociales</h3>
                 </a>
               </label>
             </li>

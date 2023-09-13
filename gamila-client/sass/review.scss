@@ -1,0 +1,45 @@
+.reviews-section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  margin: 100px 80px 160px;
+  h2 {
+    color: $grey;
+  }
+
+  .average-info {
+    display: flex;
+    gap: 8px;
+
+    h3 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: $grey;
+    }
+  }
+
+  .reviews {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    .review-card-container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      justify-content: center;
+      align-items: center;
+      flex: 1;
+      text-align: center;
+      border: 1px solid #dbdbdb;
+      border-radius: 8px;
+      padding: 35px 15px;
+      .review-name {
+        font-weight: 800;
+      }
+      .review-date {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #a7a7a7;
+      }
+    }
+  }
+}

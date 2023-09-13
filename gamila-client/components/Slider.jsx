@@ -21,8 +21,8 @@ function SliderSection() {
             </div>
             <picture>
               <source srcSet="/flota2.jpg" media="(max-width: 600px)" />
-              <source srcSet="/flota1.jpeg" media="(min-width: 601px)" />
-              <img src="/flota1.jpeg" alt="" />
+              <source srcSet="/cafayate3.png" media="(min-width: 601px)" />
+              <img src="/cafayate3.png" alt="" />
             </picture>
           </div>
         </li>
