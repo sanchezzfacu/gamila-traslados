@@ -1,5 +1,6 @@
 import Avatar from "./Avatar";
 import Icon from "./Icons";
+import { renderStarColor } from "@/utils/renderStarColor";
 
 function ReviewCard({ name, puntuation, description, date }) {
   return (
@@ -13,27 +14,27 @@ function ReviewCard({ name, puntuation, description, date }) {
       <div className="review-stars">
         <Icon
           name="star"
-          fill={puntuation >= 1 && "#fdb61d"}
+          fill={renderStarColor(puntuation, 1)}
           viewBox="0 0 256 256"
         />
         <Icon
           name="star"
-          fill={puntuation >= 2 ? "#fdb61d" : "#b0b0b0"}
+          fill={renderStarColor(puntuation, 2)}
           viewBox="0 0 256 256"
         />
         <Icon
           name="star"
-          fill={puntuation >= 3 ? "#fdb61d" : "#b0b0b0"}
+          fill={renderStarColor(puntuation, 3)}
           viewBox="0 0 256 256"
         />
         <Icon
           name="star"
-          fill={puntuation >= 4 ? "#fdb61d" : "#b0b0b0"}
+          fill={renderStarColor(puntuation, 4)}
           viewBox="0 0 256 256"
         />
         <Icon
           name="star"
-          fill={puntuation === 5 ? "#fdb61d" : "#b0b0b0"}
+          fill={renderStarColor(puntuation, 5)}
           viewBox="0 0 256 256"
         />
       </div>

@@ -301,6 +301,8 @@
             width: 100vw;
             background-size: cover;
             height: 70vh;
+            background-size: cover;
+            object-fit: cover;
           }
         }
 
@@ -312,8 +314,7 @@
           bottom: 0;
           right: 0;
           left: 0;
-          background: #1b1b1b5f;
-          backdrop-filter: blur(1px);
+          background: #1b1b1b20;
           margin-bottom: 4px;
         }
       }
